@@ -1,0 +1,5327 @@
+{
+  "run": "_best_eval",
+  "tasks_passed": 321,
+  "tasks_total": 400,
+  "task_accuracy": 0.8025,
+  "cells_matched": 240181,
+  "cells_total": 297883,
+  "cell_accuracy": 0.8062930747978233,
+  "results": [
+    {
+      "task_id": "57590",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46167",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 1,
+          "got": "#VALUE!",
+          "expected": 270
+        }
+      ]
+    },
+    {
+      "task_id": "48643",
+      "cells_checked": 39,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 1,
+          "got": 1200,
+          "expected": 1272
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 2,
+          "got": 2700,
+          "expected": 2910.6
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 3,
+          "got": 4200,
+          "expected": 4719.342
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 4,
+          "got": 4200,
+          "expected": 4719.342
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 5,
+          "got": 4200,
+          "expected": 4719.342
+        }
+      ]
+    },
+    {
+      "task_id": "227-40",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "547-43",
+      "cells_checked": 144,
+      "cells_matched": 144,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32612",
+      "cells_checked": 74,
+      "cells_matched": 74,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9448",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55965",
+      "cells_checked": 17,
+      "cells_matched": 17,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39432",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "302-1",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37378",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "61-4",
+      "cells_checked": 98,
+      "cells_matched": 87,
+      "accuracy": 0.8877551020408163,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "output",
+          "col": 1,
+          "row": 1,
+          "got": "AAMRANET",
+          "expected": "AAMRANET "
+        },
+        {
+          "sheet": "output",
+          "col": 1,
+          "row": 2,
+          "got": "AAMRANET",
+          "expected": "AAMRANET "
+        },
+        {
+          "sheet": "output",
+          "col": 1,
+          "row": 3,
+          "got": "AAMRANET",
+          "expected": "AAMRANET "
+        },
+        {
+          "sheet": "output",
+          "col": 1,
+          "row": 4,
+          "got": "AAMRANET",
+          "expected": "AAMRANET "
+        },
+        {
+          "sheet": "output",
+          "col": 1,
+          "row": 5,
+          "got": "AAMRANET",
+          "expected": "AAMRANET "
+        }
+      ]
+    },
+    {
+      "task_id": "41265",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35742",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "13284",
+      "cells_checked": 25,
+      "cells_matched": 20,
+      "accuracy": 0.8,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 4,
+          "got": null,
+          "expected": "Sonia"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 7,
+          "got": null,
+          "expected": "Mariza"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 9,
+          "got": null,
+          "expected": "Marcy"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 12,
+          "got": null,
+          "expected": "Carlos"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 15,
+          "got": null,
+          "expected": "Fontana"
+        }
+      ]
+    },
+    {
+      "task_id": "43213",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "18645",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42902",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "82-30",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "168-17",
+      "cells_checked": 55,
+      "cells_matched": 44,
+      "accuracy": 0.8,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 1,
+          "got": "Sub DeleteRowsBeforeInvoice()",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 2,
+          "got": "    Dim ws As Worksheet",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 3,
+          "got": "    Set ws = ThisWorkbook.Sheets(\"Statement\")",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 4,
+          "got": "    Dim i As Long",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 5,
+          "got": "    For i = 1 To ws.Cells(ws.Rows.Count, 1).End(xlUp).Row",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "17111",
+      "cells_checked": 10,
+      "cells_matched": 9,
+      "accuracy": 0.9,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Summary",
+          "col": 1,
+          "row": 1,
+          "got": "#VALUE!",
+          "expected": 200
+        }
+      ]
+    },
+    {
+      "task_id": "54638",
+      "cells_checked": 149,
+      "cells_matched": 149,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "341-40",
+      "cells_checked": 11917,
+      "cells_matched": 11914,
+      "accuracy": 0.9997482587899639,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 76,
+          "got": 31133.025,
+          "expected": 31133.024999999998
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 454,
+          "got": 22256.325,
+          "expected": 22256.324999999997
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 502,
+          "got": 10718.325,
+          "expected": 10718.324999999999
+        }
+      ]
+    },
+    {
+      "task_id": "45300",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41969",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45937",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58147",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50250",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "545-35",
+      "cells_checked": 270,
+      "cells_matched": 270,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54144",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49196",
+      "cells_checked": 46,
+      "cells_matched": 46,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56599",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "269-44",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55421",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38462",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59358",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53167",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "141-20",
+      "cells_checked": 38,
+      "cells_matched": 38,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "13-1",
+      "cells_checked": 120,
+      "cells_matched": 120,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "250-20",
+      "cells_checked": 200,
+      "cells_matched": 199,
+      "accuracy": 0.995,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "RNM",
+          "col": 9,
+          "row": 18,
+          "got": 0,
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "59884",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50768",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48982",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 322,
+          "got": "The formula =IF(A323=\"E\",\"\",MAX(B$7:B377)+1) causes a circular reference because the range B$7:B377 includes B323 itself (row 323 is within rows 7-377). Due to the circular reference, Excel resolves B323 to 0, and the cell number format \"000\" displays it as 000. Pressing F9 evaluates the formula as a snapshot without circular dependency, so it correctly computes MAX(B$7:B377)+1 = 605+1 = 606.",
+          "expected": 606
+        }
+      ]
+    },
+    {
+      "task_id": "51359",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "16511",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "560-12",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "477-45",
+      "cells_checked": 3000,
+      "cells_matched": 3000,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58723",
+      "cells_checked": 40,
+      "cells_matched": 40,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48365",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48745",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "269-43",
+      "cells_checked": 63,
+      "cells_matched": 63,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46121",
+      "cells_checked": 48,
+      "cells_matched": 47,
+      "accuracy": 0.9791666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "2022",
+          "col": 1,
+          "row": 4,
+          "got": "#VALUE!",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "42930",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "599-9",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53994",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56378",
+      "cells_checked": 28,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 4,
+          "got": null,
+          "expected": "S018133"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 5,
+          "got": null,
+          "expected": "S018084"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 6,
+          "got": null,
+          "expected": "S018309"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 7,
+          "got": null,
+          "expected": "S018983"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 4,
+          "got": null,
+          "expected": "Sonatural Rom\u00e3"
+        }
+      ]
+    },
+    {
+      "task_id": "108-24",
+      "cells_checked": 88,
+      "cells_matched": 88,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15671",
+      "cells_checked": 260,
+      "cells_matched": 260,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36191",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "34033",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53161",
+      "cells_checked": 208,
+      "cells_matched": 208,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "130-9",
+      "cells_checked": 133,
+      "cells_matched": 133,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55817",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58032",
+      "cells_checked": 34,
+      "cells_matched": 26,
+      "accuracy": 0.7647058823529411,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 8,
+          "got": "#N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 9,
+          "got": "#N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 16,
+          "got": "#N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 23,
+          "got": "#N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 25,
+          "got": "#N/A",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "37456",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58109",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 5,
+          "got": "#VALUE!",
+          "expected": 5517
+        }
+      ]
+    },
+    {
+      "task_id": "51289",
+      "cells_checked": 8,
+      "cells_matched": 4,
+      "accuracy": 0.5,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "dog4",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 3,
+          "got": "cat4",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 3,
+          "got": "dog3",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 3,
+          "got": "cat3",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "353-6",
+      "cells_checked": 680,
+      "cells_matched": 680,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "388-47",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51680",
+      "cells_checked": 13,
+      "cells_matched": 9,
+      "accuracy": 0.6923076923076923,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 2,
+          "got": "Blue, Green, Red Purple",
+          "expected": "Blue, Green , Red Purple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "Green, Red Purple",
+          "expected": "Green , Red Purple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 12,
+          "got": "Blue, Black White, Green, Red Purple, Orange, Brown",
+          "expected": "Blue, Black White, Green , Red Purple, Orange, Brown"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 13,
+          "got": "Blue, Green, Orange, Brown",
+          "expected": "Blue, Green , Orange, Brown"
+        }
+      ]
+    },
+    {
+      "task_id": "17-35",
+      "cells_checked": 1450,
+      "cells_matched": 1450,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32255",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59734",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "30930",
+      "cells_checked": 65,
+      "cells_matched": 65,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59129",
+      "cells_checked": 12,
+      "cells_matched": 11,
+      "accuracy": 0.9166666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 1,
+          "got": 21,
+          "expected": 20
+        }
+      ]
+    },
+    {
+      "task_id": "209-30",
+      "cells_checked": 6066,
+      "cells_matched": 6066,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "66-24",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "160-6",
+      "cells_checked": 72,
+      "cells_matched": 72,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58484",
+      "cells_checked": 22,
+      "cells_matched": 13,
+      "accuracy": 0.5909090909090909,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 5,
+          "got": "#NAME?",
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 8,
+          "got": "#NAME?",
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 10,
+          "got": "#NAME?",
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 12,
+          "got": "#NAME?",
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 14,
+          "got": "#NAME?",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "23-24",
+      "cells_checked": 5510,
+      "cells_matched": 5510,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44389",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39903",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "194-19",
+      "cells_checked": 740,
+      "cells_matched": 740,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55979",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "7902",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56225",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48257",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "283-32",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "192-22",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50971",
+      "cells_checked": 11,
+      "cells_matched": 1,
+      "accuracy": 0.09090909090909091,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 3,
+          "got": "#N/A",
+          "expected": "AL2231"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "#N/A",
+          "expected": "AL2232"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "#N/A",
+          "expected": "AL2233"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 6,
+          "got": "#N/A",
+          "expected": "AL2234"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 7,
+          "got": "#N/A",
+          "expected": "AL2237"
+        }
+      ]
+    },
+    {
+      "task_id": "52050",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57693",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51249",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "80-42",
+      "cells_checked": 95988,
+      "cells_matched": 40731,
+      "accuracy": 0.4243342917864733,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 2999,
+          "got": null,
+          "expected": "2023-05-01 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 3000,
+          "got": null,
+          "expected": "2023-05-02 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 3001,
+          "got": null,
+          "expected": "2023-05-03 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 3002,
+          "got": null,
+          "expected": "2023-05-04 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 3003,
+          "got": null,
+          "expected": "2023-05-05 00:00:00"
+        }
+      ]
+    },
+    {
+      "task_id": "39515",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51431",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "60-7",
+      "cells_checked": 45,
+      "cells_matched": 45,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54717",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57262",
+      "cells_checked": 9,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 19,
+          "row": 6,
+          "got": "#VALUE!",
+          "expected": 10
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 19,
+          "row": 7,
+          "got": "#VALUE!",
+          "expected": 8
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 19,
+          "row": 8,
+          "got": "#VALUE!",
+          "expected": 16
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 19,
+          "row": 9,
+          "got": "#VALUE!",
+          "expected": 8
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 19,
+          "row": 10,
+          "got": "#VALUE!",
+          "expected": 16
+        }
+      ]
+    },
+    {
+      "task_id": "44296",
+      "cells_checked": 102,
+      "cells_matched": 102,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "469-9",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57445",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "262-17",
+      "cells_checked": 84,
+      "cells_matched": 84,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46646",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32293",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56419",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "455-35",
+      "cells_checked": 104110,
+      "cells_matched": 104110,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "203-15",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50916",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59196",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9391",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41601",
+      "cells_checked": 6,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Students",
+          "col": 4,
+          "row": 1,
+          "got": "#NAME?",
+          "expected": 33
+        },
+        {
+          "sheet": "Students",
+          "col": 4,
+          "row": 2,
+          "got": "#NAME?",
+          "expected": 26
+        },
+        {
+          "sheet": "Students",
+          "col": 4,
+          "row": 3,
+          "got": "#NAME?",
+          "expected": 31
+        },
+        {
+          "sheet": "Students",
+          "col": 4,
+          "row": 4,
+          "got": "#NAME?",
+          "expected": 41
+        },
+        {
+          "sheet": "Students",
+          "col": 4,
+          "row": 5,
+          "got": "#NAME?",
+          "expected": 27
+        }
+      ]
+    },
+    {
+      "task_id": "170-13",
+      "cells_checked": 200,
+      "cells_matched": 151,
+      "accuracy": 0.755,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet3",
+          "col": 0,
+          "row": 1,
+          "got": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_coa",
+          "expected": "ZPAM_FLEXI+U4_PackageDetailsRelation+U4_PackageDetailsForm+Sealing Method+u4_description"
+        },
+        {
+          "sheet": "Sheet3",
+          "col": 0,
+          "row": 2,
+          "got": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_comment",
+          "expected": "ZPAM_FLEXI+U4_PackageDetailsRelation+U4_PackageDetailsForm+Sealing Method+u4_type"
+        },
+        {
+          "sheet": "Sheet3",
+          "col": 0,
+          "row": 3,
+          "got": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_cr",
+          "expected": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_coa"
+        },
+        {
+          "sheet": "Sheet3",
+          "col": 0,
+          "row": 4,
+          "got": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_details",
+          "expected": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_comment"
+        },
+        {
+          "sheet": "Sheet3",
+          "col": 0,
+          "row": 5,
+          "got": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_max",
+          "expected": "ZPAM_FLEXI+U4_CompPropertyRelation+U4_ComponentPropertyForm+Solvent Retention_including Ethanol+u4_cr"
+        }
+      ]
+    },
+    {
+      "task_id": "56915",
+      "cells_checked": 24,
+      "cells_matched": 16,
+      "accuracy": 0.6666666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "COVER",
+          "col": 1,
+          "row": 18,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 1,
+          "row": 19,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 2,
+          "row": 18,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 2,
+          "row": 19,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 3,
+          "row": 18,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "510-3",
+      "cells_checked": 77,
+      "cells_matched": 77,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50521",
+      "cells_checked": 3,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 13,
+          "row": 3,
+          "got": "#NAME?",
+          "expected": 5
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 13,
+          "row": 4,
+          "got": "#NAME?",
+          "expected": 4
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 13,
+          "row": 5,
+          "got": "#NAME?",
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "task_id": "31628",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "97-36",
+      "cells_checked": 22,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Sub DeleteRowsAboveSubstring()",
+          "expected": "https://www.ladbrokes.com.au/horse-racing/domestic"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "    Dim searchString As String",
+          "expected": "https://www.ladbrokes.com.au/racing/ballarat/ebaa02b4-e4ba-4427-aa83-db688c34c466"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "    Dim lastRow As Long",
+          "expected": "https://www.ladbrokes.com.au/racing/ballarat/ebaa02b4-e4ba-4427-aa83-db688c34c466"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "    Dim i As Long",
+          "expected": "https://www.ladbrokes.com.au/racing/ballarat/a6009afb-4ac2-41d6-b098-fca06b9d03cf"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "    Dim foundRow As Long",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "384-4",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "416-15",
+      "cells_checked": 18,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "4/21/2021",
+          "expected": "2021-04-21 00:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "5/04/2021",
+          "expected": "2021-05-04 00:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "11/11/2019",
+          "expected": "2019-11-11 00:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "2/27/2020",
+          "expected": "2020-02-27 00:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": "8/04/2020",
+          "expected": "2020-08-04 00:00:00"
+        }
+      ]
+    },
+    {
+      "task_id": "374-18",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15387",
+      "cells_checked": 2,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 12,
+          "got": "#VALUE!",
+          "expected": "A"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 13,
+          "got": "#REF!",
+          "expected": "D"
+        }
+      ]
+    },
+    {
+      "task_id": "52807",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "370-43",
+      "cells_checked": 70,
+      "cells_matched": 21,
+      "accuracy": 0.3,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 0,
+          "got": "Sub InsertRowAboveX()",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 2,
+          "got": "    Dim i As Long",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 4,
+          "got": "    For i = 1000 To 7 Step -1",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 5,
+          "got": "        If Range(\"A\" & i).Value = \"X\" Then",
+          "expected": "X"
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 6,
+          "got": "            Range(\"A\" & i).EntireRow.Insert Shift:=xlDown",
+          "expected": "Screw 1"
+        }
+      ]
+    },
+    {
+      "task_id": "43589",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50486",
+      "cells_checked": 4,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Chep",
+          "expected": "CHEP"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Chep",
+          "expected": "CHEP"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "Loscam",
+          "expected": "LOSCAM"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "Loscam",
+          "expected": "LOSCAM"
+        }
+      ]
+    },
+    {
+      "task_id": "304-35",
+      "cells_checked": 204,
+      "cells_matched": 204,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56921",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40478",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "399-14",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45635",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31202",
+      "cells_checked": 46,
+      "cells_matched": 46,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55977",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "463-17",
+      "cells_checked": 45,
+      "cells_matched": 45,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36277",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "73-45",
+      "cells_checked": 307,
+      "cells_matched": 307,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "280-17",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "12307",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50683",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "279-23",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55708",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48608",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40892",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "12864",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49857",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "333-29",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "379-36",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58701",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "11842",
+      "cells_checked": 96,
+      "cells_matched": 96,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41978",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53383",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55976",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44266",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52305",
+      "cells_checked": 95,
+      "cells_matched": 85,
+      "accuracy": 0.8947368421052632,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 18,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 22,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 14,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 15,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 21,
+          "got": 0,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "353-29",
+      "cells_checked": 180,
+      "cells_matched": 180,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48080",
+      "cells_checked": 5,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "#NAME?",
+          "expected": 14
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "#NAME?",
+          "expected": 17
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "#NAME?",
+          "expected": 87
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "#NAME?",
+          "expected": 45
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "#NAME?",
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "task_id": "51586",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "79-7",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47827",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45896",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47798",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50051",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47766",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "531-18",
+      "cells_checked": 2904,
+      "cells_matched": 2904,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15380",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32093",
+      "cells_checked": 14,
+      "cells_matched": 14,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "10452",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "343-20",
+      "cells_checked": 25,
+      "cells_matched": 25,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57354",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35739",
+      "cells_checked": 99,
+      "cells_matched": 47,
+      "accuracy": 0.47474747474747475,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "#VALUE!",
+          "expected": "22:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "#VALUE!",
+          "expected": "22:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "#VALUE!",
+          "expected": "22:30:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "#VALUE!",
+          "expected": "23:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "#VALUE!",
+          "expected": "23:00:00"
+        }
+      ]
+    },
+    {
+      "task_id": "297-42",
+      "cells_checked": 12315,
+      "cells_matched": 12315,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52917",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "6239",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50682",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 1,
+          "got": "#VALUE!",
+          "expected": 9480
+        }
+      ]
+    },
+    {
+      "task_id": "31746",
+      "cells_checked": 36,
+      "cells_matched": 36,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "524-31",
+      "cells_checked": 53,
+      "cells_matched": 53,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42354",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55060",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "359-21",
+      "cells_checked": 18,
+      "cells_matched": 2,
+      "accuracy": 0.1111111111111111,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 0,
+          "got": "Sub Delete_rows()",
+          "expected": "CUSTOMER NAME"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 1,
+          "got": "Application.ScreenUpdating = False",
+          "expected": "B&CO"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 2,
+          "got": "Application.DisplayAlerts = False",
+          "expected": "C& CO"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 3,
+          "got": "Dim sh1 As Worksheet: Dim lastrow As Long",
+          "expected": "E& CO"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 4,
+          "got": "Set sh1 = ThisWorkbook.Worksheets(\"Delete\"): lastrow = sh1.Cells(Rows.Count, \"A\").End(xlUp).Row",
+          "expected": "F& CO"
+        }
+      ]
+    },
+    {
+      "task_id": "45738",
+      "cells_checked": 480,
+      "cells_matched": 45,
+      "accuracy": 0.09375,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 5,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 6,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 7,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 8,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 9,
+          "got": "-",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "48527",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "486-17",
+      "cells_checked": 129,
+      "cells_matched": 129,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "402-43",
+      "cells_checked": 330,
+      "cells_matched": 330,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "398-14",
+      "cells_checked": 56,
+      "cells_matched": 53,
+      "accuracy": 0.9464285714285714,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 8,
+          "got": "-",
+          "expected": 0.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 5,
+          "row": 4,
+          "got": "-",
+          "expected": 0.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 5,
+          "row": 7,
+          "got": "-",
+          "expected": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "32337",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57232",
+      "cells_checked": 190,
+      "cells_matched": 190,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "146-49",
+      "cells_checked": 130,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 0,
+          "got": "ALEXINE",
+          "expected": "ALEXINS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 1,
+          "got": "AREOLAE",
+          "expected": "AREOLAS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 2,
+          "got": "BERLINE",
+          "expected": "BERLINS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 3,
+          "got": "CATENAE",
+          "expected": "CATENAS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "CINEOLE",
+          "expected": "CINEOLS"
+        }
+      ]
+    },
+    {
+      "task_id": "382-10",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "118-50",
+      "cells_checked": 9998,
+      "cells_matched": 9974,
+      "accuracy": 0.9975995199039808,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "TABORING",
+          "expected": "TAVERING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "TAVERING",
+          "expected": "HEARTING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "HEARTING",
+          "expected": "SHEARING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "SHEARING",
+          "expected": "DREADING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "DREADING",
+          "expected": "TABORERS"
+        }
+      ]
+    },
+    {
+      "task_id": "408-39",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "177-6",
+      "cells_checked": 144,
+      "cells_matched": 144,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50193",
+      "cells_checked": 602,
+      "cells_matched": 583,
+      "accuracy": 0.96843853820598,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "RS.Food",
+          "col": 10,
+          "row": 126,
+          "got": 10,
+          "expected": 11
+        },
+        {
+          "sheet": "RS.Food",
+          "col": 10,
+          "row": 129,
+          "got": 13,
+          "expected": 14
+        },
+        {
+          "sheet": "RS.Food",
+          "col": 10,
+          "row": 176,
+          "got": 11,
+          "expected": 12
+        },
+        {
+          "sheet": "RS.Food",
+          "col": 10,
+          "row": 178,
+          "got": 13,
+          "expected": 14
+        },
+        {
+          "sheet": "RS.Food",
+          "col": 10,
+          "row": 179,
+          "got": 13,
+          "expected": 15
+        }
+      ]
+    },
+    {
+      "task_id": "54474",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38969",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3911",
+      "cells_checked": 63,
+      "cells_matched": 63,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55085",
+      "cells_checked": 6,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Result",
+          "col": 6,
+          "row": 9,
+          "got": "#VALUE!",
+          "expected": 202
+        },
+        {
+          "sheet": "Result",
+          "col": 7,
+          "row": 9,
+          "got": "#VALUE!",
+          "expected": 137
+        },
+        {
+          "sheet": "Result",
+          "col": 8,
+          "row": 9,
+          "got": "#VALUE!",
+          "expected": 155
+        },
+        {
+          "sheet": "Result",
+          "col": 9,
+          "row": 9,
+          "got": "#VALUE!",
+          "expected": 439
+        },
+        {
+          "sheet": "Result",
+          "col": 10,
+          "row": 9,
+          "got": "#VALUE!",
+          "expected": 376
+        }
+      ]
+    },
+    {
+      "task_id": "59794",
+      "cells_checked": 33,
+      "cells_matched": 33,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "236-22",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "230-16",
+      "cells_checked": 12,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 0,
+          "got": "Sub ExtractLetterSubstrings()",
+          "expected": "data"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 1,
+          "got": "    Dim cell As Range",
+          "expected": "2020-02-21 09:58:34.595555"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 2,
+          "got": "    Dim i As Long",
+          "expected": "2020-02-22 14:35:59.356666"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 3,
+          "got": "    Dim char As String",
+          "expected": "2020-02-23 14:41:01.412"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 4,
+          "got": "    For Each cell In Range(\"A1:A\" & Cells(Rows.Count, 1).End(xlUp).Row)",
+          "expected": "2020-02-23 14:40:11.618"
+        }
+      ]
+    },
+    {
+      "task_id": "52532",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "10747",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "247-24",
+      "cells_checked": 897,
+      "cells_matched": 897,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42515",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "496-34",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52575",
+      "cells_checked": 91,
+      "cells_matched": 91,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45372",
+      "cells_checked": 14,
+      "cells_matched": 14,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32902",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51-12",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59595",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "8942",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48921",
+      "cells_checked": 4451,
+      "cells_matched": 4451,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "142-19",
+      "cells_checked": 164,
+      "cells_matched": 164,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "472-15",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50088",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48924",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "367-23",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57558",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55049",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41691",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41410",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "11276",
+      "cells_checked": 31,
+      "cells_matched": 31,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53449",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "325-44",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "142-12",
+      "cells_checked": 75,
+      "cells_matched": 75,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "290-1",
+      "cells_checked": 99,
+      "cells_matched": 99,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54513",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42181",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "414-20",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32789",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "157-4",
+      "cells_checked": 675,
+      "cells_matched": 576,
+      "accuracy": 0.8533333333333334,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 31,
+          "got": "Adrian",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 32,
+          "got": "Adrian",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 33,
+          "got": "Adrian",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 34,
+          "got": "Adrian",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 35,
+          "got": "Adrian",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "147-48",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44628",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56920",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3002",
+      "cells_checked": 11,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "#DIV/0!",
+          "expected": "Multiple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "#DIV/0!",
+          "expected": "Multiple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 6,
+          "got": "#DIV/0!",
+          "expected": "Single"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 7,
+          "got": "#DIV/0!",
+          "expected": "Multiple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 8,
+          "got": "#DIV/0!",
+          "expected": "Multiple"
+        }
+      ]
+    },
+    {
+      "task_id": "208-20",
+      "cells_checked": 222,
+      "cells_matched": 215,
+      "accuracy": 0.9684684684684685,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Q",
+          "col": 5,
+          "row": 6,
+          "got": "SUNPHARMA.NS",
+          "expected": "UPL.NS"
+        },
+        {
+          "sheet": "Q",
+          "col": 5,
+          "row": 11,
+          "got": "TCS.NS",
+          "expected": "AXISBANK.NS"
+        },
+        {
+          "sheet": "Q",
+          "col": 5,
+          "row": 16,
+          "got": "UPL.NS",
+          "expected": "^NSEI"
+        },
+        {
+          "sheet": "Q",
+          "col": 5,
+          "row": 21,
+          "got": "LT.NS",
+          "expected": "JUBLFOOD.NS"
+        },
+        {
+          "sheet": "Q",
+          "col": 5,
+          "row": 26,
+          "got": "JUBLFOOD.NS",
+          "expected": "SUNPHARMA.NS"
+        }
+      ]
+    },
+    {
+      "task_id": "54675",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 2,
+          "got": "#VALUE!",
+          "expected": 14
+        }
+      ]
+    },
+    {
+      "task_id": "54085",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59511",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9569",
+      "cells_checked": 1280,
+      "cells_matched": 798,
+      "accuracy": 0.6234375,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 40,
+          "row": 8,
+          "got": "#N/A",
+          "expected": 0.170687841
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 40,
+          "row": 9,
+          "got": "#N/A",
+          "expected": 0.181964259
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 40,
+          "row": 11,
+          "got": "#N/A",
+          "expected": 0.179999888
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 40,
+          "row": 12,
+          "got": "#N/A",
+          "expected": 0.205520981
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 40,
+          "row": 14,
+          "got": "#N/A",
+          "expected": 0.152542372
+        }
+      ]
+    },
+    {
+      "task_id": "54196",
+      "cells_checked": 278,
+      "cells_matched": 278,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "7665",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "440-24",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38074",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54667",
+      "cells_checked": 56,
+      "cells_matched": 56,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31011",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36097",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1925",
+      "cells_checked": 26,
+      "cells_matched": 1,
+      "accuracy": 0.038461538461538464,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "New",
+          "expected": "NEW"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": "New",
+          "expected": "NEW"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 8,
+          "got": "New",
+          "expected": "D"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 9,
+          "got": "New",
+          "expected": "E"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 10,
+          "got": "New",
+          "expected": "F"
+        }
+      ]
+    },
+    {
+      "task_id": "42526",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48588",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52964",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "18935",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "178-22",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55427",
+      "cells_checked": 1460,
+      "cells_matched": 1460,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47933",
+      "cells_checked": 153,
+      "cells_matched": 153,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "408-5",
+      "cells_checked": 685,
+      "cells_matched": 685,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "34210",
+      "cells_checked": 55,
+      "cells_matched": 55,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "43657",
+      "cells_checked": 7,
+      "cells_matched": 1,
+      "accuracy": 0.14285714285714285,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 1,
+          "got": 0,
+          "expected": 3
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 2,
+          "got": 0,
+          "expected": 5
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 3,
+          "got": 0,
+          "expected": 3
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 4,
+          "got": 0,
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 5,
+          "got": 0,
+          "expected": 2
+        }
+      ]
+    },
+    {
+      "task_id": "39190",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1818",
+      "cells_checked": 132,
+      "cells_matched": 100,
+      "accuracy": 0.7575757575757576,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Summary",
+          "col": 1,
+          "row": 2,
+          "got": null,
+          "expected": "MR21_007"
+        },
+        {
+          "sheet": "Summary",
+          "col": 1,
+          "row": 3,
+          "got": null,
+          "expected": "MR21_010"
+        },
+        {
+          "sheet": "Summary",
+          "col": 1,
+          "row": 4,
+          "got": null,
+          "expected": "MR21_021"
+        },
+        {
+          "sheet": "Summary",
+          "col": 1,
+          "row": 5,
+          "got": null,
+          "expected": "MR21_025"
+        },
+        {
+          "sheet": "Summary",
+          "col": 1,
+          "row": 6,
+          "got": null,
+          "expected": "MR21_026"
+        }
+      ]
+    },
+    {
+      "task_id": "183-8",
+      "cells_checked": 20,
+      "cells_matched": 5,
+      "accuracy": 0.25,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 2,
+          "got": "#VALUE!",
+          "expected": 18.6378159014417
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 3,
+          "got": "#VALUE!",
+          "expected": 17.423765623262224
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 4,
+          "got": "#VALUE!",
+          "expected": 23.148683106017113
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 5,
+          "got": "#VALUE!",
+          "expected": 24.868355169134333
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 6,
+          "got": "#VALUE!",
+          "expected": 21.019654949963844
+        }
+      ]
+    },
+    {
+      "task_id": "49036",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Dashboard",
+          "col": 1,
+          "row": 7,
+          "got": "67% WIN RATE",
+          "expected": "66.67% WIN RATE"
+        }
+      ]
+    },
+    {
+      "task_id": "45707",
+      "cells_checked": 68,
+      "cells_matched": 68,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37086",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51354",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "577-40",
+      "cells_checked": 594,
+      "cells_matched": 594,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54925",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50952",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47842",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56274",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "585-41",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50631",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9111",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44913",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "33722",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58904",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41589",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "493-18",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "165-23",
+      "cells_checked": 1008,
+      "cells_matched": 1008,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36764",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "409-45",
+      "cells_checked": 95,
+      "cells_matched": 95,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57117",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52233",
+      "cells_checked": 4,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 6,
+          "got": 500,
+          "expected": 1000
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 7,
+          "got": 150,
+          "expected": 700
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 8,
+          "got": 600,
+          "expected": 1400
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 9,
+          "got": 200,
+          "expected": 1550
+        }
+      ]
+    },
+    {
+      "task_id": "32438",
+      "cells_checked": 3,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 1,
+          "got": "00:00:00",
+          "expected": "18:08:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 2,
+          "got": "00:00:00",
+          "expected": "00:04:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 3,
+          "got": "00:00:00",
+          "expected": "08:08:00"
+        }
+      ]
+    },
+    {
+      "task_id": "191-40",
+      "cells_checked": 680,
+      "cells_matched": 680,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41-47",
+      "cells_checked": 6403,
+      "cells_matched": 6399,
+      "accuracy": 0.9993752928314853,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "OUT CAS",
+          "col": 2,
+          "row": 1528,
+          "got": null,
+          "expected": 802797545
+        },
+        {
+          "sheet": "OUT CAS",
+          "col": 6,
+          "row": 585,
+          "got": null,
+          "expected": 279442200
+        },
+        {
+          "sheet": "OUT CAS",
+          "col": 10,
+          "row": 11,
+          "got": null,
+          "expected": 105100
+        },
+        {
+          "sheet": "OUT CAS",
+          "col": 14,
+          "row": 6,
+          "got": null,
+          "expected": 3645
+        }
+      ]
+    },
+    {
+      "task_id": "3413",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59902",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "91-34",
+      "cells_checked": 574,
+      "cells_matched": 574,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44017",
+      "cells_checked": 348,
+      "cells_matched": 50,
+      "accuracy": 0.14367816091954022,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 13,
+          "got": 39540.39858118745,
+          "expected": 55198.076538341
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 14,
+          "got": 48827.29694814319,
+          "expected": 18039.3808965942
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 15,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 16,
+          "got": null,
+          "expected": 105525.012
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 17,
+          "got": 114229.5957243337,
+          "expected": 97766.5308934943
+        }
+      ]
+    },
+    {
+      "task_id": "535-20",
+      "cells_checked": 7965,
+      "cells_matched": 7965,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "290-27",
+      "cells_checked": 1116,
+      "cells_matched": 1116,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39667",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "5835",
+      "cells_checked": 17,
+      "cells_matched": 15,
+      "accuracy": 0.8823529411764706,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 9,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 10,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "4714",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38985",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52541",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "33157",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "488-14",
+      "cells_checked": 84,
+      "cells_matched": 84,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "263-1",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38823",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "254-34",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58942",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "22-47",
+      "cells_checked": 27,
+      "cells_matched": 11,
+      "accuracy": 0.4074074074074074,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 1,
+          "got": "HASSAN",
+          "expected": "HASSONA"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 2,
+          "got": "HAMAN",
+          "expected": "HAMMED"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 3,
+          "got": "HAMMED",
+          "expected": "HASSAN"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "HASSONA",
+          "expected": "HUSSNI"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "HUSSNI",
+          "expected": "HASSAN"
+        }
+      ]
+    },
+    {
+      "task_id": "14240",
+      "cells_checked": 72,
+      "cells_matched": 72,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "433-47",
+      "cells_checked": 189,
+      "cells_matched": 189,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50796",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53647",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41420",
+      "cells_checked": 35,
+      "cells_matched": 11,
+      "accuracy": 0.3142857142857143,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": 0,
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": 0,
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": 0,
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 7,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 1,
+          "got": 1,
+          "expected": 5
+        }
+      ]
+    },
+    {
+      "task_id": "48969",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37900",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 4,
+          "got": 5000,
+          "expected": 2000
+        }
+      ]
+    },
+    {
+      "task_id": "49237",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "416-27",
+      "cells_checked": 22,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "The macro has three key errors:",
+          "expected": "Ref"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "1. Single quotes ('A') are used instead of double quotes (\"A\") for string literals in VBA.",
+          "expected": "LKP103"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "2. Columns(I, 1) is incorrect; Columns only accepts a single argument. It should be Cells(I, 1) to reference a cell.",
+          "expected": "LKP104"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": "3. SpecialCells(xlCellTypeBlanks) applied to a single cell in a loop is inefficient and unreliable.",
+          "expected": "LKP105"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 6,
+          "got": "The loop iterates row by row but references columns instead of cells, so no blank rows are found or deleted.",
+          "expected": "LKP106"
+        }
+      ]
+    },
+    {
+      "task_id": "59224",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "188-39",
+      "cells_checked": 33,
+      "cells_matched": 27,
+      "accuracy": 0.8181818181818182,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "result",
+          "col": 1,
+          "row": 2,
+          "got": "Vidhya Nalawade",
+          "expected": "Branch Manager"
+        },
+        {
+          "sheet": "result",
+          "col": 1,
+          "row": 3,
+          "got": "Priya Patil",
+          "expected": "Branch Credit Manager"
+        },
+        {
+          "sheet": "result",
+          "col": 1,
+          "row": 6,
+          "got": "Vivek Govekar",
+          "expected": "Branch Manager"
+        },
+        {
+          "sheet": "result",
+          "col": 1,
+          "row": 7,
+          "got": "Nagaraju Pokala",
+          "expected": "Branch Manager"
+        },
+        {
+          "sheet": "result",
+          "col": 1,
+          "row": 9,
+          "got": "Krishna Kiran P",
+          "expected": "Branch Credit Manager"
+        }
+      ]
+    },
+    {
+      "task_id": "40757",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37229",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48975",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32562",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "120-24",
+      "cells_checked": 44,
+      "cells_matched": 44,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "341-14",
+      "cells_checked": 56,
+      "cells_matched": 56,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "2768",
+      "cells_checked": 17,
+      "cells_matched": 17,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "382-29",
+      "cells_checked": 25,
+      "cells_matched": 25,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "547-18",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32023",
+      "cells_checked": 16,
+      "cells_matched": 14,
+      "accuracy": 0.875,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 1,
+          "got": "C78",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": "C78",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "57113",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49945",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "395-36",
+      "cells_checked": 300,
+      "cells_matched": 300,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51090",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "493-5",
+      "cells_checked": 60,
+      "cells_matched": 58,
+      "accuracy": 0.9666666666666667,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Imported Data",
+          "col": 4,
+          "row": 6,
+          "got": 0,
+          "expected": -1399.024
+        },
+        {
+          "sheet": "Imported Data",
+          "col": 4,
+          "row": 7,
+          "got": 0,
+          "expected": -1820
+        }
+      ]
+    },
+    {
+      "task_id": "56786",
+      "cells_checked": 197,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": null,
+          "expected": 6.166666667559182
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": 1.500000001396984,
+          "expected": 6.166666667559182
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": 6.166666667559184,
+          "expected": 10.623611111805076
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": 13.44259259349201,
+          "expected": 10.623611111805076
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 7,
+          "got": 10.62361111180508,
+          "expected": 383.91166666732164
+        }
+      ]
+    },
+    {
+      "task_id": "28-7",
+      "cells_checked": 78,
+      "cells_matched": 78,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51556",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57033",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41348",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9726",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31915",
+      "cells_checked": 10,
+      "cells_matched": 9,
+      "accuracy": 0.9,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet2",
+          "col": 2,
+          "row": 1,
+          "got": "#VALUE!",
+          "expected": 42.5
+        }
+      ]
+    },
+    {
+      "task_id": "516-46",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "84-40",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57989",
+      "cells_checked": 133,
+      "cells_matched": 95,
+      "accuracy": 0.7142857142857143,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 25,
+          "got": 3,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 28,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 32,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 25,
+          "got": 3,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 26,
+          "got": 0,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "267-21",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55468",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57612",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1563",
+      "cells_checked": 29,
+      "cells_matched": 29,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "423-16",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59639",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37462",
+      "cells_checked": 241,
+      "cells_matched": 239,
+      "accuracy": 0.991701244813278,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 103,
+          "got": 0,
+          "expected": 3381.164142857143
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 228,
+          "got": 0,
+          "expected": 78.41657142857143
+        }
+      ]
+    },
+    {
+      "task_id": "58499",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52216",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38703",
+      "cells_checked": 23,
+      "cells_matched": 23,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35747",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "534-26",
+      "cells_checked": 35,
+      "cells_matched": 34,
+      "accuracy": 0.9714285714285714,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 0,
+          "got": "Sub DeleteOldDateColumns()\n    Dim ws As Worksheet\n    Dim col As Long\n    Dim currentMonth As Long\n    Dim currentYear As Long\n    Dim cellDate As Date\n    \n    Set ws = ActiveSheet\n    currentMonth = Month(Date)\n    currentYear = Year(Date)\n    \n    For col = ws.Cells(1, ws.Columns.Count).End(xlToLeft).Column To 1 Step -1\n        If IsDate(ws.Cells(1, col).Value) Then\n            cellDate = ws.Cells(1, col).Value\n            If (Year(cellDate) < currentYear) Or _\n               (Year(cellDate) = currentYear And Month(cellDate) < currentMonth) Then\n                ws.Columns(col).Delete\n            End If\n        End If\n    Next col\nEnd Sub",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "56953",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59160",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "156-14",
+      "cells_checked": 156,
+      "cells_matched": 156,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38537",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37554",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "82-38",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "105-24",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50324",
+      "cells_checked": 64,
+      "cells_matched": 64,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52220",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "567-21",
+      "cells_checked": 182,
+      "cells_matched": 182,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "6698",
+      "cells_checked": 5,
+      "cells_matched": 4,
+      "accuracy": 0.8,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "#VALUE!",
+          "expected": 1031
+        }
+      ]
+    },
+    {
+      "task_id": "56427",
+      "cells_checked": 324,
+      "cells_matched": 324,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54590",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 192,
+          "row": 28,
+          "got": "#REF!",
+          "expected": 692.71486185
+        }
+      ]
+    },
+    {
+      "task_id": "39046",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48620",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42198",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45944",
+      "cells_checked": 9,
+      "cells_matched": 5,
+      "accuracy": 0.5555555555555556,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 11,
+          "got": true,
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 12,
+          "got": false,
+          "expected": true
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 20,
+          "got": true,
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 21,
+          "got": false,
+          "expected": true
+        }
+      ]
+    },
+    {
+      "task_id": "334-11",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "448-11",
+      "cells_checked": 150,
+      "cells_matched": 140,
+      "accuracy": 0.9333333333333333,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 14,
+          "got": null,
+          "expected": 135791133
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 14,
+          "got": null,
+          "expected": 20
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 14,
+          "got": null,
+          "expected": 25
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 14,
+          "got": null,
+          "expected": 30
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 14,
+          "got": null,
+          "expected": 30
+        }
+      ]
+    },
+    {
+      "task_id": "53117",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50811",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39931",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42216",
+      "cells_checked": 320,
+      "cells_matched": 247,
+      "accuracy": 0.771875,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 21,
+          "got": 35,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 22,
+          "got": 0,
+          "expected": 35
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 23,
+          "got": 100,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 24,
+          "got": 10,
+          "expected": 100
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 25,
+          "got": 0,
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "task_id": "51262",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56563",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 13,
+          "got": "#NUM!",
+          "expected": 77772.6
+        }
+      ]
+    },
+    {
+      "task_id": "58949",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "496-15",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40959",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "374-31",
+      "cells_checked": 20,
+      "cells_matched": 11,
+      "accuracy": 0.55,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Sub DeleteBlankRowsAboveCode()",
+          "expected": "Code"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "    Dim codeRow As Long, i As Long",
+          "expected": 98715
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "    For i = 1 To Rows.Count: If Cells(i, 1).Value = \"Code\" Then codeRow = i: Exit For: Next i",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "    If codeRow = 0 Then Exit Sub",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "    For i = codeRow - 1 To 1 Step -1: If Application.CountA(Rows(i)) = 0 Then Rows(i).Delete: Next i",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "49667",
+      "cells_checked": 60,
+      "cells_matched": 42,
+      "accuracy": 0.7,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 1,
+          "got": null,
+          "expected": "11:15:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": null,
+          "expected": "10:30:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 4,
+          "got": null,
+          "expected": "08:00:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 6,
+          "got": null,
+          "expected": "10:30:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 9,
+          "got": null,
+          "expected": "12:15:00"
+        }
+      ]
+    },
+    {
+      "task_id": "43436",
+      "cells_checked": 15,
+      "cells_matched": 14,
+      "accuracy": 0.9333333333333333,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 1,
+          "got": "#VALUE!",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "48983",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46240",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58687",
+      "cells_checked": 92,
+      "cells_matched": 92,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45063",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "109-21",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55260",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "438-18",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54274",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "267-18",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49300",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "24-23",
+      "cells_checked": 824,
+      "cells_matched": 824,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46897",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 2,
+          "got": 1,
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "task_id": "50526",
+      "cells_checked": 2,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 8,
+          "got": "Blue",
+          "expected": "Black"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 9,
+          "got": null,
+          "expected": "Red"
+        }
+      ]
+    },
+    {
+      "task_id": "57743",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49801",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49333",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "387-16",
+      "cells_checked": 68,
+      "cells_matched": 68,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54242",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    }
+  ]
+}

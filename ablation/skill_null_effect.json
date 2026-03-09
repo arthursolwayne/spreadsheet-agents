@@ -1,0 +1,1623 @@
+{
+  "title": "Codex Spreadsheets Skill \u2014 Null Effect Analysis",
+  "description": "294 of 400 tasks triggered the Codex built-in spreadsheets skill (read SKILL.md). Despite reading the skill file, the strict prompt overrode its directives. Pass rates are statistically indistinguishable.",
+  "model": "gpt-5.4",
+  "prompt": "strict (openpyxl only, no VBA)",
+  "run": "codex54-full-strict_001",
+  "summary": {
+    "read_skill_md": {
+      "count": 294,
+      "passed": 231,
+      "accuracy_pct": 78.6
+    },
+    "did_not_read_skill_md": {
+      "count": 106,
+      "passed": 82,
+      "accuracy_pct": 77.4
+    },
+    "delta_pp": 1.2,
+    "conclusion": "1.2pp difference (78.6% vs 77.4%) \u2014 within noise. The skill file had null effect on task outcomes."
+  },
+  "per_task": {
+    "10452": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "105-24": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "10747": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "108-24": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "109-21": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "11276": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "118-50": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "11842": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "120-24": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "12307": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "12864": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "13-1": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "130-9": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "13284": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "141-20": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "142-12": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "142-19": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "14240": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "146-49": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "147-48": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "15380": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "15387": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "156-14": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "1563": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "15671": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "157-4": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "160-6": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "165-23": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "16511": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "168-17": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "17-35": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "170-13": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "17111": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "177-6": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "178-22": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "1818": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "183-8": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "18645": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "188-39": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "18935": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "191-40": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "192-22": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "1925": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "194-19": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "203-15": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "208-20": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "209-30": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "22-47": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "227-40": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "23-24": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "230-16": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "236-22": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "24-23": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "247-24": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "250-20": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "254-34": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "262-17": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "263-1": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "267-18": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "267-21": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "269-43": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "269-44": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "2768": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "279-23": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "28-7": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "280-17": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "283-32": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "290-1": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "290-27": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "297-42": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "3002": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "302-1": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "304-35": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "30930": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "31011": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "31202": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "31628": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "31746": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "31915": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "32023": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "32093": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "32255": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "32293": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "32337": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "32438": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "325-44": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "32562": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "32612": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "32789": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "32902": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "33157": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "333-29": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "334-11": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "33722": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "34033": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "341-14": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "341-40": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "3413": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "34210": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "343-20": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "353-29": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "353-6": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "35739": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "35742": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "35747": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "359-21": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "36097": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "36191": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "36277": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "367-23": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "36764": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "370-43": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "37086": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "37229": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "37378": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "374-18": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "374-31": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "37456": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "37462": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "37554": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "379-36": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "37900": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "38074": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "382-10": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "382-29": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "384-4": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "38462": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "38537": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "387-16": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "38703": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "388-47": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "38823": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "38969": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "38985": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "39046": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "3911": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "39190": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "39432": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "395-36": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "39515": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "39667": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "398-14": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "399-14": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "39903": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "39931": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "402-43": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "40478": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "40757": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "408-39": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "408-5": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "40892": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "409-45": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "40959": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41-47": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41265": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41348": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "414-20": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41410": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41420": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41589": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "416-15": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "416-27": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "41601": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41691": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "41969": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "41978": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "42181": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "42198": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "42216": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "423-16": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "42354": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "42515": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "42526": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "42902": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "42930": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "43213": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "433-47": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "43436": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "43589": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "43657": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "438-18": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "440-24": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "44017": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "44266": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "44296": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "44389": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "44628": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "448-11": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "44913": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "45063": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "45300": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "45372": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "455-35": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "45635": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "45707": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "45738": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "45896": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "45937": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "45944": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "46121": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "46167": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "46240": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "463-17": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "46646": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "46897": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "469-9": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "4714": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "472-15": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "477-45": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "47766": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "47798": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "47827": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "47842": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "47933": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "48080": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "48257": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "48365": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "48527": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "48588": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "486-17": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "48608": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "48620": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "48643": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "48745": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "488-14": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "48921": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "48924": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "48969": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "48975": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "48982": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "48983": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "49036": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "49196": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "49237": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "493-18": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "493-5": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "49300": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "49333": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "496-15": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "496-34": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "49667": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "49801": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "49857": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "49945": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50051": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "50088": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "50193": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "50250": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "50324": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50486": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "50521": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50526": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "50631": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50682": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50683": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50768": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50796": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50811": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50916": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "50952": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "50971": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51-12": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "510-3": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51090": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51249": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51262": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51289": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "51354": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51359": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51431": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51556": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51586": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "516-46": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "51680": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "52050": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "52216": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52220": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52233": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "52305": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "524-31": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52532": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52541": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52575": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52807": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "52917": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "52964": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "531-18": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "53117": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "53161": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "53167": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "53383": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "534-26": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "53449": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "535-20": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "53647": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "53994": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54085": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "54144": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54196": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54242": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54274": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54474": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "545-35": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54513": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "54590": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "54638": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54667": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54675": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "547-18": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "547-43": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54717": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "54925": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55049": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "55060": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55085": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "55260": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55421": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55427": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "55468": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "55708": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55817": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55965": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55976": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "55977": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "55979": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "560-12": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "56225": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "56274": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "56378": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "56419": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "56427": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "56563": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "56599": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "567-21": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "56786": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "56915": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "56920": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "56921": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "56953": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "57033": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "57113": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "57117": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "57232": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "57262": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "57354": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "57445": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "57558": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "57590": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "57612": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "57693": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "577-40": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "57743": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "57989": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "58032": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "58109": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "58147": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "5835": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "58484": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "58499": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "585-41": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "58687": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "58701": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "58723": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "58904": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "58942": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "58949": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "59129": {
+      "read_skill_md": false,
+      "pass": false
+    },
+    "59160": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "59196": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "59224": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "59358": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "59511": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "59595": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "59639": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "59734": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "59794": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "59884": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "599-9": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "59902": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "60-7": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "61-4": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "6239": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "66-24": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "6698": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "73-45": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "7665": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "79-7": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "7902": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "80-42": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "82-30": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "82-38": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "84-40": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "8942": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "91-34": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "9111": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "9391": {
+      "read_skill_md": true,
+      "pass": true
+    },
+    "9448": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "9569": {
+      "read_skill_md": false,
+      "pass": true
+    },
+    "97-36": {
+      "read_skill_md": true,
+      "pass": false
+    },
+    "9726": {
+      "read_skill_md": false,
+      "pass": true
+    }
+  }
+}

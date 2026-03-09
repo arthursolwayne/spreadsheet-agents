@@ -1,0 +1,5699 @@
+{
+  "run": "_formula_eval",
+  "tasks_passed": 313,
+  "tasks_total": 400,
+  "task_accuracy": 0.7825,
+  "cells_matched": 244201,
+  "cells_total": 297883,
+  "cell_accuracy": 0.8197883061470443,
+  "results": [
+    {
+      "task_id": "57590",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46167",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48643",
+      "cells_checked": 39,
+      "cells_matched": 3,
+      "accuracy": 0.07692307692307693,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 4,
+          "got": null,
+          "expected": 4719.342
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 5,
+          "got": null,
+          "expected": 4719.342
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 6,
+          "got": null,
+          "expected": 4719.342
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 7,
+          "got": null,
+          "expected": 4719.342
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 8,
+          "got": null,
+          "expected": 4719.342
+        }
+      ]
+    },
+    {
+      "task_id": "227-40",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "547-43",
+      "cells_checked": 144,
+      "cells_matched": 144,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32612",
+      "cells_checked": 74,
+      "cells_matched": 74,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9448",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55965",
+      "cells_checked": 17,
+      "cells_matched": 17,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39432",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "302-1",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37378",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "61-4",
+      "cells_checked": 98,
+      "cells_matched": 98,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41265",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35742",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "13284",
+      "cells_checked": 25,
+      "cells_matched": 20,
+      "accuracy": 0.8,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 4,
+          "got": null,
+          "expected": "Sonia"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 7,
+          "got": null,
+          "expected": "Mariza"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 9,
+          "got": null,
+          "expected": "Marcy"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 12,
+          "got": null,
+          "expected": "Carlos"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 15,
+          "got": null,
+          "expected": "Fontana"
+        }
+      ]
+    },
+    {
+      "task_id": "43213",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "18645",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42902",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "82-30",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "168-17",
+      "cells_checked": 55,
+      "cells_matched": 50,
+      "accuracy": 0.9090909090909091,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 1,
+          "got": "Use a VBA macro that searches column A on the 'Statement' sheet for the first cell containing 'Invoice No.'.",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 2,
+          "got": "Store the row number where the first match is found.",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 3,
+          "got": "If the match is not already in row 1, delete every row above that match.",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 4,
+          "got": "After the deletion, the first 'Invoice No.' entry shifts up to cell A1.",
+          "expected": null
+        },
+        {
+          "sheet": "Statement",
+          "col": 0,
+          "row": 5,
+          "got": "If no match is found, show a message instead of deleting anything.",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "17111",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54638",
+      "cells_checked": 149,
+      "cells_matched": 149,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "341-40",
+      "cells_checked": 11917,
+      "cells_matched": 11914,
+      "accuracy": 0.9997482587899639,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 76,
+          "got": 31133.025,
+          "expected": 31133.024999999998
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 454,
+          "got": 22256.325,
+          "expected": 22256.324999999997
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 502,
+          "got": 10718.325,
+          "expected": 10718.324999999999
+        }
+      ]
+    },
+    {
+      "task_id": "45300",
+      "cells_checked": 4,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 0,
+          "got": "Find the first occurrence of 'FT' in each string.",
+          "expected": "Transfer 27976614 KHALIL MORTEZA BAGHESTANI TAJALI "
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 1,
+          "got": "Keep only the text before that position.",
+          "expected": "Transfer 29419550 HAMED ABBASI POUR SHAMSOLLAH "
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": "In Python: value.split('FT', 1)[0].rstrip()",
+          "expected": "Transfer 27575850 HAITHAM AL RAWA "
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 3,
+          "got": "Example: 'ABC FT 123' becomes 'ABC'",
+          "expected": "Transfer 29935127 SREELATHA RAMACHANDRAN "
+        }
+      ]
+    },
+    {
+      "task_id": "41969",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45937",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58147",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50250",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "545-35",
+      "cells_checked": 270,
+      "cells_matched": 270,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54144",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49196",
+      "cells_checked": 46,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "2021-11-21 14:28:00",
+          "expected": "21/11/21 14:28"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "2021-11-22 06:00:00",
+          "expected": "22/11/21 06:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "2021-11-23 06:00:00",
+          "expected": "23/11/21 06:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "2021-11-23 22:04:00",
+          "expected": "23/11/21 22:04"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "2021-11-24 18:00:00",
+          "expected": "24/11/21 18:00"
+        }
+      ]
+    },
+    {
+      "task_id": "56599",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "269-44",
+      "cells_checked": 15,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Sub DeleteRowsBeforeChassis()",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "    Dim ws As Worksheet",
+          "expected": "Chassis"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "    Dim lastRow As Long",
+          "expected": "Chassis"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "    Dim rowNum As Long",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "    Set ws = ThisWorkbook.Worksheets(\"Import Data\")",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "55421",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38462",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59358",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53167",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "141-20",
+      "cells_checked": 38,
+      "cells_matched": 38,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "13-1",
+      "cells_checked": 120,
+      "cells_matched": 120,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "250-20",
+      "cells_checked": 200,
+      "cells_matched": 200,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59884",
+      "cells_checked": 28,
+      "cells_matched": 7,
+      "accuracy": 0.25,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 1,
+          "got": "1st",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 2,
+          "got": 1,
+          "expected": "a"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 3,
+          "got": 2,
+          "expected": "x"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 4,
+          "got": 3,
+          "expected": "aa"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 1,
+          "got": "Occurances",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "50768",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48982",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 322,
+          "got": "Because B323 is inside MAX(B$7:B377), the formula includes itself and creates a circular reference. Excel then uses 0/the cached value, and with the cell format 000 that displays as 000. F9 shows 606 only for the temporary evaluation. Exclude B323 from the range, e.g. MAX(B$7:B322)+1.",
+          "expected": 606
+        }
+      ]
+    },
+    {
+      "task_id": "51359",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "16511",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "560-12",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "477-45",
+      "cells_checked": 3000,
+      "cells_matched": 3000,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58723",
+      "cells_checked": 40,
+      "cells_matched": 40,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48365",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Dashboard",
+          "col": 2,
+          "row": 3,
+          "got": "Use IF + SUM(SUMIFS()) over the 3 region cells. If any selection is \"All\", sum the product total for all regions; otherwise sum the SUMIFS results for the selected regions with OR logic. Example: =IF(COUNTIF($C$11:$C$13,\"All\")>0,SUMIFS(Data!$C:$C,Data!$A:$A,$C$2),SUM(SUMIFS(Data!$C:$C,Data!$A:$A,$C$2,Data!$B:$B,$C$11:$C$13)))",
+          "expected": 92
+        }
+      ]
+    },
+    {
+      "task_id": "48745",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "269-43",
+      "cells_checked": 63,
+      "cells_matched": 63,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46121",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42930",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "599-9",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53994",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56378",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "108-24",
+      "cells_checked": 88,
+      "cells_matched": 88,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15671",
+      "cells_checked": 260,
+      "cells_matched": 260,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36191",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "34033",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53161",
+      "cells_checked": 208,
+      "cells_matched": 3,
+      "accuracy": 0.014423076923076924,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 21,
+          "got": 6,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 22,
+          "got": 5,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 23,
+          "got": 5,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 24,
+          "got": 3,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 25,
+          "got": 2,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "130-9",
+      "cells_checked": 133,
+      "cells_matched": 133,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55817",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58032",
+      "cells_checked": 34,
+      "cells_matched": 8,
+      "accuracy": 0.23529411764705882,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": null,
+          "expected": "Arthur Strout"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": null,
+          "expected": "Tyler Morrison"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": null,
+          "expected": "Mario Morales"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": null,
+          "expected": "Hillary Rooslet"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": null,
+          "expected": "Natasha Kilebrew"
+        }
+      ]
+    },
+    {
+      "task_id": "37456",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58109",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51289",
+      "cells_checked": 8,
+      "cells_matched": 4,
+      "accuracy": 0.5,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "dog4",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 3,
+          "got": "cat4",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 3,
+          "got": "dog3",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 3,
+          "got": "cat3",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "353-6",
+      "cells_checked": 680,
+      "cells_matched": 680,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "388-47",
+      "cells_checked": 35,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Use a wildcard filter with two criteria, then delete only the visible data rows:",
+          "expected": "BR1"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "With Sheets(1).Range(\"A1\").CurrentRegion",
+          "expected": "BR1"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "    .AutoFilter Field:=5, Criteria1:=\"=Z1*\", Operator:=xlOr, Criteria2:=\"=X1*\"",
+          "expected": "BR1"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "    On Error Resume Next: .Offset(1).Resize(.Rows.Count - 1).SpecialCells(xlCellTypeVisible).EntireRow.Delete: On Error GoTo 0",
+          "expected": "BR1"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": "    .AutoFilter",
+          "expected": "BR1"
+        }
+      ]
+    },
+    {
+      "task_id": "51680",
+      "cells_checked": 13,
+      "cells_matched": 9,
+      "accuracy": 0.6923076923076923,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 2,
+          "got": "Blue, Green, Red Purple",
+          "expected": "Blue, Green , Red Purple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "Green, Red Purple",
+          "expected": "Green , Red Purple"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 12,
+          "got": "Blue, Black White, Green, Red Purple, Orange, Brown",
+          "expected": "Blue, Black White, Green , Red Purple, Orange, Brown"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 13,
+          "got": "Blue, Green, Orange, Brown",
+          "expected": "Blue, Green , Orange, Brown"
+        }
+      ]
+    },
+    {
+      "task_id": "17-35",
+      "cells_checked": 1450,
+      "cells_matched": 1450,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32255",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59734",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "30930",
+      "cells_checked": 65,
+      "cells_matched": 65,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59129",
+      "cells_checked": 12,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 1,
+          "got": "Use: SUMPRODUCT(($A$2:$A$22<=EOMONTH(E$1,0))*((($B$2:$B$22=\"\")+($B$2:$B$22>EOMONTH(E$1,0)))>0))",
+          "expected": 20
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 1,
+          "got": null,
+          "expected": 20
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 1,
+          "got": null,
+          "expected": 20
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 1,
+          "got": null,
+          "expected": 20
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 1,
+          "got": null,
+          "expected": 20
+        }
+      ]
+    },
+    {
+      "task_id": "209-30",
+      "cells_checked": 6066,
+      "cells_matched": 6066,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "66-24",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "160-6",
+      "cells_checked": 72,
+      "cells_matched": 39,
+      "accuracy": 0.5416666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "SH",
+          "col": 0,
+          "row": 5,
+          "got": "Sub DeleteBlankRows()",
+          "expected": "KL73992"
+        },
+        {
+          "sheet": "SH",
+          "col": 0,
+          "row": 6,
+          "got": "Dim ws As Worksheet: Dim lastRow As Long: Dim i As Long",
+          "expected": "KL73993"
+        },
+        {
+          "sheet": "SH",
+          "col": 0,
+          "row": 7,
+          "got": "Set ws = ThisWorkbook.Worksheets(\"SH\"): Application.ScreenUpdating = False",
+          "expected": "KL73994"
+        },
+        {
+          "sheet": "SH",
+          "col": 0,
+          "row": 8,
+          "got": "lastRow = ws.Cells(ws.Rows.Count, \"A\").End(xlUp).Row",
+          "expected": null
+        },
+        {
+          "sheet": "SH",
+          "col": 0,
+          "row": 9,
+          "got": "For i = lastRow To 2 Step -1: If Application.WorksheetFunction.CountA(ws.Rows(i)) = 0 Then ws.Rows(i).Delete Shift:=xlUp: Next i",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "58484",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "23-24",
+      "cells_checked": 5510,
+      "cells_matched": 5510,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44389",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39903",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "194-19",
+      "cells_checked": 740,
+      "cells_matched": 740,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55979",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "7902",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56225",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48257",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "283-32",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "192-22",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50971",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52050",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57693",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51249",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "80-42",
+      "cells_checked": 95988,
+      "cells_matched": 48013,
+      "accuracy": 0.5001979414093428,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 3999,
+          "got": null,
+          "expected": "2023-05-01 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4000,
+          "got": null,
+          "expected": "2023-05-02 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4001,
+          "got": null,
+          "expected": "2023-05-03 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4002,
+          "got": null,
+          "expected": "2023-05-04 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4003,
+          "got": null,
+          "expected": "2023-05-05 00:00:00"
+        }
+      ]
+    },
+    {
+      "task_id": "39515",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51431",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "60-7",
+      "cells_checked": 45,
+      "cells_matched": 45,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54717",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57262",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44296",
+      "cells_checked": 102,
+      "cells_matched": 102,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "469-9",
+      "cells_checked": 20,
+      "cells_matched": 2,
+      "accuracy": 0.1,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 1,
+          "got": null,
+          "expected": 4543.190000000001
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 2,
+          "got": null,
+          "expected": 28723.24333333334
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 3,
+          "got": null,
+          "expected": 21846.39666666667
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 4,
+          "got": 6.933333333333334,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 7,
+          "row": 5,
+          "got": null,
+          "expected": 3535.258
+        }
+      ]
+    },
+    {
+      "task_id": "57445",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "262-17",
+      "cells_checked": 84,
+      "cells_matched": 84,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46646",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32293",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56419",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "455-35",
+      "cells_checked": 104110,
+      "cells_matched": 104097,
+      "accuracy": 0.9998751320718471,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Change the condition so a row is deleted only when the first character in column B is neither H nor A.",
+          "expected": "Action"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Use a NOT(H or A) test, which is the same as checking that the first character is not H and is not A.",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Example condition: If Not (Left$(Cells(i, \"B\").Value, 1) = \"H\" Or Left$(Cells(i, \"B\").Value, 1) = \"A\") Then Rows(i).Delete",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "When deleting rows, loop from the last used row up to row 1 so rows are not skipped.",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 0,
+          "got": null,
+          "expected": "User"
+        }
+      ]
+    },
+    {
+      "task_id": "203-15",
+      "cells_checked": 39,
+      "cells_matched": 36,
+      "accuracy": 0.9230769230769231,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Output Required",
+          "col": 9,
+          "row": 0,
+          "got": "Transport Allowance",
+          "expected": "Transport Allowances"
+        },
+        {
+          "sheet": "Output Required",
+          "col": 10,
+          "row": 0,
+          "got": "Other Allowance",
+          "expected": "Other Allowances"
+        },
+        {
+          "sheet": "Output Required",
+          "col": 11,
+          "row": 0,
+          "got": "Social Allowance",
+          "expected": "Social Allowances"
+        }
+      ]
+    },
+    {
+      "task_id": "50916",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59196",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9391",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41601",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "170-13",
+      "cells_checked": 200,
+      "cells_matched": 200,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56915",
+      "cells_checked": 24,
+      "cells_matched": 16,
+      "accuracy": 0.6666666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "COVER",
+          "col": 1,
+          "row": 18,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 1,
+          "row": 19,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 2,
+          "row": 18,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 2,
+          "row": 19,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "COVER",
+          "col": 3,
+          "row": 18,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "510-3",
+      "cells_checked": 77,
+      "cells_matched": 77,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50521",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31628",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "97-36",
+      "cells_checked": 22,
+      "cells_matched": 9,
+      "accuracy": 0.4090909090909091,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Sub DeleteRowsAboveDomestic()",
+          "expected": "https://www.ladbrokes.com.au/horse-racing/domestic"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "    Dim ws As Worksheet",
+          "expected": "https://www.ladbrokes.com.au/racing/ballarat/ebaa02b4-e4ba-4427-aa83-db688c34c466"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "    Dim foundCell As Range",
+          "expected": "https://www.ladbrokes.com.au/racing/ballarat/ebaa02b4-e4ba-4427-aa83-db688c34c466"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "    Dim lastRowToDelete As Long",
+          "expected": "https://www.ladbrokes.com.au/racing/ballarat/a6009afb-4ac2-41d6-b098-fca06b9d03cf"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": "    Set ws = ActiveSheet",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "384-4",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "416-15",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "374-18",
+      "cells_checked": 35,
+      "cells_matched": 22,
+      "accuracy": 0.6285714285714286,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Sub DeleteRowsLessThanOne()",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "End With",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 1,
+          "got": "Dim lastRow As Long, i As Long",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": "End Sub",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "With Worksheets(\"Imported Data\")",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "15387",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52807",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "370-43",
+      "cells_checked": 70,
+      "cells_matched": 16,
+      "accuracy": 0.22857142857142856,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 0,
+          "got": "Use a bottom-up loop, not a top-down loop.",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 1,
+          "got": "Check rows 1000 down to 7 in Column A.",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 2,
+          "got": "Whenever Column A contains X, insert a new row at that row number.",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 3,
+          "got": "That places the new row directly above the row with X.",
+          "expected": null
+        },
+        {
+          "sheet": "Before Insert Row",
+          "col": 0,
+          "row": 4,
+          "got": "Working upward is the key because inserted rows shift everything down.",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "43589",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 1,
+          "got": "Yes\u2014split the text range like '2 to 5', convert both parts into real dates in Python, and calculate (end_date - start_date).days + 1. For June 2 to June 5, the result is 4 days.",
+          "expected": 4
+        }
+      ]
+    },
+    {
+      "task_id": "50486",
+      "cells_checked": 4,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Chep",
+          "expected": "CHEP"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Chep",
+          "expected": "CHEP"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "Loscam",
+          "expected": "LOSCAM"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "Loscam",
+          "expected": "LOSCAM"
+        }
+      ]
+    },
+    {
+      "task_id": "304-35",
+      "cells_checked": 204,
+      "cells_matched": 204,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56921",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40478",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "399-14",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45635",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31202",
+      "cells_checked": 46,
+      "cells_matched": 46,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55977",
+      "cells_checked": 15,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "Monday",
+          "expected": "Mon"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "Tuesday",
+          "expected": "Tue"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "Sunday",
+          "expected": "Sun"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "Monday",
+          "expected": "Mon"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "Friday",
+          "expected": "Fri"
+        }
+      ]
+    },
+    {
+      "task_id": "463-17",
+      "cells_checked": 45,
+      "cells_matched": 45,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36277",
+      "cells_checked": 4,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 1,
+          "got": "Use INDEX with two MATCH functions so the row and column are found by labels and still copy down correctly.",
+          "expected": "Social Media"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 2,
+          "got": "#N/A",
+          "expected": "Free"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 3,
+          "got": "Keep the lookup ranges absolute with $, use $H2 for the row lookup, and use I$1 for the header lookup.",
+          "expected": 1500
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 4,
+          "got": "This works in Excel 2019 and is the standard header-based lookup approach when XLOOKUP is unavailable.",
+          "expected": 1600
+        }
+      ]
+    },
+    {
+      "task_id": "73-45",
+      "cells_checked": 307,
+      "cells_matched": 52,
+      "accuracy": 0.16938110749185667,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 55,
+          "row": 1,
+          "got": "Store the searchable items in a separate editable table, one pattern per row, with optional flags such as WholeWord and IgnoreSpaces.",
+          "expected": "Led,jumped well,urged,dominant win"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 55,
+          "row": 2,
+          "got": "Loop only through non-empty cells in column BD.",
+          "expected": "Led,jumped beautifuly,kikd,too good"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 55,
+          "row": 3,
+          "got": "For each pattern, use a regular-expression search instead of InStr so matches can be found anywhere in the cell and more than once.",
+          "expected": "Slw,8th,imp wd 600,game finish"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 55,
+          "row": 4,
+          "got": "Escape each literal pattern, then replace its internal spaces with \\s* or \\s+ if the same text may appear separated by spaces in the cell.",
+          "expected": "10th ot,imp,closer cn,strong finish"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 55,
+          "row": 5,
+          "got": "Set the regex to Global = True and IgnoreCase = True so every occurrence is returned.",
+          "expected": "3rd ot,loomed wd cn,fght,tried hard"
+        }
+      ]
+    },
+    {
+      "task_id": "280-17",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "12307",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50683",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "279-23",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55708",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48608",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40892",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "12864",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49857",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "333-29",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "379-36",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58701",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "11842",
+      "cells_checked": 96,
+      "cells_matched": 96,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41978",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53383",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55976",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44266",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52305",
+      "cells_checked": 95,
+      "cells_matched": 85,
+      "accuracy": 0.8947368421052632,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 18,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 22,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 14,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 15,
+          "got": 0,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 21,
+          "got": 0,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "353-29",
+      "cells_checked": 180,
+      "cells_matched": 180,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48080",
+      "cells_checked": 5,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "Use INDEX-style row stepping instead of OFFSET for every nth value.",
+          "expected": 14
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "Pick a starting row, then add n rows each time you move down.",
+          "expected": 17
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "In this sheet the matching source rows are 25, 41, 57, 73, and 89.",
+          "expected": 87
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "Those values are 14, 17, 87, 45, and 6.",
+          "expected": 45
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "In general, each next item comes from start_row plus n times the step count.",
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "task_id": "51586",
+      "cells_checked": 5,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "True",
+          "expected": true
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "False",
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "False",
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "False",
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "True",
+          "expected": true
+        }
+      ]
+    },
+    {
+      "task_id": "79-7",
+      "cells_checked": 4,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Use the worksheet's entire used range, not just column A, when calling Replace.",
+          "expected": "Detail"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "For example: With Worksheets(\"Sheet1\").UsedRange: .Replace What:=\"\"\", Replacement:=\"\", LookAt:=xlPart, SearchOrder:=xlByRows, MatchCase:=False: End With",
+          "expected": "@T3&217-OTC Colo-Ser.MTG AA17,AD02 PROJ.Zenlayer"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "If you want every cell on the active sheet, you can also use ActiveSheet.Cells.Replace What:=\"\"\", Replacement:=\"\".",
+          "expected": "IDC-CIC"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "This removes all double quotes across all columns by applying the replacement to the full worksheet range in the attached file.",
+          "expected": "IDC-UH,JDF"
+        }
+      ]
+    },
+    {
+      "task_id": "47827",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45896",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47798",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50051",
+      "cells_checked": 32,
+      "cells_matched": 3,
+      "accuracy": 0.09375,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 80,
+          "row": 4,
+          "got": 5,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 80,
+          "row": 5,
+          "got": 17,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 80,
+          "row": 6,
+          "got": 18,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 80,
+          "row": 7,
+          "got": 19,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 80,
+          "row": 8,
+          "got": 20,
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "47766",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "531-18",
+      "cells_checked": 2904,
+      "cells_matched": 2904,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15380",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32093",
+      "cells_checked": 14,
+      "cells_matched": 13,
+      "accuracy": 0.9285714285714286,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 5,
+          "got": "Jeremy",
+          "expected": "ERROR"
+        }
+      ]
+    },
+    {
+      "task_id": "10452",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "343-20",
+      "cells_checked": 25,
+      "cells_matched": 25,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57354",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35739",
+      "cells_checked": 99,
+      "cells_matched": 99,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "297-42",
+      "cells_checked": 12315,
+      "cells_matched": 12315,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52917",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "6239",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50682",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31746",
+      "cells_checked": 36,
+      "cells_matched": 36,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "524-31",
+      "cells_checked": 53,
+      "cells_matched": 53,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42354",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55060",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "359-21",
+      "cells_checked": 18,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 0,
+          "got": "Answer",
+          "expected": "CUSTOMER NAME"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 1,
+          "got": "Best fix",
+          "expected": "B&CO"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 2,
+          "got": "Why slow",
+          "expected": "C& CO"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 3,
+          "got": "Effect",
+          "expected": "E& CO"
+        },
+        {
+          "sheet": "Delete",
+          "col": 0,
+          "row": 4,
+          "got": "Faster method",
+          "expected": "F& CO"
+        }
+      ]
+    },
+    {
+      "task_id": "45738",
+      "cells_checked": 480,
+      "cells_matched": 45,
+      "accuracy": 0.09375,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 5,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 6,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 7,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 8,
+          "got": "-",
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 9,
+          "got": "-",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "48527",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "486-17",
+      "cells_checked": 129,
+      "cells_matched": 126,
+      "accuracy": 0.9767441860465116,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Blad1",
+          "col": 1,
+          "row": 98,
+          "got": "0000 00 00",
+          "expected": "atum  v er"
+        },
+        {
+          "sheet": "Blad1",
+          "col": 1,
+          "row": 99,
+          "got": "0000 00 00",
+          "expected": "atum  v er"
+        },
+        {
+          "sheet": "Blad1",
+          "col": 1,
+          "row": 100,
+          "got": "0000 00 00",
+          "expected": "atum  v er"
+        }
+      ]
+    },
+    {
+      "task_id": "402-43",
+      "cells_checked": 330,
+      "cells_matched": 330,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "398-14",
+      "cells_checked": 56,
+      "cells_matched": 53,
+      "accuracy": 0.9464285714285714,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 8,
+          "got": "-",
+          "expected": 0.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 5,
+          "row": 4,
+          "got": "-",
+          "expected": 0.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 5,
+          "row": 7,
+          "got": "-",
+          "expected": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "32337",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57232",
+      "cells_checked": 190,
+      "cells_matched": 190,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "146-49",
+      "cells_checked": 130,
+      "cells_matched": 130,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "382-10",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "118-50",
+      "cells_checked": 9998,
+      "cells_matched": 9974,
+      "accuracy": 0.9975995199039808,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "TABORING",
+          "expected": "TAVERING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "TAVERING",
+          "expected": "HEARTING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "HEARTING",
+          "expected": "SHEARING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "SHEARING",
+          "expected": "DREADING"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "DREADING",
+          "expected": "TABORERS"
+        }
+      ]
+    },
+    {
+      "task_id": "408-39",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "177-6",
+      "cells_checked": 144,
+      "cells_matched": 144,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50193",
+      "cells_checked": 602,
+      "cells_matched": 602,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54474",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38969",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3911",
+      "cells_checked": 63,
+      "cells_matched": 63,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55085",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59794",
+      "cells_checked": 33,
+      "cells_matched": 33,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "236-22",
+      "cells_checked": 35,
+      "cells_matched": 17,
+      "accuracy": 0.4857142857142857,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Line No",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": 1,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": null,
+          "expected": "Line No"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 6,
+          "got": null,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": "SLAccount",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "230-16",
+      "cells_checked": 12,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 0,
+          "got": "Open Excel and press Alt+F11 to open the VBA editor.",
+          "expected": "data"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 1,
+          "got": "Insert a new module with Insert > Module.",
+          "expected": "2020-02-21 09:58:34.595555"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 2,
+          "got": "Create a macro that loops through the used rows in column A.",
+          "expected": "2020-02-22 14:35:59.356666"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 3,
+          "got": "For each cell, locate the first alphabetic character in the text.",
+          "expected": "2020-02-23 14:41:01.412"
+        },
+        {
+          "sheet": "Before",
+          "col": 0,
+          "row": 4,
+          "got": "Take the substring from that first letter to the end of the cell value.",
+          "expected": "2020-02-23 14:40:11.618"
+        }
+      ]
+    },
+    {
+      "task_id": "52532",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "10747",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "247-24",
+      "cells_checked": 897,
+      "cells_matched": 897,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42515",
+      "cells_checked": 15,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 4,
+          "got": "Use a lookup instead of a fixed $B$8 reference.",
+          "expected": 1.4928328888911704
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 5,
+          "got": "A simple option is to pull the GBP-EUR rate for the same date with SUMIFS.",
+          "expected": 1.0020831889644881
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 6,
+          "got": "Formula text:",
+          "expected": 0.8822703080980869
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 7,
+          "got": "SUM(1/((1/B5)*SUMIFS($B$5:$B$19,$A$5:$A$19,\"GBP-EUR\",$C$5:$C$19,C5)))",
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 8,
+          "got": "When you drag down, B5 changes to B6/B7/... and C5 changes to C6/C7/... automatically.",
+          "expected": 17.348507675289444
+        }
+      ]
+    },
+    {
+      "task_id": "496-34",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52575",
+      "cells_checked": 91,
+      "cells_matched": 91,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45372",
+      "cells_checked": 14,
+      "cells_matched": 14,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32902",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51-12",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 5,
+          "got": "Use a macro like this:\n\nOption Explicit\n\nFunction CountTenPercentIncreases(ws As Worksheet, dataRange As String) As Long\n    Dim rng As Range\n    Dim rowNum As Long\n    Dim firstCol As Long, lastCol As Long\n    Dim currentCol As Long, scanCol As Long\n    Dim refVal As Double\n    Dim countHits As Long\n    Dim foundIncrease As Boolean\n\n    Set rng = ws.Range(dataRange)\n    rowNum = rng.Row\n    firstCol = rng.Column\n    lastCol = rng.Columns(rng.Columns.Count).Column\n    currentCol = firstCol\n\n    Do While currentCol <= lastCol\n        If Trim(ws.Cells(rowNum, currentCol).Value & \"\") = \"\" Then Exit Do\n        refVal = ws.Cells(rowNum, currentCol).Value\n        foundIncrease = False\n\n        For scanCol = currentCol + 1 To lastCol\n            If Trim(ws.Cells(rowNum, scanCol).Value & \"\") = \"\" Then Exit Do\n            If ws.Cells(rowNum, scanCol).Value >= refVal * 1.1 Then\n                countHits = countHits + 1\n                currentCol = scanCol\n                foundIncrease = True\n                Exit For\n            End If\n        Next scanCol\n\n        If Not foundIncrease Then Exit Do\n    Loop\n\n    CountTenPercentIncreases = countHits\nEnd Function\n\nSub UpdateCount()\n    Const DATA_RANGE As String = \"L26:SHA26\"   'change this when your range changes\n\n    With ThisWorkbook.Worksheets(\"Sheet1\")\n        .Range(\"B6\").Value = CountTenPercentIncreases(.Parent.Worksheets(\"Sheet1\"), DATA_RANGE)\n    End With\nEnd Sub\n\nFor A1:M1, set DATA_RANGE = \"A1:M1\". For your real data, keep DATA_RANGE = \"L26:SHA26\".",
+          "expected": 4
+        }
+      ]
+    },
+    {
+      "task_id": "59595",
+      "cells_checked": 16,
+      "cells_matched": 13,
+      "accuracy": 0.8125,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "n/a",
+          "expected": 4
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "n/a",
+          "expected": 6
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "n/a",
+          "expected": 12
+        }
+      ]
+    },
+    {
+      "task_id": "8942",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48921",
+      "cells_checked": 4451,
+      "cells_matched": 4451,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "142-19",
+      "cells_checked": 164,
+      "cells_matched": 164,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "472-15",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50088",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48924",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "367-23",
+      "cells_checked": 20,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "final Recon Items",
+          "col": 0,
+          "row": 0,
+          "got": "Issue",
+          "expected": "Date"
+        },
+        {
+          "sheet": "final Recon Items",
+          "col": 0,
+          "row": 1,
+          "got": "Type Mismatch",
+          "expected": null
+        },
+        {
+          "sheet": "final Recon Items",
+          "col": 0,
+          "row": 2,
+          "got": "Zero test fails",
+          "expected": null
+        },
+        {
+          "sheet": "final Recon Items",
+          "col": 0,
+          "row": 3,
+          "got": "Numeric coercion",
+          "expected": null
+        },
+        {
+          "sheet": "final Recon Items",
+          "col": 0,
+          "row": 4,
+          "got": "Delete logic",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "57558",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55049",
+      "cells_checked": 21,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "book1",
+          "col": 1,
+          "row": 2,
+          "got": null,
+          "expected": 7040
+        },
+        {
+          "sheet": "book1",
+          "col": 1,
+          "row": 3,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "book1",
+          "col": 1,
+          "row": 4,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "book1",
+          "col": 1,
+          "row": 5,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "book1",
+          "col": 1,
+          "row": 6,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "41691",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41410",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "11276",
+      "cells_checked": 31,
+      "cells_matched": 31,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53449",
+      "cells_checked": 15,
+      "cells_matched": 11,
+      "accuracy": 0.7333333333333333,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "X",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "X",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 8,
+          "got": "X",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 9,
+          "got": "X",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "325-44",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "142-12",
+      "cells_checked": 75,
+      "cells_matched": 75,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "290-1",
+      "cells_checked": 99,
+      "cells_matched": 99,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54513",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42181",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "414-20",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32789",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "157-4",
+      "cells_checked": 675,
+      "cells_matched": 675,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "147-48",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44628",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56920",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3002",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "208-20",
+      "cells_checked": 222,
+      "cells_matched": 222,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54675",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 2,
+          "got": "SUMPRODUCT((A:A=4)*(LEN(B:B)-LEN(SUBSTITUTE(B:B,\"Gary Stoddard\",\"\")))/LEN(\"Gary Stoddard\"))",
+          "expected": 14
+        }
+      ]
+    },
+    {
+      "task_id": "54085",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59511",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9569",
+      "cells_checked": 1280,
+      "cells_matched": 1280,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54196",
+      "cells_checked": 278,
+      "cells_matched": 278,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "7665",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "440-24",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38074",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54667",
+      "cells_checked": 56,
+      "cells_matched": 56,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31011",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 17,
+          "row": 5,
+          "got": null,
+          "expected": 1323.8167999999998
+        }
+      ]
+    },
+    {
+      "task_id": "36097",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1925",
+      "cells_checked": 26,
+      "cells_matched": 15,
+      "accuracy": 0.5769230769230769,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "New",
+          "expected": "NEW"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": "New",
+          "expected": "NEW"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 13,
+          "got": "New",
+          "expected": "NEW"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 23,
+          "got": "New",
+          "expected": "NEW"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 24,
+          "got": "New",
+          "expected": "NEW"
+        }
+      ]
+    },
+    {
+      "task_id": "42526",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48588",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52964",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "Use =IFERROR(INDEX($U:$U,MATCH($A2,$Q:$Q,0))-INDEX($Y:$Y,MATCH($A2,$Q:$Q,0)),\"\") or =IFERROR(VLOOKUP($A2,$Q:$Y,5,FALSE)-VLOOKUP($A2,$Q:$Y,9,FALSE),\"\"). {5,9} means return the 5th and 9th columns within Q:Y, which are U and Y. In SUMPRODUCT, {-1,1} are multipliers applied to those two returned values. With {5,9}, {-1,1} calculates Y-U, not U-Y; for U-Y use {1,-1} with {5,9}, or keep {-1,1} and reverse the lookup order to {9,5}. Use $A2 so copying down keeps column A fixed.",
+          "expected": 17
+        }
+      ]
+    },
+    {
+      "task_id": "18935",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "178-22",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55427",
+      "cells_checked": 1460,
+      "cells_matched": 1116,
+      "accuracy": 0.7643835616438356,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Compiled and located schools da",
+          "col": 1,
+          "row": 1,
+          "got": null,
+          "expected": 2002
+        },
+        {
+          "sheet": "Compiled and located schools da",
+          "col": 1,
+          "row": 2,
+          "got": null,
+          "expected": "#N/A"
+        },
+        {
+          "sheet": "Compiled and located schools da",
+          "col": 1,
+          "row": 3,
+          "got": null,
+          "expected": 5402
+        },
+        {
+          "sheet": "Compiled and located schools da",
+          "col": 1,
+          "row": 4,
+          "got": null,
+          "expected": 3102
+        },
+        {
+          "sheet": "Compiled and located schools da",
+          "col": 1,
+          "row": 6,
+          "got": null,
+          "expected": 3125
+        }
+      ]
+    },
+    {
+      "task_id": "47933",
+      "cells_checked": 153,
+      "cells_matched": 147,
+      "accuracy": 0.9607843137254902,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "master",
+          "col": 4,
+          "row": 8,
+          "got": 8.024999999999999,
+          "expected": 8.025
+        },
+        {
+          "sheet": "master",
+          "col": 4,
+          "row": 53,
+          "got": null,
+          "expected": "#N/A"
+        },
+        {
+          "sheet": "master",
+          "col": 4,
+          "row": 94,
+          "got": 9.975000000000001,
+          "expected": 9.975
+        },
+        {
+          "sheet": "master",
+          "col": 4,
+          "row": 123,
+          "got": 63.22499999999999,
+          "expected": 63.225
+        },
+        {
+          "sheet": "master",
+          "col": 4,
+          "row": 126,
+          "got": 39.97499999999999,
+          "expected": 39.975
+        }
+      ]
+    },
+    {
+      "task_id": "408-5",
+      "cells_checked": 685,
+      "cells_matched": 683,
+      "accuracy": 0.997080291970803,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": null,
+          "expected": "Total Zero"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 3,
+          "got": null,
+          "expected": -74.95999999999415
+        }
+      ]
+    },
+    {
+      "task_id": "34210",
+      "cells_checked": 55,
+      "cells_matched": 55,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "43657",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39190",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1818",
+      "cells_checked": 132,
+      "cells_matched": 132,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "183-8",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49036",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Dashboard",
+          "col": 1,
+          "row": 7,
+          "got": 0.6666666666666666,
+          "expected": "66.67% WIN RATE"
+        }
+      ]
+    },
+    {
+      "task_id": "45707",
+      "cells_checked": 68,
+      "cells_matched": 66,
+      "accuracy": 0.9705882352941176,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 31,
+          "got": 4,
+          "expected": 5
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 60,
+          "got": 0,
+          "expected": 4
+        }
+      ]
+    },
+    {
+      "task_id": "37086",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51354",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "577-40",
+      "cells_checked": 594,
+      "cells_matched": 194,
+      "accuracy": 0.3265993265993266,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet2",
+          "col": 0,
+          "row": 0,
+          "got": "Use Excel's built-in AutoFilter so both columns are filtered at the same time.\n\n1. Select your data range, then turn on Filter (Data > Filter).\n2. In Column J, open the filter dropdown and keep only these items checked: (Blanks), -, 0, $, $0, and $0.0.\n3. In Column K, apply the same filter selection: (Blanks), -, 0, $, $0, and $0.0.\n4. Because filters across columns work together with AND logic, the visible rows will be only the rows where BOTH J and K match those blank/invalid values.\n5. Select the visible row numbers, right-click, and choose Delete Row.\n6. Clear the filter afterward to show the remaining rows.\n\nThis keeps rows where only one of the two columns is blank or invalid, because those rows will not meet both filter conditions at once.\n\nNote: if $0 or $0.0 are only number formats and the actual stored value is zero, you only need to filter for 0; if they are literal text entries, include them separately as listed above.",
+          "expected": "Date"
+        },
+        {
+          "sheet": "Sheet2",
+          "col": 0,
+          "row": 1,
+          "got": null,
+          "expected": 43741
+        },
+        {
+          "sheet": "Sheet2",
+          "col": 0,
+          "row": 2,
+          "got": null,
+          "expected": 43741
+        },
+        {
+          "sheet": "Sheet2",
+          "col": 0,
+          "row": 3,
+          "got": null,
+          "expected": 43741
+        },
+        {
+          "sheet": "Sheet2",
+          "col": 0,
+          "row": 4,
+          "got": null,
+          "expected": 43741
+        }
+      ]
+    },
+    {
+      "task_id": "54925",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50952",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47842",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56274",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "585-41",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50631",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9111",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44913",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "33722",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58904",
+      "cells_checked": 7,
+      "cells_matched": 1,
+      "accuracy": 0.14285714285714285,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 11,
+          "got": 0,
+          "expected": 3
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 12,
+          "got": 4,
+          "expected": 7
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 13,
+          "got": 9,
+          "expected": 14
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 14,
+          "got": 4,
+          "expected": 6
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 15,
+          "got": 0,
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "task_id": "41589",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "493-18",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "165-23",
+      "cells_checked": 1008,
+      "cells_matched": 1008,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36764",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "409-45",
+      "cells_checked": 95,
+      "cells_matched": 95,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57117",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52233",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32438",
+      "cells_checked": 3,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 1,
+          "got": "06:08:00 PM",
+          "expected": "18:08:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 2,
+          "got": "12:04:00 AM",
+          "expected": "00:04:00"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 3,
+          "got": "08:08:00 AM",
+          "expected": "08:08:00"
+        }
+      ]
+    },
+    {
+      "task_id": "191-40",
+      "cells_checked": 680,
+      "cells_matched": 680,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41-47",
+      "cells_checked": 6403,
+      "cells_matched": 6403,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3413",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59902",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "91-34",
+      "cells_checked": 574,
+      "cells_matched": 574,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44017",
+      "cells_checked": 348,
+      "cells_matched": 50,
+      "accuracy": 0.14367816091954022,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 13,
+          "got": 39540.39858118745,
+          "expected": 55198.076538341
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 14,
+          "got": 48827.29694814319,
+          "expected": 18039.3808965942
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 15,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 16,
+          "got": null,
+          "expected": 105525.012
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 17,
+          "got": 114229.5957243337,
+          "expected": 97766.5308934943
+        }
+      ]
+    },
+    {
+      "task_id": "535-20",
+      "cells_checked": 7965,
+      "cells_matched": 5382,
+      "accuracy": 0.6757062146892655,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "VBA approach: run a macro that scans row 1 from the last used column back to column 1, and deletes any column whose header contains '/description'.",
+          "expected": "customData/pageTitle"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Why backward matters: deleting from right to left avoids skipping columns after each delete, which is important when you have 1000+ columns.",
+          "expected": "best gun ear protectors - Google Search"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Non-VBA option: use Power Query or a Python openpyxl script to read the first-row headers, collect matching column indexes, and delete those columns in reverse order.",
+          "expected": "best gun magnet 2020 - Google Search"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "In short: identify headers containing '/description', then delete the matching columns from right to left.",
+          "expected": "best gun safe under 1500 - Google Search"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": null,
+          "expected": "best gun for preppers - Google Search"
+        }
+      ]
+    },
+    {
+      "task_id": "290-27",
+      "cells_checked": 1116,
+      "cells_matched": 1116,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39667",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "5835",
+      "cells_checked": 17,
+      "cells_matched": 7,
+      "accuracy": 0.4117647058823529,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 7,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 8,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 9,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "4714",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38985",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52541",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "33157",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "488-14",
+      "cells_checked": 84,
+      "cells_matched": 84,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "263-1",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38823",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "254-34",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58942",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "22-47",
+      "cells_checked": 27,
+      "cells_matched": 9,
+      "accuracy": 0.3333333333333333,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 1,
+          "got": "HASSAN",
+          "expected": "HASSONA"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 2,
+          "got": "HASSAN",
+          "expected": "HAMMED"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 3,
+          "got": "HAMAN",
+          "expected": "HASSAN"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "HAMMED",
+          "expected": "HUSSNI"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 5,
+          "got": "HASSONA",
+          "expected": "HASSAN"
+        }
+      ]
+    },
+    {
+      "task_id": "14240",
+      "cells_checked": 72,
+      "cells_matched": 72,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "433-47",
+      "cells_checked": 189,
+      "cells_matched": 186,
+      "accuracy": 0.9841269841269841,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 18,
+          "got": 0,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 19,
+          "got": 0,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 20,
+          "got": 0,
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "50796",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53647",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41420",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48969",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37900",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 4,
+          "got": 5000,
+          "expected": 2000
+        }
+      ]
+    },
+    {
+      "task_id": "49237",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 6,
+          "got": null,
+          "expected": "G."
+        }
+      ]
+    },
+    {
+      "task_id": "416-27",
+      "cells_checked": 22,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Issues in the original macro:",
+          "expected": "Ref"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "1) `Columns(I, 1)` uses a row number as though it were a column reference.",
+          "expected": "LKP103"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "2) You need to inspect `Cells(i, \"A\")`, not call `SpecialCells` on a column object.",
+          "expected": "LKP104"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": "3) The loop should start at the first used row in Column A, not hard-coded row 4.",
+          "expected": "LKP105"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 6,
+          "got": "4) `On Error Resume Next` only masks the mistake.",
+          "expected": "LKP106"
+        }
+      ]
+    },
+    {
+      "task_id": "59224",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "188-39",
+      "cells_checked": 33,
+      "cells_matched": 33,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40757",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37229",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48975",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32562",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "120-24",
+      "cells_checked": 44,
+      "cells_matched": 44,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "341-14",
+      "cells_checked": 56,
+      "cells_matched": 56,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "2768",
+      "cells_checked": 17,
+      "cells_matched": 17,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "382-29",
+      "cells_checked": 25,
+      "cells_matched": 25,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "547-18",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32023",
+      "cells_checked": 16,
+      "cells_matched": 14,
+      "accuracy": 0.875,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 1,
+          "got": "C78",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": "C78",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "57113",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49945",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "395-36",
+      "cells_checked": 300,
+      "cells_matched": 300,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51090",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "493-5",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56786",
+      "cells_checked": 197,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "Use an Excel Table and a date-based criteria formula instead of a fixed range like AVERAGE(B24:B69).",
+          "expected": 6.166666667559182
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": "First convert the data to a Table (Ctrl+T) and name it something like Data.",
+          "expected": 6.166666667559182
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": "Then in the rolling-average column use a formula based on the row's date, not on row numbers.",
+          "expected": 10.623611111805076
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": "Example formula: =AVERAGEIFS(Data[Beans Counted],Data[Date],\">=\"&[@Date]-365,Data[Date],\"<=\"&[@Date])",
+          "expected": 10.623611111805076
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 7,
+          "got": "That averages every record whose date is within the last 365 days up to the current row's date.",
+          "expected": 383.91166666732164
+        }
+      ]
+    },
+    {
+      "task_id": "28-7",
+      "cells_checked": 78,
+      "cells_matched": 78,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51556",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57033",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41348",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9726",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31915",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "516-46",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "84-40",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57989",
+      "cells_checked": 133,
+      "cells_matched": 133,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "267-21",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55468",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 30,
+          "row": 4,
+          "got": "INDEX(C$5:Z$10,MATCH(1,INDEX((AE4=A$5:A$10)*(AD4=B$5:B$10),0),0),MATCH(1,INDEX((AC4=C$4:Z$4)*(AB4=C$3:Z$3),0),0))",
+          "expected": 228
+        }
+      ]
+    },
+    {
+      "task_id": "57612",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1563",
+      "cells_checked": 29,
+      "cells_matched": 29,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "423-16",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59639",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37462",
+      "cells_checked": 241,
+      "cells_matched": 241,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58499",
+      "cells_checked": 2,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 12,
+          "got": "Use =FILTER(A2:A7,I2:I7<>\"\u00fc\") to spill every branch whose row in column I is not ticked.",
+          "expected": "BR2"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 13,
+          "got": "With your sample data, the unticked branches returned are BR2 and BR4.",
+          "expected": "BR4"
+        }
+      ]
+    },
+    {
+      "task_id": "52216",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38703",
+      "cells_checked": 23,
+      "cells_matched": 23,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35747",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "534-26",
+      "cells_checked": 35,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 0,
+          "got": "Use",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 0,
+          "got": "VBA:",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 0,
+          "got": "loop",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 0,
+          "got": "columns",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 0,
+          "got": "right-to-left,",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "56953",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59160",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "156-14",
+      "cells_checked": 156,
+      "cells_matched": 156,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38537",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37554",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "82-38",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "105-24",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50324",
+      "cells_checked": 64,
+      "cells_matched": 64,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52220",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "567-21",
+      "cells_checked": 182,
+      "cells_matched": 182,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "6698",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56427",
+      "cells_checked": 324,
+      "cells_matched": 324,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54590",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39046",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48620",
+      "cells_checked": 6,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 1,
+          "got": "VLOOKUP(D2,A:B,2,0) always returns the first match: D2 is the product to find, A:B is the table, 2 means return column B, and 0 means exact match.",
+          "expected": "Yellow"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 2,
+          "got": "That is why repeated products such as Pencil always return the first Type found, instead of the Type from the matching occurrence in the same repeated position.",
+          "expected": "Black"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 3,
+          "got": "A duplicate-safe approach uses INDEX with AGGREGATE: INDEX returns the value from column B, while AGGREGATE calculates which matching row number to use.",
+          "expected": "Yellow1"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 4,
+          "got": "In AGGREGATE(15,6,ROW(...),k), 15 means SMALL, so it asks for the 1st, 2nd, 3rd smallest matching row; 6 means ignore errors created by nonmatching rows.",
+          "expected": "Green"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 5,
+          "got": "ROW(range) builds the candidate row numbers, and after the match test only rows where the product equals D2 remain usable; the rest become errors that option 6 skips.",
+          "expected": "Red"
+        }
+      ]
+    },
+    {
+      "task_id": "42198",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45944",
+      "cells_checked": 9,
+      "cells_matched": 5,
+      "accuracy": 0.5555555555555556,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 11,
+          "got": true,
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 12,
+          "got": false,
+          "expected": true
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 20,
+          "got": true,
+          "expected": false
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 21,
+          "got": false,
+          "expected": true
+        }
+      ]
+    },
+    {
+      "task_id": "334-11",
+      "cells_checked": 7,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "imported Data",
+          "col": 2,
+          "row": 0,
+          "got": "Use Power Query instead of VBA.",
+          "expected": "Current Balance"
+        },
+        {
+          "sheet": "imported Data",
+          "col": 2,
+          "row": 1,
+          "got": "Load 'Imported Data' into Power Query.",
+          "expected": -12671.88
+        },
+        {
+          "sheet": "imported Data",
+          "col": 2,
+          "row": 2,
+          "got": "Filter Column C to remove blank values.",
+          "expected": -19666.7
+        },
+        {
+          "sheet": "imported Data",
+          "col": 2,
+          "row": 3,
+          "got": "Set Column C type to Decimal Number.",
+          "expected": -14269.55
+        },
+        {
+          "sheet": "imported Data",
+          "col": 2,
+          "row": 4,
+          "got": "Keep rows where Column C < -1 or Column C > 1.",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "448-11",
+      "cells_checked": 150,
+      "cells_matched": 10,
+      "accuracy": 0.06666666666666667,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Use only Column A as the duplicate key instead of comparing the entire row.",
+          "expected": " Teacher ID"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "If the code uses a Dictionary or Collection, make the key the value from Column A only.",
+          "expected": 135791121
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "That means the duplicate check should use the first cell in each row, not a concatenation of all columns.",
+          "expected": 135791122
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "If you use Excel's built-in removal method, run RemoveDuplicates on the current region with the duplicate column set to 1.",
+          "expected": 135791123
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": "Set the header option to Yes or No to match whether the first row is a header.",
+          "expected": 135791124
+        }
+      ]
+    },
+    {
+      "task_id": "53117",
+      "cells_checked": 26,
+      "cells_matched": 18,
+      "accuracy": 0.6923076923076923,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 3,
+          "got": 4995,
+          "expected": "Canada"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 8,
+          "got": 141500,
+          "expected": "Japan"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 11,
+          "got": 141500,
+          "expected": "Japan"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 12,
+          "got": 141500,
+          "expected": "Japan"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 15,
+          "got": 43485,
+          "expected": "Japan"
+        }
+      ]
+    },
+    {
+      "task_id": "50811",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39931",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42216",
+      "cells_checked": 320,
+      "cells_matched": 317,
+      "accuracy": 0.990625,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 211,
+          "got": null,
+          "expected": "NA"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 266,
+          "got": null,
+          "expected": "NA"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 306,
+          "got": null,
+          "expected": "NA"
+        }
+      ]
+    },
+    {
+      "task_id": "51262",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56563",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 13,
+          "got": null,
+          "expected": 77772.6
+        }
+      ]
+    },
+    {
+      "task_id": "58949",
+      "cells_checked": 32,
+      "cells_matched": 12,
+      "accuracy": 0.375,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Desired Result",
+          "col": 1,
+          "row": 2,
+          "got": "N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Desired Result",
+          "col": 1,
+          "row": 3,
+          "got": "N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Desired Result",
+          "col": 1,
+          "row": 4,
+          "got": "N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Desired Result",
+          "col": 2,
+          "row": 2,
+          "got": "N/A",
+          "expected": null
+        },
+        {
+          "sheet": "Desired Result",
+          "col": 2,
+          "row": 4,
+          "got": "N/A",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "496-15",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40959",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "374-31",
+      "cells_checked": 20,
+      "cells_matched": 2,
+      "accuracy": 0.1,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 0,
+          "got": "Sub DeleteBlankRowsAboveCode()",
+          "expected": "Code"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 1,
+          "got": "Dim ws As Worksheet",
+          "expected": 98715
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Dim lastRow As Long, r As Long, upRow As Long",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": "Set ws = ActiveSheet",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 4,
+          "got": "lastRow = ws.Cells(ws.Rows.Count, \"A\").End(xlUp).Row",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "49667",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "43436",
+      "cells_checked": 15,
+      "cells_matched": 10,
+      "accuracy": 0.6666666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 2,
+          "got": 4,
+          "expected": 3
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 4,
+          "got": 1,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 1,
+          "got": 2,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 2,
+          "got": 4,
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 3,
+          "got": 2,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "48983",
+      "cells_checked": 42,
+      "cells_matched": 7,
+      "accuracy": 0.16666666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 5,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 6,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 7,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 8,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 13,
+          "row": 5,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "46240",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58687",
+      "cells_checked": 92,
+      "cells_matched": 92,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45063",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "109-21",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55260",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "438-18",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54274",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "267-18",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49300",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "24-23",
+      "cells_checked": 824,
+      "cells_matched": 824,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46897",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 2,
+          "got": "Use COUNTIF with INDEX and MATCH: =COUNTIF(INDEX(A:Z,0,MATCH(\"Fruits\",A1:Z1,0)),\"Apple\"). MATCH finds the header column, INDEX returns that whole column, and COUNTIF counts how many times the value appears in it.",
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "task_id": "50526",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57743",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49801",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49333",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "387-16",
+      "cells_checked": 68,
+      "cells_matched": 48,
+      "accuracy": 0.7058823529411765,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 1,
+          "got": "Target value",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 2,
+          "got": "Solver result",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": "Difference",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 1,
+          "got": 65477,
+          "expected": "Target value :"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 2,
+          "got": 3320,
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "54242",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    }
+  ]
+}

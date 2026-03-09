@@ -1,0 +1,448 @@
+{
+  "title": "GPT-5.4 Prompt Ablation on 45 Skill-Contaminated Tasks",
+  "description": "These 45 tasks were identified as having VBA/formula/text contamination when GPT-5.4 was run with a bare prompt and the Codex spreadsheets skill active. The skill was then disabled and progressive prompt constraints were tested.",
+  "methodology": "Each ablation stage tested a progressively more constrained prompt. The strict stage only ran on the 21 tasks that still failed after xlsx and openpyxl hints, since those had already proven sufficient for the other tasks.",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "bare_skill_active",
+      "result": "0/45 = 0.0%",
+      "note": "All 45 tasks failed due to VBA macros, Excel formulas, or explanatory text in cells. Codex spreadsheets skill was active but had null effect."
+    },
+    {
+      "stage": 2,
+      "name": "bare_skill_disabled",
+      "result": "8/45 = 17.8%",
+      "note": "Disabling the skill recovered 8 tasks. Still heavy VBA/formula contamination."
+    },
+    {
+      "stage": 3,
+      "name": "xlsx_hint",
+      "result": "20/45 = 44.4%",
+      "note": "Generic 'manipulate xlsx directly' hint. Biggest single-step improvement."
+    },
+    {
+      "stage": 4,
+      "name": "openpyxl_hint",
+      "result": "15/44 = 34.1%",
+      "note": "Specific library hint performed slightly worse than generic xlsx hint (34.1% vs 44.4%). Models don't need library-specific instructions."
+    },
+    {
+      "stage": 5,
+      "name": "strict",
+      "result": "8/21 = 38.1%",
+      "note": "On remaining 21 failures, strict 'no VBA' prompt recovered 8 more. 16/21 hardest failures still wrote VBA/text."
+    }
+  ],
+  "reference_models_same_45": {
+    "opus_bare": "36/45 = 80.0%",
+    "tetra": "43/45 = 95.6%"
+  },
+  "key_finding": "Opus naturally uses openpyxl without any prompt hint (80% on these 45 tasks). GPT-5.4 requires explicit 'no VBA' instructions to reach 38.1% on the hardest subset. This reveals a fundamental behavioral difference: Opus computes values in Python, GPT-5.4 defaults to teaching/explaining via VBA and formulas.",
+  "per_task": {
+    "39432": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "37378": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "35742": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": null,
+      "strict": null
+    },
+    "168-17": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "341-40": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "269-44": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "141-20": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "250-20": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "16511": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "269-43": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "15671": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "130-9": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "353-6": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "388-47": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "209-30": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": false,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "160-6": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "23-24": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "262-17": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "374-18": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "370-43": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "304-35": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "31202": {
+      "opus_bare": true,
+      "tetra": false,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "36277": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "12864": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "402-43": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "382-10": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "408-39": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "236-22": {
+      "opus_bare": true,
+      "tetra": false,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "230-16": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "367-23": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "142-12": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    },
+    "157-4": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "165-23": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "32438": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "290-27": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": false,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "38985": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "416-27": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "395-36": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "28-7": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "1563": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": true,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "37554": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": true
+    },
+    "39046": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": true,
+      "strict": null
+    },
+    "334-11": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "374-31": {
+      "opus_bare": false,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": false,
+      "openpyxl_hint": false,
+      "strict": false
+    },
+    "24-23": {
+      "opus_bare": true,
+      "tetra": true,
+      "bare_skill_disabled": false,
+      "xlsx_hint": true,
+      "openpyxl_hint": false,
+      "strict": null
+    }
+  },
+  "run_summaries": {
+    "bare_skill_disabled": {
+      "label": "Bare prompt (skill disabled)",
+      "description": "GPT-5.4 bare prompt with spreadsheets skill disabled. No domain hints.",
+      "tasks_passed": 8,
+      "tasks_total": 45,
+      "accuracy_pct": 17.8
+    },
+    "xlsx_hint": {
+      "label": "xlsx manipulation hint",
+      "description": "Added 'manipulate the xlsx file directly' to prompt. Generic tool hint.",
+      "tasks_passed": 20,
+      "tasks_total": 45,
+      "accuracy_pct": 44.4
+    },
+    "openpyxl_hint": {
+      "label": "openpyxl hint",
+      "description": "Added 'use Python with openpyxl' to prompt. Specific library hint.",
+      "tasks_passed": 15,
+      "tasks_total": 44,
+      "accuracy_pct": 34.1
+    },
+    "strict": {
+      "label": "Strict (no VBA/formulas/text)",
+      "description": "Full strict prompt: openpyxl only, no VBA macros, no formulas, no explanatory text.",
+      "tasks_passed": 8,
+      "tasks_total": 21,
+      "accuracy_pct": 38.1
+    },
+    "opus_bare_same_45": {
+      "label": "Claude Opus 4.6 (bare prompt)",
+      "description": "Opus with identical bare prompt on same 45 tasks",
+      "tasks_passed": 36,
+      "tasks_total": 45,
+      "accuracy_pct": 80.0
+    },
+    "tetra_same_45": {
+      "label": "Claude Opus 4.6 + Tetra pipeline",
+      "description": "Full neurosymbolic pipeline on same 45 tasks",
+      "tasks_passed": 43,
+      "tasks_total": 45,
+      "accuracy_pct": 95.6
+    }
+  }
+}

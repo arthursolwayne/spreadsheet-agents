@@ -1,0 +1,3685 @@
+{
+  "run": "v22l-full-merged",
+  "tasks_passed": 381,
+  "tasks_total": 400,
+  "task_accuracy": 0.9525,
+  "cells_matched": 248981,
+  "cells_total": 297883,
+  "cell_accuracy": 0.8358348747662673,
+  "results": [
+    {
+      "task_id": "57590",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46167",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48643",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "227-40",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "547-43",
+      "cells_checked": 144,
+      "cells_matched": 144,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32612",
+      "cells_checked": 74,
+      "cells_matched": 74,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9448",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55965",
+      "cells_checked": 17,
+      "cells_matched": 17,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39432",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "302-1",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37378",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "61-4",
+      "cells_checked": 98,
+      "cells_matched": 98,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41265",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35742",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "13284",
+      "cells_checked": 25,
+      "cells_matched": 20,
+      "accuracy": 0.8,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 4,
+          "got": null,
+          "expected": "Sonia"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 7,
+          "got": null,
+          "expected": "Mariza"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 9,
+          "got": null,
+          "expected": "Marcy"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 12,
+          "got": null,
+          "expected": "Carlos"
+        },
+        {
+          "sheet": "Base",
+          "col": 4,
+          "row": 15,
+          "got": null,
+          "expected": "Fontana"
+        }
+      ]
+    },
+    {
+      "task_id": "43213",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "18645",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42902",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "82-30",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "168-17",
+      "cells_checked": 55,
+      "cells_matched": 55,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "17111",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54638",
+      "cells_checked": 149,
+      "cells_matched": 149,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "341-40",
+      "cells_checked": 11917,
+      "cells_matched": 11917,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45300",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41969",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45937",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58147",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50250",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "545-35",
+      "cells_checked": 270,
+      "cells_matched": 270,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54144",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49196",
+      "cells_checked": 46,
+      "cells_matched": 46,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56599",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "269-44",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55421",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38462",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59358",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53167",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "141-20",
+      "cells_checked": 38,
+      "cells_matched": 38,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "13-1",
+      "cells_checked": 120,
+      "cells_matched": 120,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "250-20",
+      "cells_checked": 200,
+      "cells_matched": 200,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59884",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50768",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48982",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51359",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "16511",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "560-12",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "477-45",
+      "cells_checked": 3000,
+      "cells_matched": 3000,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58723",
+      "cells_checked": 40,
+      "cells_matched": 40,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48365",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48745",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "269-43",
+      "cells_checked": 63,
+      "cells_matched": 63,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46121",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42930",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "599-9",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53994",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56378",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "108-24",
+      "cells_checked": 88,
+      "cells_matched": 88,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15671",
+      "cells_checked": 260,
+      "cells_matched": 260,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36191",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "34033",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53161",
+      "cells_checked": 208,
+      "cells_matched": 3,
+      "accuracy": 0.014423076923076924,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 21,
+          "got": 6,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 22,
+          "got": 5,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 23,
+          "got": 5,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 24,
+          "got": 3,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 5,
+          "row": 25,
+          "got": 2,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "130-9",
+      "cells_checked": 133,
+      "cells_matched": 133,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55817",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58032",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37456",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58109",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51289",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "353-6",
+      "cells_checked": 680,
+      "cells_matched": 680,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "388-47",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51680",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "17-35",
+      "cells_checked": 1450,
+      "cells_matched": 1450,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32255",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59734",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "30930",
+      "cells_checked": 65,
+      "cells_matched": 65,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59129",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "209-30",
+      "cells_checked": 6066,
+      "cells_matched": 6066,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "66-24",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "160-6",
+      "cells_checked": 72,
+      "cells_matched": 72,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58484",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "23-24",
+      "cells_checked": 5510,
+      "cells_matched": 5510,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44389",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39903",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "194-19",
+      "cells_checked": 740,
+      "cells_matched": 740,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55979",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "7902",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56225",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48257",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "283-32",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "192-22",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50971",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52050",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57693",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51249",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "80-42",
+      "cells_checked": 95988,
+      "cells_matched": 48013,
+      "accuracy": 0.5001979414093428,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 3999,
+          "got": null,
+          "expected": "2023-05-01 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4000,
+          "got": null,
+          "expected": "2023-05-02 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4001,
+          "got": null,
+          "expected": "2023-05-03 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4002,
+          "got": null,
+          "expected": "2023-05-04 00:00:00"
+        },
+        {
+          "sheet": "Consolidate_ALL",
+          "col": 0,
+          "row": 4003,
+          "got": null,
+          "expected": "2023-05-05 00:00:00"
+        }
+      ]
+    },
+    {
+      "task_id": "39515",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51431",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "60-7",
+      "cells_checked": 45,
+      "cells_matched": 45,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54717",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57262",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44296",
+      "cells_checked": 102,
+      "cells_matched": 102,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "469-9",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57445",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "262-17",
+      "cells_checked": 84,
+      "cells_matched": 84,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46646",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32293",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56419",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "455-35",
+      "cells_checked": 104110,
+      "cells_matched": 104110,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "203-15",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50916",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59196",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9391",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41601",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "170-13",
+      "cells_checked": 200,
+      "cells_matched": 200,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56915",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "510-3",
+      "cells_checked": 77,
+      "cells_matched": 77,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50521",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31628",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "97-36",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "384-4",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "416-15",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "374-18",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15387",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52807",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "370-43",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "43589",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50486",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "304-35",
+      "cells_checked": 204,
+      "cells_matched": 204,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56921",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40478",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "399-14",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45635",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31202",
+      "cells_checked": 46,
+      "cells_matched": 44,
+      "accuracy": 0.9565217391304348,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 34,
+          "got": -1500,
+          "expected": 1500
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 9,
+          "row": 44,
+          "got": -1000,
+          "expected": 1000
+        }
+      ]
+    },
+    {
+      "task_id": "55977",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "463-17",
+      "cells_checked": 45,
+      "cells_matched": 45,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36277",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "73-45",
+      "cells_checked": 307,
+      "cells_matched": 307,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "280-17",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "12307",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50683",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "279-23",
+      "cells_checked": 48,
+      "cells_matched": 48,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55708",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48608",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40892",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "12864",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49857",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "333-29",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "379-36",
+      "cells_checked": 16,
+      "cells_matched": 14,
+      "accuracy": 0.875,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 9,
+          "got": "Georgia WH Tax/ga Tx *****0",
+          "expected": "Georgia WH Tax"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 10,
+          "got": "Georgia Sales Tax/ga Tx Payment",
+          "expected": "Georgia Sales Tax"
+        }
+      ]
+    },
+    {
+      "task_id": "58701",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "11842",
+      "cells_checked": 96,
+      "cells_matched": 96,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41978",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53383",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55976",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44266",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52305",
+      "cells_checked": 95,
+      "cells_matched": 95,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "353-29",
+      "cells_checked": 180,
+      "cells_matched": 180,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48080",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51586",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "79-7",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47827",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45896",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47798",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50051",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47766",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "531-18",
+      "cells_checked": 2904,
+      "cells_matched": 2904,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "15380",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32093",
+      "cells_checked": 14,
+      "cells_matched": 14,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "10452",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "343-20",
+      "cells_checked": 25,
+      "cells_matched": 25,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57354",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35739",
+      "cells_checked": 99,
+      "cells_matched": 99,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "297-42",
+      "cells_checked": 12315,
+      "cells_matched": 12315,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52917",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "6239",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50682",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31746",
+      "cells_checked": 36,
+      "cells_matched": 36,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "524-31",
+      "cells_checked": 53,
+      "cells_matched": 53,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42354",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55060",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "359-21",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45738",
+      "cells_checked": 480,
+      "cells_matched": 479,
+      "accuracy": 0.9979166666666667,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 11,
+          "row": 12,
+          "got": 1160,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "48527",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "486-17",
+      "cells_checked": 129,
+      "cells_matched": 129,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "402-43",
+      "cells_checked": 330,
+      "cells_matched": 330,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "398-14",
+      "cells_checked": 56,
+      "cells_matched": 37,
+      "accuracy": 0.6607142857142857,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 1,
+          "got": 600,
+          "expected": 300.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 2,
+          "got": 540,
+          "expected": 270.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 3,
+          "got": 120,
+          "expected": 60.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 4,
+          "got": 140,
+          "expected": 70.0
+        },
+        {
+          "sheet": "COLLECTION",
+          "col": 4,
+          "row": 5,
+          "got": 144,
+          "expected": 72.0
+        }
+      ]
+    },
+    {
+      "task_id": "32337",
+      "cells_checked": 13,
+      "cells_matched": 13,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57232",
+      "cells_checked": 190,
+      "cells_matched": 189,
+      "accuracy": 0.9947368421052631,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sea Freight Rates",
+          "col": 7,
+          "row": 11,
+          "got": 0,
+          "expected": 2
+        }
+      ]
+    },
+    {
+      "task_id": "146-49",
+      "cells_checked": 130,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 0,
+          "got": "ALEXINE",
+          "expected": "ALEXINS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 1,
+          "got": "AREOLAE",
+          "expected": "AREOLAS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 2,
+          "got": "BERLINE",
+          "expected": "BERLINS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 3,
+          "got": "CATENAE",
+          "expected": "CATENAS"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 6,
+          "row": 4,
+          "got": "CINEOLE",
+          "expected": "CINEOLS"
+        }
+      ]
+    },
+    {
+      "task_id": "382-10",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "118-50",
+      "cells_checked": 9998,
+      "cells_matched": 9998,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "408-39",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "177-6",
+      "cells_checked": 144,
+      "cells_matched": 144,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50193",
+      "cells_checked": 602,
+      "cells_matched": 602,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54474",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38969",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3911",
+      "cells_checked": 63,
+      "cells_matched": 63,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55085",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59794",
+      "cells_checked": 33,
+      "cells_matched": 33,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "236-22",
+      "cells_checked": 35,
+      "cells_matched": 17,
+      "accuracy": 0.4857142857142857,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 2,
+          "got": "Line No",
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 3,
+          "got": 1,
+          "expected": null
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 5,
+          "got": null,
+          "expected": "Line No"
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 0,
+          "row": 6,
+          "got": null,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 1,
+          "row": 2,
+          "got": "SLAccount",
+          "expected": null
+        }
+      ]
+    },
+    {
+      "task_id": "230-16",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52532",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "10747",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "247-24",
+      "cells_checked": 897,
+      "cells_matched": 897,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42515",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "496-34",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52575",
+      "cells_checked": 91,
+      "cells_matched": 91,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45372",
+      "cells_checked": 14,
+      "cells_matched": 14,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32902",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51-12",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59595",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "8942",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48921",
+      "cells_checked": 4451,
+      "cells_matched": 4451,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "142-19",
+      "cells_checked": 164,
+      "cells_matched": 164,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "472-15",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50088",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48924",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "367-23",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57558",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55049",
+      "cells_checked": 21,
+      "cells_matched": 21,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41691",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41410",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "11276",
+      "cells_checked": 31,
+      "cells_matched": 31,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53449",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "325-44",
+      "cells_checked": 70,
+      "cells_matched": 70,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "142-12",
+      "cells_checked": 75,
+      "cells_matched": 75,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "290-1",
+      "cells_checked": 99,
+      "cells_matched": 99,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54513",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42181",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "414-20",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32789",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "157-4",
+      "cells_checked": 675,
+      "cells_matched": 675,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "147-48",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44628",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56920",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3002",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "208-20",
+      "cells_checked": 222,
+      "cells_matched": 222,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54675",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54085",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59511",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9569",
+      "cells_checked": 1280,
+      "cells_matched": 1280,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54196",
+      "cells_checked": 278,
+      "cells_matched": 278,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "7665",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "440-24",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38074",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54667",
+      "cells_checked": 56,
+      "cells_matched": 56,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31011",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36097",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1925",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42526",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48588",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52964",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "18935",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "178-22",
+      "cells_checked": 54,
+      "cells_matched": 54,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55427",
+      "cells_checked": 1460,
+      "cells_matched": 1460,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47933",
+      "cells_checked": 153,
+      "cells_matched": 153,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "408-5",
+      "cells_checked": 685,
+      "cells_matched": 684,
+      "accuracy": 0.9985401459854014,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 3,
+          "row": 1,
+          "got": 32621.23,
+          "expected": -74.95999999999415
+        }
+      ]
+    },
+    {
+      "task_id": "34210",
+      "cells_checked": 55,
+      "cells_matched": 55,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "43657",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39190",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1818",
+      "cells_checked": 132,
+      "cells_matched": 132,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "183-8",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49036",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Dashboard",
+          "col": 1,
+          "row": 7,
+          "got": "67% WIN RATE",
+          "expected": "66.67% WIN RATE"
+        }
+      ]
+    },
+    {
+      "task_id": "45707",
+      "cells_checked": 68,
+      "cells_matched": 68,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37086",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51354",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "577-40",
+      "cells_checked": 594,
+      "cells_matched": 594,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54925",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50952",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "47842",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56274",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "585-41",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50631",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9111",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44913",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "33722",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58904",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41589",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "493-18",
+      "cells_checked": 42,
+      "cells_matched": 42,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "165-23",
+      "cells_checked": 1008,
+      "cells_matched": 1008,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "36764",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "409-45",
+      "cells_checked": 95,
+      "cells_matched": 95,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57117",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52233",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32438",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "191-40",
+      "cells_checked": 680,
+      "cells_matched": 680,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41-47",
+      "cells_checked": 6403,
+      "cells_matched": 6403,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "3413",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59902",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "91-34",
+      "cells_checked": 574,
+      "cells_matched": 574,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "44017",
+      "cells_checked": 348,
+      "cells_matched": 50,
+      "accuracy": 0.14367816091954022,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 13,
+          "got": 39540.39858118745,
+          "expected": 55198.076538341
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 14,
+          "got": 48827.296948143194,
+          "expected": 18039.3808965942
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 15,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 16,
+          "got": null,
+          "expected": 105525.012
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 29,
+          "row": 17,
+          "got": 114229.59572433373,
+          "expected": 97766.5308934943
+        }
+      ]
+    },
+    {
+      "task_id": "535-20",
+      "cells_checked": 7965,
+      "cells_matched": 7965,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "290-27",
+      "cells_checked": 1116,
+      "cells_matched": 1116,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39667",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "5835",
+      "cells_checked": 17,
+      "cells_matched": 12,
+      "accuracy": 0.7058823529411765,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 7,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 8,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 9,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 10,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "4714",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38985",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52541",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "33157",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "488-14",
+      "cells_checked": 84,
+      "cells_matched": 84,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "263-1",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38823",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "254-34",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58942",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "22-47",
+      "cells_checked": 27,
+      "cells_matched": 27,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "14240",
+      "cells_checked": 72,
+      "cells_matched": 72,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "433-47",
+      "cells_checked": 189,
+      "cells_matched": 189,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50796",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53647",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41420",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48969",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37900",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 4,
+          "row": 4,
+          "got": 5000,
+          "expected": 2000
+        }
+      ]
+    },
+    {
+      "task_id": "49237",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "416-27",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59224",
+      "cells_checked": 11,
+      "cells_matched": 11,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "188-39",
+      "cells_checked": 33,
+      "cells_matched": 33,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40757",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37229",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48975",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32562",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "120-24",
+      "cells_checked": 44,
+      "cells_matched": 44,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "341-14",
+      "cells_checked": 56,
+      "cells_matched": 56,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "2768",
+      "cells_checked": 17,
+      "cells_matched": 17,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "382-29",
+      "cells_checked": 25,
+      "cells_matched": 25,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "547-18",
+      "cells_checked": 28,
+      "cells_matched": 28,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "32023",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57113",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49945",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "395-36",
+      "cells_checked": 300,
+      "cells_matched": 300,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51090",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "493-5",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56786",
+      "cells_checked": 197,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 3,
+          "got": null,
+          "expected": 6.166666667559182
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 4,
+          "got": 1.5000000013969839,
+          "expected": 6.166666667559182
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 5,
+          "got": 6.166666667559184,
+          "expected": 10.623611111805076
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 6,
+          "got": 13.442592593492009,
+          "expected": 10.623611111805076
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 2,
+          "row": 7,
+          "got": 10.623611111805076,
+          "expected": 383.91166666732164
+        }
+      ]
+    },
+    {
+      "task_id": "28-7",
+      "cells_checked": 78,
+      "cells_matched": 78,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51556",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57033",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "41348",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "9726",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "31915",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "516-46",
+      "cells_checked": 15,
+      "cells_matched": 15,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "84-40",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57989",
+      "cells_checked": 133,
+      "cells_matched": 133,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "267-21",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55468",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57612",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "1563",
+      "cells_checked": 29,
+      "cells_matched": 29,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "423-16",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59639",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37462",
+      "cells_checked": 241,
+      "cells_matched": 241,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58499",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52216",
+      "cells_checked": 10,
+      "cells_matched": 10,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38703",
+      "cells_checked": 23,
+      "cells_matched": 23,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "35747",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "534-26",
+      "cells_checked": 35,
+      "cells_matched": 35,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56953",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "59160",
+      "cells_checked": 4,
+      "cells_matched": 4,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "156-14",
+      "cells_checked": 156,
+      "cells_matched": 156,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "38537",
+      "cells_checked": 34,
+      "cells_matched": 34,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "37554",
+      "cells_checked": 16,
+      "cells_matched": 16,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "82-38",
+      "cells_checked": 19,
+      "cells_matched": 19,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "105-24",
+      "cells_checked": 22,
+      "cells_matched": 22,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50324",
+      "cells_checked": 64,
+      "cells_matched": 64,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "52220",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "567-21",
+      "cells_checked": 182,
+      "cells_matched": 182,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "6698",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56427",
+      "cells_checked": 324,
+      "cells_matched": 324,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54590",
+      "cells_checked": 1,
+      "cells_matched": 0,
+      "accuracy": 0.0,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 192,
+          "row": 28,
+          "got": 0,
+          "expected": 692.71486185
+        }
+      ]
+    },
+    {
+      "task_id": "39046",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "48620",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42198",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45944",
+      "cells_checked": 9,
+      "cells_matched": 9,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "334-11",
+      "cells_checked": 7,
+      "cells_matched": 7,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "448-11",
+      "cells_checked": 150,
+      "cells_matched": 150,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "53117",
+      "cells_checked": 26,
+      "cells_matched": 26,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50811",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "39931",
+      "cells_checked": 12,
+      "cells_matched": 12,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "42216",
+      "cells_checked": 320,
+      "cells_matched": 320,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "51262",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "56563",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58949",
+      "cells_checked": 32,
+      "cells_matched": 32,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "496-15",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "40959",
+      "cells_checked": 6,
+      "cells_matched": 6,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "374-31",
+      "cells_checked": 20,
+      "cells_matched": 20,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49667",
+      "cells_checked": 60,
+      "cells_matched": 60,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "43436",
+      "cells_checked": 15,
+      "cells_matched": 10,
+      "accuracy": 0.6666666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 2,
+          "got": 4,
+          "expected": 3
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 8,
+          "row": 4,
+          "got": 1,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 1,
+          "got": 2,
+          "expected": 1
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 2,
+          "got": 4,
+          "expected": 2
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 10,
+          "row": 3,
+          "got": 2,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "task_id": "48983",
+      "cells_checked": 42,
+      "cells_matched": 7,
+      "accuracy": 0.16666666666666666,
+      "pass": false,
+      "mismatches": [
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 5,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 6,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 7,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 12,
+          "row": 8,
+          "got": null,
+          "expected": 0
+        },
+        {
+          "sheet": "Sheet1",
+          "col": 13,
+          "row": 5,
+          "got": null,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "task_id": "46240",
+      "cells_checked": 3,
+      "cells_matched": 3,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "58687",
+      "cells_checked": 92,
+      "cells_matched": 92,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "45063",
+      "cells_checked": 5,
+      "cells_matched": 5,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "109-21",
+      "cells_checked": 39,
+      "cells_matched": 39,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "55260",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "438-18",
+      "cells_checked": 24,
+      "cells_matched": 24,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54274",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "267-18",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49300",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "24-23",
+      "cells_checked": 824,
+      "cells_matched": 824,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "46897",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "50526",
+      "cells_checked": 2,
+      "cells_matched": 2,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "57743",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49801",
+      "cells_checked": 1,
+      "cells_matched": 1,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "49333",
+      "cells_checked": 18,
+      "cells_matched": 18,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "387-16",
+      "cells_checked": 68,
+      "cells_matched": 68,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "task_id": "54242",
+      "cells_checked": 8,
+      "cells_matched": 8,
+      "accuracy": 1.0,
+      "pass": true,
+      "mismatches": []
+    }
+  ]
+}

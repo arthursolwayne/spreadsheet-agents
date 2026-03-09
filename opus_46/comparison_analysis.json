@@ -1,0 +1,2849 @@
+{
+  "title": "SpreadsheetBench Bare vs Tetra Pipeline \u2014 Comparative Analysis",
+  "date": "2026-03-09",
+  "models": {
+    "bare": {
+      "label": "Claude Opus 4.6 (bare)",
+      "prompt": "3-line minimal: read input.xlsx, write answer, instruction",
+      "hooks": "none",
+      "domain_hints": false,
+      "formula_eval": "post-hoc (Python formulas + LibreOffice)",
+      "tasks_passed": 319,
+      "tasks_total": 395,
+      "accuracy_pct": 80.8
+    },
+    "tetra": {
+      "label": "Claude Opus 4.6 + Tetra pipeline",
+      "prompt": "Tetra neurosymbolic engine",
+      "hooks": "Tetra",
+      "domain_hints": true,
+      "formula_eval": "Tetra",
+      "tasks_passed": 381,
+      "tasks_total": 400,
+      "accuracy_pct": 95.2
+    }
+  },
+  "timing_comparison": {
+    "bare": {
+      "avg_seconds": 40.7,
+      "median_seconds": 28.9,
+      "p90_seconds": 74.8,
+      "total_compute_hours": 4.47
+    },
+    "tetra": {
+      "avg_seconds": 109.6,
+      "median_seconds": 97.3,
+      "p90_seconds": 168.5,
+      "total_compute_hours": 12.18,
+      "tasks_with_timing": 400
+    }
+  },
+  "per_task": [
+    {
+      "task_id": "10452",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.9,
+      "tetra_duration": 87.4
+    },
+    {
+      "task_id": "105-24",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 44.5,
+      "tetra_duration": 114.7
+    },
+    {
+      "task_id": "10747",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.6,
+      "tetra_duration": 76.6
+    },
+    {
+      "task_id": "108-24",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.5,
+      "tetra_duration": 105.7
+    },
+    {
+      "task_id": "109-21",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 33.4,
+      "tetra_duration": 90.5
+    },
+    {
+      "task_id": "11276",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.2,
+      "tetra_duration": 132.5
+    },
+    {
+      "task_id": "118-50",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 55.8,
+      "tetra_duration": 153.2
+    },
+    {
+      "task_id": "11842",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 103.4,
+      "tetra_duration": 339.1
+    },
+    {
+      "task_id": "120-24",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.5,
+      "tetra_duration": 130.4
+    },
+    {
+      "task_id": "12307",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.9,
+      "tetra_duration": 54.5
+    },
+    {
+      "task_id": "12864",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.4,
+      "tetra_duration": 99.9
+    },
+    {
+      "task_id": "13-1",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.7,
+      "tetra_duration": 216.7
+    },
+    {
+      "task_id": "130-9",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 108.4,
+      "tetra_duration": 201.7
+    },
+    {
+      "task_id": "13284",
+      "bare_pass": null,
+      "tetra_pass": false,
+      "bare_duration": 0,
+      "tetra_duration": 202.7
+    },
+    {
+      "task_id": "141-20",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.7,
+      "tetra_duration": 123.3
+    },
+    {
+      "task_id": "142-12",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.6,
+      "tetra_duration": 77.1
+    },
+    {
+      "task_id": "142-19",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.6,
+      "tetra_duration": 80.2
+    },
+    {
+      "task_id": "14240",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 64.4,
+      "tetra_duration": 131.3
+    },
+    {
+      "task_id": "146-49",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 28.6,
+      "tetra_duration": 165.6
+    },
+    {
+      "task_id": "147-48",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.1,
+      "tetra_duration": 79.6
+    },
+    {
+      "task_id": "15380",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 51.7,
+      "tetra_duration": 82.9
+    },
+    {
+      "task_id": "15387",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 58.5,
+      "tetra_duration": 97.9
+    },
+    {
+      "task_id": "156-14",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.0,
+      "tetra_duration": 95.7
+    },
+    {
+      "task_id": "1563",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.7,
+      "tetra_duration": 86.2
+    },
+    {
+      "task_id": "15671",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.0,
+      "tetra_duration": 103.4
+    },
+    {
+      "task_id": "157-4",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 33.5,
+      "tetra_duration": 116.3
+    },
+    {
+      "task_id": "160-6",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.5,
+      "tetra_duration": 95.1
+    },
+    {
+      "task_id": "165-23",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 33.7,
+      "tetra_duration": 100.6
+    },
+    {
+      "task_id": "16511",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.9,
+      "tetra_duration": 69.5
+    },
+    {
+      "task_id": "168-17",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 29.8,
+      "tetra_duration": 123.6
+    },
+    {
+      "task_id": "17-35",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 75.2,
+      "tetra_duration": 143.2
+    },
+    {
+      "task_id": "170-13",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 55.6,
+      "tetra_duration": 151.9
+    },
+    {
+      "task_id": "17111",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 28.2,
+      "tetra_duration": 88.3
+    },
+    {
+      "task_id": "177-6",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 79.9,
+      "tetra_duration": 192.7
+    },
+    {
+      "task_id": "178-22",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.3,
+      "tetra_duration": 89.9
+    },
+    {
+      "task_id": "1818",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 39.0,
+      "tetra_duration": 128.3
+    },
+    {
+      "task_id": "183-8",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 32.1,
+      "tetra_duration": 143.0
+    },
+    {
+      "task_id": "18645",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 31.9,
+      "tetra_duration": 121.0
+    },
+    {
+      "task_id": "188-39",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 18.2,
+      "tetra_duration": 115.7
+    },
+    {
+      "task_id": "18935",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.6,
+      "tetra_duration": 137.3
+    },
+    {
+      "task_id": "191-40",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 52.2,
+      "tetra_duration": 172.8
+    },
+    {
+      "task_id": "192-22",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 44.8,
+      "tetra_duration": 83.3
+    },
+    {
+      "task_id": "1925",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 48.2,
+      "tetra_duration": 112.9
+    },
+    {
+      "task_id": "194-19",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 224.4,
+      "tetra_duration": 314.4
+    },
+    {
+      "task_id": "203-15",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.8,
+      "tetra_duration": 130.0
+    },
+    {
+      "task_id": "208-20",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 40.4,
+      "tetra_duration": 206.8
+    },
+    {
+      "task_id": "209-30",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.1,
+      "tetra_duration": 140.5
+    },
+    {
+      "task_id": "22-47",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 225.5,
+      "tetra_duration": 126.6
+    },
+    {
+      "task_id": "227-40",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.3,
+      "tetra_duration": 89.1
+    },
+    {
+      "task_id": "23-24",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 57.5,
+      "tetra_duration": 140.7
+    },
+    {
+      "task_id": "230-16",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 33.6,
+      "tetra_duration": 250.8
+    },
+    {
+      "task_id": "236-22",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 130.9,
+      "tetra_duration": 112.2
+    },
+    {
+      "task_id": "24-23",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 30.8,
+      "tetra_duration": 168.5
+    },
+    {
+      "task_id": "247-24",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 37.7,
+      "tetra_duration": 145.6
+    },
+    {
+      "task_id": "250-20",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 35.8,
+      "tetra_duration": 156.1
+    },
+    {
+      "task_id": "254-34",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.7,
+      "tetra_duration": 85.7
+    },
+    {
+      "task_id": "262-17",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.6,
+      "tetra_duration": 90.9
+    },
+    {
+      "task_id": "263-1",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 39.3,
+      "tetra_duration": 96.9
+    },
+    {
+      "task_id": "267-18",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.5,
+      "tetra_duration": 110.0
+    },
+    {
+      "task_id": "267-21",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.6,
+      "tetra_duration": 88.8
+    },
+    {
+      "task_id": "269-43",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 18.2,
+      "tetra_duration": 88.8
+    },
+    {
+      "task_id": "269-44",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 99.1,
+      "tetra_duration": 89.5
+    },
+    {
+      "task_id": "2768",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 51.6,
+      "tetra_duration": 126.1
+    },
+    {
+      "task_id": "279-23",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.6,
+      "tetra_duration": 68.4
+    },
+    {
+      "task_id": "28-7",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.9,
+      "tetra_duration": 101.0
+    },
+    {
+      "task_id": "280-17",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.2,
+      "tetra_duration": 108.1
+    },
+    {
+      "task_id": "283-32",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.7,
+      "tetra_duration": 123.7
+    },
+    {
+      "task_id": "290-1",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 68.9,
+      "tetra_duration": 148.6
+    },
+    {
+      "task_id": "290-27",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.7,
+      "tetra_duration": 133.5
+    },
+    {
+      "task_id": "297-42",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.1,
+      "tetra_duration": 89.2
+    },
+    {
+      "task_id": "3002",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 61.7,
+      "tetra_duration": 92.3
+    },
+    {
+      "task_id": "302-1",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.5,
+      "tetra_duration": 80.7
+    },
+    {
+      "task_id": "304-35",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 44.6,
+      "tetra_duration": 191.5
+    },
+    {
+      "task_id": "30930",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 18.4,
+      "tetra_duration": 92.4
+    },
+    {
+      "task_id": "31011",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 37.4,
+      "tetra_duration": 88.7
+    },
+    {
+      "task_id": "31202",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 126.6,
+      "tetra_duration": 111.5
+    },
+    {
+      "task_id": "31628",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 13.8,
+      "tetra_duration": 57.3
+    },
+    {
+      "task_id": "31746",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 34.9,
+      "tetra_duration": 127.8
+    },
+    {
+      "task_id": "31915",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 19.2,
+      "tetra_duration": 101.0
+    },
+    {
+      "task_id": "32023",
+      "bare_pass": null,
+      "tetra_pass": true,
+      "bare_duration": 0,
+      "tetra_duration": 136.2
+    },
+    {
+      "task_id": "32093",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.6,
+      "tetra_duration": 71.0
+    },
+    {
+      "task_id": "32255",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.9,
+      "tetra_duration": 100.9
+    },
+    {
+      "task_id": "32293",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.9,
+      "tetra_duration": 63.7
+    },
+    {
+      "task_id": "32337",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 56.3,
+      "tetra_duration": 166.5
+    },
+    {
+      "task_id": "32438",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 15.4,
+      "tetra_duration": 76.2
+    },
+    {
+      "task_id": "325-44",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 45.6,
+      "tetra_duration": 150.6
+    },
+    {
+      "task_id": "32562",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.4,
+      "tetra_duration": 73.1
+    },
+    {
+      "task_id": "32612",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.1,
+      "tetra_duration": 117.1
+    },
+    {
+      "task_id": "32789",
+      "bare_pass": null,
+      "tetra_pass": false,
+      "bare_duration": 0,
+      "tetra_duration": 175.3
+    },
+    {
+      "task_id": "32902",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.3,
+      "tetra_duration": 84.7
+    },
+    {
+      "task_id": "33157",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.8,
+      "tetra_duration": 94.8
+    },
+    {
+      "task_id": "333-29",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.3,
+      "tetra_duration": 82.2
+    },
+    {
+      "task_id": "334-11",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.2,
+      "tetra_duration": 79.7
+    },
+    {
+      "task_id": "33722",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 32.6,
+      "tetra_duration": 94.8
+    },
+    {
+      "task_id": "34033",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 31.9,
+      "tetra_duration": 119.6
+    },
+    {
+      "task_id": "341-14",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.9,
+      "tetra_duration": 105.0
+    },
+    {
+      "task_id": "341-40",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 16.8,
+      "tetra_duration": 114.5
+    },
+    {
+      "task_id": "3413",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.1,
+      "tetra_duration": 75.8
+    },
+    {
+      "task_id": "34210",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 12.8,
+      "tetra_duration": 72.7
+    },
+    {
+      "task_id": "343-20",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.1,
+      "tetra_duration": 104.2
+    },
+    {
+      "task_id": "353-29",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.2,
+      "tetra_duration": 136.4
+    },
+    {
+      "task_id": "353-6",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.6,
+      "tetra_duration": 83.1
+    },
+    {
+      "task_id": "35739",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 24.0,
+      "tetra_duration": 162.7
+    },
+    {
+      "task_id": "35742",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 74.8,
+      "tetra_duration": 121.0
+    },
+    {
+      "task_id": "35747",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.7,
+      "tetra_duration": 72.8
+    },
+    {
+      "task_id": "359-21",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 34.8,
+      "tetra_duration": 79.3
+    },
+    {
+      "task_id": "36097",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 68.5,
+      "tetra_duration": 132.9
+    },
+    {
+      "task_id": "36191",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.7,
+      "tetra_duration": 57.3
+    },
+    {
+      "task_id": "36277",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 44.1,
+      "tetra_duration": 81.2
+    },
+    {
+      "task_id": "367-23",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.8,
+      "tetra_duration": 76.6
+    },
+    {
+      "task_id": "36764",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 39.4,
+      "tetra_duration": 57.0
+    },
+    {
+      "task_id": "370-43",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 48.7,
+      "tetra_duration": 241.7
+    },
+    {
+      "task_id": "37086",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.2,
+      "tetra_duration": 51.7
+    },
+    {
+      "task_id": "37229",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 49.9,
+      "tetra_duration": 112.7
+    },
+    {
+      "task_id": "37378",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.0,
+      "tetra_duration": 57.3
+    },
+    {
+      "task_id": "374-18",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 71.8,
+      "tetra_duration": 133.6
+    },
+    {
+      "task_id": "374-31",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 28.4,
+      "tetra_duration": 97.0
+    },
+    {
+      "task_id": "37456",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 59.4,
+      "tetra_duration": 137.1
+    },
+    {
+      "task_id": "37462",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 41.7,
+      "tetra_duration": 189.3
+    },
+    {
+      "task_id": "37554",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 22.9,
+      "tetra_duration": 97.5
+    },
+    {
+      "task_id": "379-36",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.8,
+      "tetra_duration": 76.3
+    },
+    {
+      "task_id": "37900",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 36.7,
+      "tetra_duration": 92.4
+    },
+    {
+      "task_id": "38074",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 32.3,
+      "tetra_duration": 140.1
+    },
+    {
+      "task_id": "382-10",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.1,
+      "tetra_duration": 63.2
+    },
+    {
+      "task_id": "382-29",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 47.4,
+      "tetra_duration": 176.2
+    },
+    {
+      "task_id": "384-4",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 37.9,
+      "tetra_duration": 63.1
+    },
+    {
+      "task_id": "38462",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.8,
+      "tetra_duration": 69.1
+    },
+    {
+      "task_id": "38537",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.8,
+      "tetra_duration": 113.6
+    },
+    {
+      "task_id": "387-16",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 48.6,
+      "tetra_duration": 137.8
+    },
+    {
+      "task_id": "38703",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.8,
+      "tetra_duration": 88.0
+    },
+    {
+      "task_id": "388-47",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.6,
+      "tetra_duration": 78.7
+    },
+    {
+      "task_id": "38823",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.0,
+      "tetra_duration": 83.8
+    },
+    {
+      "task_id": "38969",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.9,
+      "tetra_duration": 82.7
+    },
+    {
+      "task_id": "38985",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 54.9,
+      "tetra_duration": 102.7
+    },
+    {
+      "task_id": "39046",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 67.8,
+      "tetra_duration": 107.1
+    },
+    {
+      "task_id": "3911",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 56.9,
+      "tetra_duration": 133.1
+    },
+    {
+      "task_id": "39190",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.9,
+      "tetra_duration": 82.6
+    },
+    {
+      "task_id": "39432",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 74.9,
+      "tetra_duration": 104.4
+    },
+    {
+      "task_id": "395-36",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 26.2,
+      "tetra_duration": 139.5
+    },
+    {
+      "task_id": "39515",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.3,
+      "tetra_duration": 80.3
+    },
+    {
+      "task_id": "39667",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 56.0,
+      "tetra_duration": 108.3
+    },
+    {
+      "task_id": "398-14",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 71.4,
+      "tetra_duration": 379.1
+    },
+    {
+      "task_id": "399-14",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 31.8,
+      "tetra_duration": 109.8
+    },
+    {
+      "task_id": "39903",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.3,
+      "tetra_duration": 88.1
+    },
+    {
+      "task_id": "39931",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.6,
+      "tetra_duration": 112.2
+    },
+    {
+      "task_id": "402-43",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 27.0,
+      "tetra_duration": 146.0
+    },
+    {
+      "task_id": "40478",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 33.1,
+      "tetra_duration": 66.0
+    },
+    {
+      "task_id": "40757",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.2,
+      "tetra_duration": 65.0
+    },
+    {
+      "task_id": "408-39",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 48.2,
+      "tetra_duration": 83.6
+    },
+    {
+      "task_id": "408-5",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 68.5,
+      "tetra_duration": 160.2
+    },
+    {
+      "task_id": "40892",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.6,
+      "tetra_duration": 98.7
+    },
+    {
+      "task_id": "409-45",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.8,
+      "tetra_duration": 158.6
+    },
+    {
+      "task_id": "40959",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.3,
+      "tetra_duration": 69.5
+    },
+    {
+      "task_id": "41-47",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 78.8,
+      "tetra_duration": 342.7
+    },
+    {
+      "task_id": "41265",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.6,
+      "tetra_duration": 71.0
+    },
+    {
+      "task_id": "41348",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.2,
+      "tetra_duration": 89.2
+    },
+    {
+      "task_id": "414-20",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 44.0,
+      "tetra_duration": 96.7
+    },
+    {
+      "task_id": "41410",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 47.0,
+      "tetra_duration": 84.5
+    },
+    {
+      "task_id": "41420",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 55.4,
+      "tetra_duration": 76.5
+    },
+    {
+      "task_id": "41589",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 18.0,
+      "tetra_duration": 121.8
+    },
+    {
+      "task_id": "416-15",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 18.1,
+      "tetra_duration": 107.9
+    },
+    {
+      "task_id": "416-27",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 56.9,
+      "tetra_duration": 138.4
+    },
+    {
+      "task_id": "41601",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 19.7,
+      "tetra_duration": 75.1
+    },
+    {
+      "task_id": "41691",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.6,
+      "tetra_duration": 47.5
+    },
+    {
+      "task_id": "41969",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.5,
+      "tetra_duration": 76.4
+    },
+    {
+      "task_id": "41978",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 37.3,
+      "tetra_duration": 131.6
+    },
+    {
+      "task_id": "42181",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 52.5,
+      "tetra_duration": 83.9
+    },
+    {
+      "task_id": "42198",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.0,
+      "tetra_duration": 87.4
+    },
+    {
+      "task_id": "42216",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 203.3,
+      "tetra_duration": 279.3
+    },
+    {
+      "task_id": "423-16",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.2,
+      "tetra_duration": 129.0
+    },
+    {
+      "task_id": "42354",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.6,
+      "tetra_duration": 81.5
+    },
+    {
+      "task_id": "42515",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 52.1,
+      "tetra_duration": 94.4
+    },
+    {
+      "task_id": "42526",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.9,
+      "tetra_duration": 141.4
+    },
+    {
+      "task_id": "42902",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.7,
+      "tetra_duration": 76.4
+    },
+    {
+      "task_id": "42930",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.6,
+      "tetra_duration": 73.7
+    },
+    {
+      "task_id": "43213",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 28.6,
+      "tetra_duration": 82.1
+    },
+    {
+      "task_id": "433-47",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.0,
+      "tetra_duration": 118.5
+    },
+    {
+      "task_id": "43436",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 60.6,
+      "tetra_duration": 85.4
+    },
+    {
+      "task_id": "43589",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.6,
+      "tetra_duration": 39.9
+    },
+    {
+      "task_id": "43657",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 40.8,
+      "tetra_duration": 181.9
+    },
+    {
+      "task_id": "438-18",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.9,
+      "tetra_duration": 80.1
+    },
+    {
+      "task_id": "440-24",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.2,
+      "tetra_duration": 62.5
+    },
+    {
+      "task_id": "44017",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 136.5,
+      "tetra_duration": 267.9
+    },
+    {
+      "task_id": "44266",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 41.7,
+      "tetra_duration": 163.3
+    },
+    {
+      "task_id": "44296",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.4,
+      "tetra_duration": 130.8
+    },
+    {
+      "task_id": "44389",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.7,
+      "tetra_duration": 64.1
+    },
+    {
+      "task_id": "44628",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.8,
+      "tetra_duration": 61.7
+    },
+    {
+      "task_id": "448-11",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 26.4,
+      "tetra_duration": 92.1
+    },
+    {
+      "task_id": "44913",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 26.7,
+      "tetra_duration": 81.7
+    },
+    {
+      "task_id": "45063",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 26.4,
+      "tetra_duration": 100.9
+    },
+    {
+      "task_id": "45300",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.0,
+      "tetra_duration": 71.4
+    },
+    {
+      "task_id": "45372",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.8,
+      "tetra_duration": 90.8
+    },
+    {
+      "task_id": "455-35",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 249.3,
+      "tetra_duration": 85.0
+    },
+    {
+      "task_id": "45635",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 31.9,
+      "tetra_duration": 61.4
+    },
+    {
+      "task_id": "45707",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.2,
+      "tetra_duration": 123.0
+    },
+    {
+      "task_id": "45738",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 76.0,
+      "tetra_duration": 179.0
+    },
+    {
+      "task_id": "45896",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.0,
+      "tetra_duration": 93.5
+    },
+    {
+      "task_id": "45937",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.4,
+      "tetra_duration": 86.7
+    },
+    {
+      "task_id": "45944",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 36.8,
+      "tetra_duration": 168.2
+    },
+    {
+      "task_id": "46121",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 43.2,
+      "tetra_duration": 146.4
+    },
+    {
+      "task_id": "46167",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 13.2,
+      "tetra_duration": 39.8
+    },
+    {
+      "task_id": "46240",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.7,
+      "tetra_duration": 52.0
+    },
+    {
+      "task_id": "463-17",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.5,
+      "tetra_duration": 72.5
+    },
+    {
+      "task_id": "46646",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.2,
+      "tetra_duration": 95.4
+    },
+    {
+      "task_id": "46897",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 23.8,
+      "tetra_duration": 47.6
+    },
+    {
+      "task_id": "469-9",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.6,
+      "tetra_duration": 79.1
+    },
+    {
+      "task_id": "4714",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 76.2,
+      "tetra_duration": 203.1
+    },
+    {
+      "task_id": "472-15",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 12.5,
+      "tetra_duration": 60.2
+    },
+    {
+      "task_id": "477-45",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.9,
+      "tetra_duration": 161.9
+    },
+    {
+      "task_id": "47766",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 110.2,
+      "tetra_duration": 229.9
+    },
+    {
+      "task_id": "47798",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 13.0,
+      "tetra_duration": 79.6
+    },
+    {
+      "task_id": "47827",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.3,
+      "tetra_duration": 100.7
+    },
+    {
+      "task_id": "47842",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 18.8,
+      "tetra_duration": 69.4
+    },
+    {
+      "task_id": "47933",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.4,
+      "tetra_duration": 140.4
+    },
+    {
+      "task_id": "48080",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 28.8,
+      "tetra_duration": 59.3
+    },
+    {
+      "task_id": "48257",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.2,
+      "tetra_duration": 68.2
+    },
+    {
+      "task_id": "48365",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.6,
+      "tetra_duration": 86.8
+    },
+    {
+      "task_id": "48527",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.3,
+      "tetra_duration": 63.2
+    },
+    {
+      "task_id": "48588",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 46.9,
+      "tetra_duration": 75.1
+    },
+    {
+      "task_id": "486-17",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 13.5,
+      "tetra_duration": 110.8
+    },
+    {
+      "task_id": "48608",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.2,
+      "tetra_duration": 116.6
+    },
+    {
+      "task_id": "48620",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 51.9,
+      "tetra_duration": 113.4
+    },
+    {
+      "task_id": "48643",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 23.8,
+      "tetra_duration": 104.6
+    },
+    {
+      "task_id": "48745",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.7,
+      "tetra_duration": 78.2
+    },
+    {
+      "task_id": "488-14",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 16.1,
+      "tetra_duration": 86.6
+    },
+    {
+      "task_id": "48921",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.5,
+      "tetra_duration": 121.0
+    },
+    {
+      "task_id": "48924",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 18.6,
+      "tetra_duration": 77.4
+    },
+    {
+      "task_id": "48969",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 31.2,
+      "tetra_duration": 116.9
+    },
+    {
+      "task_id": "48975",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 36.9,
+      "tetra_duration": 112.3
+    },
+    {
+      "task_id": "48982",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 27.9,
+      "tetra_duration": 141.5
+    },
+    {
+      "task_id": "48983",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 48.2,
+      "tetra_duration": 117.0
+    },
+    {
+      "task_id": "49036",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 19.2,
+      "tetra_duration": 89.8
+    },
+    {
+      "task_id": "49196",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.0,
+      "tetra_duration": 97.3
+    },
+    {
+      "task_id": "49237",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 18.7,
+      "tetra_duration": 77.1
+    },
+    {
+      "task_id": "493-18",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.1,
+      "tetra_duration": 78.9
+    },
+    {
+      "task_id": "493-5",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 26.4,
+      "tetra_duration": 89.6
+    },
+    {
+      "task_id": "49300",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.5,
+      "tetra_duration": 120.4
+    },
+    {
+      "task_id": "49333",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 47.2,
+      "tetra_duration": 150.2
+    },
+    {
+      "task_id": "496-15",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.4,
+      "tetra_duration": 80.9
+    },
+    {
+      "task_id": "496-34",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 84.8,
+      "tetra_duration": 115.1
+    },
+    {
+      "task_id": "49667",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 205.8,
+      "tetra_duration": 228.6
+    },
+    {
+      "task_id": "49801",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.7,
+      "tetra_duration": 48.2
+    },
+    {
+      "task_id": "49857",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.7,
+      "tetra_duration": 87.6
+    },
+    {
+      "task_id": "49945",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 17.8,
+      "tetra_duration": 70.5
+    },
+    {
+      "task_id": "50051",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 126.7,
+      "tetra_duration": 1487.4
+    },
+    {
+      "task_id": "50088",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.2,
+      "tetra_duration": 71.8
+    },
+    {
+      "task_id": "50193",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 57.4,
+      "tetra_duration": 256.1
+    },
+    {
+      "task_id": "50250",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.5,
+      "tetra_duration": 58.7
+    },
+    {
+      "task_id": "50324",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.8,
+      "tetra_duration": 176.0
+    },
+    {
+      "task_id": "50486",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 14.8,
+      "tetra_duration": 55.4
+    },
+    {
+      "task_id": "50521",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 52.8,
+      "tetra_duration": 89.7
+    },
+    {
+      "task_id": "50526",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 35.1,
+      "tetra_duration": 61.8
+    },
+    {
+      "task_id": "50631",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 246.1,
+      "tetra_duration": 219.9
+    },
+    {
+      "task_id": "50682",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 115.4,
+      "tetra_duration": 113.9
+    },
+    {
+      "task_id": "50683",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.0,
+      "tetra_duration": 69.2
+    },
+    {
+      "task_id": "50768",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.5,
+      "tetra_duration": 108.9
+    },
+    {
+      "task_id": "50796",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.3,
+      "tetra_duration": 72.2
+    },
+    {
+      "task_id": "50811",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.8,
+      "tetra_duration": 98.9
+    },
+    {
+      "task_id": "50916",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 50.2,
+      "tetra_duration": 132.1
+    },
+    {
+      "task_id": "50952",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.5,
+      "tetra_duration": 86.3
+    },
+    {
+      "task_id": "50971",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 36.9,
+      "tetra_duration": 108.1
+    },
+    {
+      "task_id": "51-12",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 45.1,
+      "tetra_duration": 111.3
+    },
+    {
+      "task_id": "510-3",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.7,
+      "tetra_duration": 85.8
+    },
+    {
+      "task_id": "51090",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 185.1,
+      "tetra_duration": 207.7
+    },
+    {
+      "task_id": "51249",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.8,
+      "tetra_duration": 72.1
+    },
+    {
+      "task_id": "51262",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 38.8,
+      "tetra_duration": 104.1
+    },
+    {
+      "task_id": "51289",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 33.6,
+      "tetra_duration": 91.3
+    },
+    {
+      "task_id": "51354",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.0,
+      "tetra_duration": 90.5
+    },
+    {
+      "task_id": "51359",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.0,
+      "tetra_duration": 60.6
+    },
+    {
+      "task_id": "51431",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.5,
+      "tetra_duration": 45.8
+    },
+    {
+      "task_id": "51556",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 46.8,
+      "tetra_duration": 117.2
+    },
+    {
+      "task_id": "51586",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.9,
+      "tetra_duration": 81.7
+    },
+    {
+      "task_id": "516-46",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.4,
+      "tetra_duration": 101.5
+    },
+    {
+      "task_id": "51680",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 25.7,
+      "tetra_duration": 94.4
+    },
+    {
+      "task_id": "52050",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.7,
+      "tetra_duration": 98.4
+    },
+    {
+      "task_id": "52216",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 54.3,
+      "tetra_duration": 141.0
+    },
+    {
+      "task_id": "52220",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.3,
+      "tetra_duration": 73.7
+    },
+    {
+      "task_id": "52233",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 29.3,
+      "tetra_duration": 111.8
+    },
+    {
+      "task_id": "52305",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 38.4,
+      "tetra_duration": 129.9
+    },
+    {
+      "task_id": "524-31",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.7,
+      "tetra_duration": 109.2
+    },
+    {
+      "task_id": "52532",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.6,
+      "tetra_duration": 82.5
+    },
+    {
+      "task_id": "52541",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.2,
+      "tetra_duration": 90.0
+    },
+    {
+      "task_id": "52575",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 54.0,
+      "tetra_duration": 130.4
+    },
+    {
+      "task_id": "52807",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 47.1,
+      "tetra_duration": 132.6
+    },
+    {
+      "task_id": "52917",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.6,
+      "tetra_duration": 81.5
+    },
+    {
+      "task_id": "52964",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 47.8,
+      "tetra_duration": 116.6
+    },
+    {
+      "task_id": "531-18",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 31.7,
+      "tetra_duration": 171.8
+    },
+    {
+      "task_id": "53117",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 26.5,
+      "tetra_duration": 104.4
+    },
+    {
+      "task_id": "53161",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 146.6,
+      "tetra_duration": 333.7
+    },
+    {
+      "task_id": "53167",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.8,
+      "tetra_duration": 77.8
+    },
+    {
+      "task_id": "53383",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.8,
+      "tetra_duration": 73.1
+    },
+    {
+      "task_id": "534-26",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 32.4,
+      "tetra_duration": 148.7
+    },
+    {
+      "task_id": "53449",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.2,
+      "tetra_duration": 99.0
+    },
+    {
+      "task_id": "535-20",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.0,
+      "tetra_duration": 108.6
+    },
+    {
+      "task_id": "53647",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 57.6,
+      "tetra_duration": 157.5
+    },
+    {
+      "task_id": "53994",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 142.1,
+      "tetra_duration": 160.9
+    },
+    {
+      "task_id": "54085",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.1,
+      "tetra_duration": 68.2
+    },
+    {
+      "task_id": "54144",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 47.5,
+      "tetra_duration": 121.2
+    },
+    {
+      "task_id": "54196",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.7,
+      "tetra_duration": 141.8
+    },
+    {
+      "task_id": "54242",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 12.6,
+      "tetra_duration": 45.7
+    },
+    {
+      "task_id": "54274",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.9,
+      "tetra_duration": 58.1
+    },
+    {
+      "task_id": "54474",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.8,
+      "tetra_duration": 102.1
+    },
+    {
+      "task_id": "545-35",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.7,
+      "tetra_duration": 105.2
+    },
+    {
+      "task_id": "54513",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.2,
+      "tetra_duration": 81.8
+    },
+    {
+      "task_id": "54590",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 33.7,
+      "tetra_duration": 159.0
+    },
+    {
+      "task_id": "54638",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 59.9,
+      "tetra_duration": 133.2
+    },
+    {
+      "task_id": "54667",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.9,
+      "tetra_duration": 233.7
+    },
+    {
+      "task_id": "54675",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 14.1,
+      "tetra_duration": 83.4
+    },
+    {
+      "task_id": "547-18",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.4,
+      "tetra_duration": 105.1
+    },
+    {
+      "task_id": "547-43",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 33.6,
+      "tetra_duration": 125.5
+    },
+    {
+      "task_id": "54717",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 88.8,
+      "tetra_duration": 148.0
+    },
+    {
+      "task_id": "54925",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 51.4,
+      "tetra_duration": 100.6
+    },
+    {
+      "task_id": "55049",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.5,
+      "tetra_duration": 113.0
+    },
+    {
+      "task_id": "55060",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 30.2,
+      "tetra_duration": 114.3
+    },
+    {
+      "task_id": "55085",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 78.2,
+      "tetra_duration": 164.4
+    },
+    {
+      "task_id": "55260",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 48.1,
+      "tetra_duration": 73.2
+    },
+    {
+      "task_id": "55421",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 38.8,
+      "tetra_duration": 72.5
+    },
+    {
+      "task_id": "55427",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 55.3,
+      "tetra_duration": 248.9
+    },
+    {
+      "task_id": "55468",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 36.3,
+      "tetra_duration": 110.5
+    },
+    {
+      "task_id": "55708",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.2,
+      "tetra_duration": 79.4
+    },
+    {
+      "task_id": "55817",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 22.7,
+      "tetra_duration": 75.6
+    },
+    {
+      "task_id": "55965",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 64.8,
+      "tetra_duration": 119.5
+    },
+    {
+      "task_id": "55976",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.6,
+      "tetra_duration": 80.6
+    },
+    {
+      "task_id": "55977",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 39.4,
+      "tetra_duration": 21.8
+    },
+    {
+      "task_id": "55979",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.0,
+      "tetra_duration": 56.8
+    },
+    {
+      "task_id": "560-12",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.3,
+      "tetra_duration": 97.7
+    },
+    {
+      "task_id": "56225",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.0,
+      "tetra_duration": 135.7
+    },
+    {
+      "task_id": "56274",
+      "bare_pass": null,
+      "tetra_pass": true,
+      "bare_duration": 0,
+      "tetra_duration": 111.6
+    },
+    {
+      "task_id": "56378",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 94.8,
+      "tetra_duration": 162.0
+    },
+    {
+      "task_id": "56419",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 40.8,
+      "tetra_duration": 130.3
+    },
+    {
+      "task_id": "56427",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 78.6,
+      "tetra_duration": 5.3
+    },
+    {
+      "task_id": "56563",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 23.0,
+      "tetra_duration": 4.9
+    },
+    {
+      "task_id": "56599",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 49.8,
+      "tetra_duration": 89.9
+    },
+    {
+      "task_id": "567-21",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.7,
+      "tetra_duration": 136.6
+    },
+    {
+      "task_id": "56786",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 75.4,
+      "tetra_duration": 5.1
+    },
+    {
+      "task_id": "56915",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 46.2,
+      "tetra_duration": 5.0
+    },
+    {
+      "task_id": "56920",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.7,
+      "tetra_duration": 69.9
+    },
+    {
+      "task_id": "56921",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 45.1,
+      "tetra_duration": 102.2
+    },
+    {
+      "task_id": "56953",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 121.4,
+      "tetra_duration": 5.6
+    },
+    {
+      "task_id": "57033",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 30.5,
+      "tetra_duration": 158.2
+    },
+    {
+      "task_id": "57113",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.3,
+      "tetra_duration": 78.3
+    },
+    {
+      "task_id": "57117",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.8,
+      "tetra_duration": 5.1
+    },
+    {
+      "task_id": "57232",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 46.9,
+      "tetra_duration": 159.8
+    },
+    {
+      "task_id": "57262",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 38.3,
+      "tetra_duration": 5.0
+    },
+    {
+      "task_id": "57354",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 32.7,
+      "tetra_duration": 4.8
+    },
+    {
+      "task_id": "57445",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 35.3,
+      "tetra_duration": 81.1
+    },
+    {
+      "task_id": "57558",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.8,
+      "tetra_duration": 5.2
+    },
+    {
+      "task_id": "57590",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 46.6,
+      "tetra_duration": 85.5
+    },
+    {
+      "task_id": "57612",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 13.4,
+      "tetra_duration": 4.5
+    },
+    {
+      "task_id": "57693",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 16.1,
+      "tetra_duration": 4.8
+    },
+    {
+      "task_id": "577-40",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.1,
+      "tetra_duration": 126.3
+    },
+    {
+      "task_id": "57743",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 25.2,
+      "tetra_duration": 89.8
+    },
+    {
+      "task_id": "57989",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 37.0,
+      "tetra_duration": 5.6
+    },
+    {
+      "task_id": "58032",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 68.6,
+      "tetra_duration": 4.7
+    },
+    {
+      "task_id": "58109",
+      "bare_pass": null,
+      "tetra_pass": true,
+      "bare_duration": 0,
+      "tetra_duration": 5.1
+    },
+    {
+      "task_id": "58147",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 142.2,
+      "tetra_duration": 220.4
+    },
+    {
+      "task_id": "5835",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 25.9,
+      "tetra_duration": 121.9
+    },
+    {
+      "task_id": "58484",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 134.2,
+      "tetra_duration": 122.2
+    },
+    {
+      "task_id": "58499",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 20.0,
+      "tetra_duration": 5.6
+    },
+    {
+      "task_id": "585-41",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.4,
+      "tetra_duration": 67.4
+    },
+    {
+      "task_id": "58687",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 59.0,
+      "tetra_duration": 5.0
+    },
+    {
+      "task_id": "58701",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 14.7,
+      "tetra_duration": 68.0
+    },
+    {
+      "task_id": "58723",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 33.7,
+      "tetra_duration": 106.3
+    },
+    {
+      "task_id": "58904",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.7,
+      "tetra_duration": 5.1
+    },
+    {
+      "task_id": "58942",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.8,
+      "tetra_duration": 5.1
+    },
+    {
+      "task_id": "58949",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 41.6,
+      "tetra_duration": 142.3
+    },
+    {
+      "task_id": "59129",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 63.4,
+      "tetra_duration": 5.2
+    },
+    {
+      "task_id": "59160",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 28.9,
+      "tetra_duration": 5.3
+    },
+    {
+      "task_id": "59196",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.0,
+      "tetra_duration": 65.2
+    },
+    {
+      "task_id": "59224",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 73.8,
+      "tetra_duration": 5.4
+    },
+    {
+      "task_id": "59358",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 31.0,
+      "tetra_duration": 5.0
+    },
+    {
+      "task_id": "59511",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 51.2,
+      "tetra_duration": 4.6
+    },
+    {
+      "task_id": "59595",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.2,
+      "tetra_duration": 96.2
+    },
+    {
+      "task_id": "59639",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.9,
+      "tetra_duration": 5.2
+    },
+    {
+      "task_id": "59734",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 30.7,
+      "tetra_duration": 5.2
+    },
+    {
+      "task_id": "59794",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 57.1,
+      "tetra_duration": 5.0
+    },
+    {
+      "task_id": "59884",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 49.7,
+      "tetra_duration": 4.8
+    },
+    {
+      "task_id": "599-9",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.6,
+      "tetra_duration": 65.4
+    },
+    {
+      "task_id": "59902",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 69.6,
+      "tetra_duration": 4.9
+    },
+    {
+      "task_id": "60-7",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 17.8,
+      "tetra_duration": 91.1
+    },
+    {
+      "task_id": "61-4",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 108.6,
+      "tetra_duration": 213.2
+    },
+    {
+      "task_id": "6239",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 79.9,
+      "tetra_duration": 218.8
+    },
+    {
+      "task_id": "66-24",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 27.9,
+      "tetra_duration": 92.2
+    },
+    {
+      "task_id": "6698",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 25.1,
+      "tetra_duration": 185.1
+    },
+    {
+      "task_id": "73-45",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 199.8,
+      "tetra_duration": 176.7
+    },
+    {
+      "task_id": "7665",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 19.8,
+      "tetra_duration": 61.3
+    },
+    {
+      "task_id": "79-7",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 15.1,
+      "tetra_duration": 64.7
+    },
+    {
+      "task_id": "7902",
+      "bare_pass": true,
+      "tetra_pass": false,
+      "bare_duration": 44.3,
+      "tetra_duration": 135.2
+    },
+    {
+      "task_id": "80-42",
+      "bare_pass": false,
+      "tetra_pass": false,
+      "bare_duration": 105.2,
+      "tetra_duration": 301.7
+    },
+    {
+      "task_id": "82-30",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 23.5,
+      "tetra_duration": 108.3
+    },
+    {
+      "task_id": "82-38",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 34.4,
+      "tetra_duration": 153.9
+    },
+    {
+      "task_id": "84-40",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 34.8,
+      "tetra_duration": 95.4
+    },
+    {
+      "task_id": "8942",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 21.9,
+      "tetra_duration": 150.6
+    },
+    {
+      "task_id": "91-34",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 29.5,
+      "tetra_duration": 135.8
+    },
+    {
+      "task_id": "9111",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 24.8,
+      "tetra_duration": 100.4
+    },
+    {
+      "task_id": "9391",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 110.4,
+      "tetra_duration": 124.3
+    },
+    {
+      "task_id": "9448",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 131.3,
+      "tetra_duration": 166.3
+    },
+    {
+      "task_id": "9569",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 44.6,
+      "tetra_duration": 275.4
+    },
+    {
+      "task_id": "97-36",
+      "bare_pass": false,
+      "tetra_pass": true,
+      "bare_duration": 20.2,
+      "tetra_duration": 68.7
+    },
+    {
+      "task_id": "9726",
+      "bare_pass": true,
+      "tetra_pass": true,
+      "bare_duration": 32.8,
+      "tetra_duration": 72.3
+    }
+  ],
+  "venn": {
+    "both_pass": 312,
+    "bare_only": 7,
+    "tetra_only": 69,
+    "both_fail": 12
+  }
+}

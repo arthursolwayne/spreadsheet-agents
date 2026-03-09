@@ -1,0 +1,2826 @@
+{
+  "benchmark": "SpreadsheetBench verified-400",
+  "model": "claude-opus-4-6",
+  "prompt": "bare-minimal (3-line, no domain hints, no pipeline)",
+  "harness": "run_claude_bare.py",
+  "formula_eval": "Python formulas lib + LibreOffice headless (best-of-both)",
+  "date": "2026-03-09",
+  "total_tasks": 400,
+  "tasks_with_output": 400,
+  "results": {
+    "formula_resolved": {
+      "passed": 321,
+      "total": 400,
+      "pct": 80.2
+    }
+  },
+  "timing": {
+    "avg_seconds": 41.3,
+    "median_seconds": 29.0,
+    "max_seconds": 249.3,
+    "min_seconds": 12.5,
+    "total_compute_hours": 4.59
+  },
+  "tasks": [
+    {
+      "task_id": "10452",
+      "status": "ok",
+      "duration_seconds": 23.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "105-24",
+      "status": "ok",
+      "duration_seconds": 44.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "10747",
+      "status": "ok",
+      "duration_seconds": 28.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "108-24",
+      "status": "ok",
+      "duration_seconds": 22.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "109-21",
+      "status": "ok",
+      "duration_seconds": 33.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "11276",
+      "status": "ok",
+      "duration_seconds": 29.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "118-50",
+      "status": "ok",
+      "duration_seconds": 55.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "11842",
+      "status": "ok",
+      "duration_seconds": 103.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "120-24",
+      "status": "ok",
+      "duration_seconds": 19.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "12307",
+      "status": "ok",
+      "duration_seconds": 28.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "12864",
+      "status": "ok",
+      "duration_seconds": 16.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "13-1",
+      "status": "ok",
+      "duration_seconds": 40.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "130-9",
+      "status": "ok",
+      "duration_seconds": 108.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "13284",
+      "status": "ok",
+      "duration_seconds": 230.0,
+      "worker": "bare2-final5-carmack",
+      "source_run": "bare2-final5-carmack_001"
+    },
+    {
+      "task_id": "141-20",
+      "status": "ok",
+      "duration_seconds": 24.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "142-12",
+      "status": "ok",
+      "duration_seconds": 21.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "142-19",
+      "status": "ok",
+      "duration_seconds": 19.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "14240",
+      "status": "ok",
+      "duration_seconds": 64.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "146-49",
+      "status": "ok",
+      "duration_seconds": 28.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "147-48",
+      "status": "ok",
+      "duration_seconds": 20.1,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "15380",
+      "status": "ok",
+      "duration_seconds": 51.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "15387",
+      "status": "ok",
+      "duration_seconds": 58.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "156-14",
+      "status": "ok",
+      "duration_seconds": 27.0,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "1563",
+      "status": "ok",
+      "duration_seconds": 16.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "15671",
+      "status": "ok",
+      "duration_seconds": 25.0,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "157-4",
+      "status": "ok",
+      "duration_seconds": 33.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "160-6",
+      "status": "ok",
+      "duration_seconds": 22.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "165-23",
+      "status": "ok",
+      "duration_seconds": 33.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "16511",
+      "status": "ok",
+      "duration_seconds": 19.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "168-17",
+      "status": "ok",
+      "duration_seconds": 29.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "17-35",
+      "status": "ok",
+      "duration_seconds": 75.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "170-13",
+      "status": "ok",
+      "duration_seconds": 55.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "17111",
+      "status": "ok",
+      "duration_seconds": 28.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "177-6",
+      "status": "ok",
+      "duration_seconds": 79.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "178-22",
+      "status": "ok",
+      "duration_seconds": 16.3,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "1818",
+      "status": "ok",
+      "duration_seconds": 39.0,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "183-8",
+      "status": "ok",
+      "duration_seconds": 32.1,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "18645",
+      "status": "ok",
+      "duration_seconds": 31.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "188-39",
+      "status": "ok",
+      "duration_seconds": 18.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "18935",
+      "status": "ok",
+      "duration_seconds": 25.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "191-40",
+      "status": "ok",
+      "duration_seconds": 52.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "192-22",
+      "status": "ok",
+      "duration_seconds": 44.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "1925",
+      "status": "ok",
+      "duration_seconds": 48.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "194-19",
+      "status": "ok",
+      "duration_seconds": 224.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "203-15",
+      "status": "ok",
+      "duration_seconds": 27.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "208-20",
+      "status": "ok",
+      "duration_seconds": 40.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "209-30",
+      "status": "ok",
+      "duration_seconds": 21.1,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "22-47",
+      "status": "ok",
+      "duration_seconds": 225.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "227-40",
+      "status": "ok",
+      "duration_seconds": 28.3,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "23-24",
+      "status": "ok",
+      "duration_seconds": 57.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "230-16",
+      "status": "ok",
+      "duration_seconds": 33.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "236-22",
+      "status": "ok",
+      "duration_seconds": 130.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "24-23",
+      "status": "ok",
+      "duration_seconds": 30.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "247-24",
+      "status": "ok",
+      "duration_seconds": 37.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "250-20",
+      "status": "ok",
+      "duration_seconds": 35.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "254-34",
+      "status": "ok",
+      "duration_seconds": 22.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "262-17",
+      "status": "ok",
+      "duration_seconds": 24.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "263-1",
+      "status": "ok",
+      "duration_seconds": 39.3,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "267-18",
+      "status": "ok",
+      "duration_seconds": 25.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "267-21",
+      "status": "ok",
+      "duration_seconds": 17.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "269-43",
+      "status": "ok",
+      "duration_seconds": 18.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "269-44",
+      "status": "ok",
+      "duration_seconds": 99.1,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "2768",
+      "status": "ok",
+      "duration_seconds": 51.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "279-23",
+      "status": "ok",
+      "duration_seconds": 21.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "28-7",
+      "status": "ok",
+      "duration_seconds": 25.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "280-17",
+      "status": "ok",
+      "duration_seconds": 14.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "283-32",
+      "status": "ok",
+      "duration_seconds": 28.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "290-1",
+      "status": "ok",
+      "duration_seconds": 68.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "290-27",
+      "status": "ok",
+      "duration_seconds": 17.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "297-42",
+      "status": "ok",
+      "duration_seconds": 19.1,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "3002",
+      "status": "ok",
+      "duration_seconds": 61.7,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "302-1",
+      "status": "ok",
+      "duration_seconds": 15.5,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "304-35",
+      "status": "ok",
+      "duration_seconds": 44.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "30930",
+      "status": "ok",
+      "duration_seconds": 18.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "31011",
+      "status": "ok",
+      "duration_seconds": 37.4,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "31202",
+      "status": "ok",
+      "duration_seconds": 126.6,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "31628",
+      "status": "ok",
+      "duration_seconds": 13.8,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "31746",
+      "status": "ok",
+      "duration_seconds": 34.9,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "31915",
+      "status": "ok",
+      "duration_seconds": 19.2,
+      "worker": "arthur",
+      "source_run": "bare2-opus46-arthur_001"
+    },
+    {
+      "task_id": "32023",
+      "status": "ok",
+      "duration_seconds": 75.8,
+      "worker": "bare2-final5-carmack",
+      "source_run": "bare2-final5-carmack_001"
+    },
+    {
+      "task_id": "32093",
+      "status": "ok",
+      "duration_seconds": 21.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32255",
+      "status": "ok",
+      "duration_seconds": 16.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32293",
+      "status": "ok",
+      "duration_seconds": 14.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32337",
+      "status": "ok",
+      "duration_seconds": 56.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32438",
+      "status": "ok",
+      "duration_seconds": 15.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "325-44",
+      "status": "ok",
+      "duration_seconds": 45.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32562",
+      "status": "ok",
+      "duration_seconds": 28.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32612",
+      "status": "ok",
+      "duration_seconds": 19.1,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "32789",
+      "status": "ok",
+      "duration_seconds": 84.0,
+      "worker": "bare2-final5-sonsini",
+      "source_run": "bare2-final5-sonsini_001"
+    },
+    {
+      "task_id": "32902",
+      "status": "ok",
+      "duration_seconds": 20.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "33157",
+      "status": "ok",
+      "duration_seconds": 15.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "333-29",
+      "status": "ok",
+      "duration_seconds": 20.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "334-11",
+      "status": "ok",
+      "duration_seconds": 29.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "33722",
+      "status": "ok",
+      "duration_seconds": 32.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "34033",
+      "status": "ok",
+      "duration_seconds": 31.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "341-14",
+      "status": "ok",
+      "duration_seconds": 20.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "341-40",
+      "status": "ok",
+      "duration_seconds": 16.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "3413",
+      "status": "ok",
+      "duration_seconds": 29.1,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "34210",
+      "status": "ok",
+      "duration_seconds": 12.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "343-20",
+      "status": "ok",
+      "duration_seconds": 27.1,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "353-29",
+      "status": "ok",
+      "duration_seconds": 23.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "353-6",
+      "status": "ok",
+      "duration_seconds": 16.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "35739",
+      "status": "ok",
+      "duration_seconds": 24.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "35742",
+      "status": "ok",
+      "duration_seconds": 74.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "35747",
+      "status": "ok",
+      "duration_seconds": 22.7,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "359-21",
+      "status": "ok",
+      "duration_seconds": 34.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "36097",
+      "status": "ok",
+      "duration_seconds": 68.5,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "36191",
+      "status": "ok",
+      "duration_seconds": 22.7,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "36277",
+      "status": "ok",
+      "duration_seconds": 44.1,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "367-23",
+      "status": "ok",
+      "duration_seconds": 20.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "36764",
+      "status": "ok",
+      "duration_seconds": 39.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "370-43",
+      "status": "ok",
+      "duration_seconds": 48.7,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37086",
+      "status": "ok",
+      "duration_seconds": 17.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37229",
+      "status": "ok",
+      "duration_seconds": 49.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37378",
+      "status": "ok",
+      "duration_seconds": 14.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "374-18",
+      "status": "ok",
+      "duration_seconds": 71.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "374-31",
+      "status": "ok",
+      "duration_seconds": 28.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37456",
+      "status": "ok",
+      "duration_seconds": 59.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37462",
+      "status": "ok",
+      "duration_seconds": 41.7,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37554",
+      "status": "ok",
+      "duration_seconds": 22.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "379-36",
+      "status": "ok",
+      "duration_seconds": 20.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "37900",
+      "status": "ok",
+      "duration_seconds": 36.7,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38074",
+      "status": "ok",
+      "duration_seconds": 32.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "382-10",
+      "status": "ok",
+      "duration_seconds": 14.1,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "382-29",
+      "status": "ok",
+      "duration_seconds": 47.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "384-4",
+      "status": "ok",
+      "duration_seconds": 37.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38462",
+      "status": "ok",
+      "duration_seconds": 21.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38537",
+      "status": "ok",
+      "duration_seconds": 35.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "387-16",
+      "status": "ok",
+      "duration_seconds": 48.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38703",
+      "status": "ok",
+      "duration_seconds": 16.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "388-47",
+      "status": "ok",
+      "duration_seconds": 17.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38823",
+      "status": "ok",
+      "duration_seconds": 23.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38969",
+      "status": "ok",
+      "duration_seconds": 27.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "38985",
+      "status": "ok",
+      "duration_seconds": 54.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39046",
+      "status": "ok",
+      "duration_seconds": 67.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "3911",
+      "status": "ok",
+      "duration_seconds": 56.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39190",
+      "status": "ok",
+      "duration_seconds": 20.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39432",
+      "status": "ok",
+      "duration_seconds": 74.9,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "395-36",
+      "status": "ok",
+      "duration_seconds": 26.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39515",
+      "status": "ok",
+      "duration_seconds": 23.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39667",
+      "status": "ok",
+      "duration_seconds": 56.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "398-14",
+      "status": "ok",
+      "duration_seconds": 71.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "399-14",
+      "status": "ok",
+      "duration_seconds": 31.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39903",
+      "status": "ok",
+      "duration_seconds": 25.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "39931",
+      "status": "ok",
+      "duration_seconds": 35.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "402-43",
+      "status": "ok",
+      "duration_seconds": 27.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "40478",
+      "status": "ok",
+      "duration_seconds": 33.1,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "40757",
+      "status": "ok",
+      "duration_seconds": 21.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "408-39",
+      "status": "ok",
+      "duration_seconds": 48.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "408-5",
+      "status": "ok",
+      "duration_seconds": 68.5,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "40892",
+      "status": "ok",
+      "duration_seconds": 16.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "409-45",
+      "status": "ok",
+      "duration_seconds": 25.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "40959",
+      "status": "ok",
+      "duration_seconds": 16.3,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "41-47",
+      "status": "ok",
+      "duration_seconds": 78.8,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "41265",
+      "status": "ok",
+      "duration_seconds": 19.6,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "41348",
+      "status": "ok",
+      "duration_seconds": 24.2,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "414-20",
+      "status": "ok",
+      "duration_seconds": 44.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "41410",
+      "status": "ok",
+      "duration_seconds": 47.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "41420",
+      "status": "ok",
+      "duration_seconds": 55.4,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "41589",
+      "status": "ok",
+      "duration_seconds": 18.0,
+      "worker": "carmack",
+      "source_run": "bare2-opus46-carmack_001"
+    },
+    {
+      "task_id": "416-15",
+      "status": "ok",
+      "duration_seconds": 18.1,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "416-27",
+      "status": "ok",
+      "duration_seconds": 56.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "41601",
+      "status": "ok",
+      "duration_seconds": 19.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "41691",
+      "status": "ok",
+      "duration_seconds": 15.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "41969",
+      "status": "ok",
+      "duration_seconds": 20.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "41978",
+      "status": "ok",
+      "duration_seconds": 37.3,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42181",
+      "status": "ok",
+      "duration_seconds": 52.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42198",
+      "status": "ok",
+      "duration_seconds": 21.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42216",
+      "status": "ok",
+      "duration_seconds": 203.3,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "423-16",
+      "status": "ok",
+      "duration_seconds": 21.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42354",
+      "status": "ok",
+      "duration_seconds": 28.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42515",
+      "status": "ok",
+      "duration_seconds": 52.1,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42526",
+      "status": "ok",
+      "duration_seconds": 20.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42902",
+      "status": "ok",
+      "duration_seconds": 20.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "42930",
+      "status": "ok",
+      "duration_seconds": 15.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "43213",
+      "status": "ok",
+      "duration_seconds": 28.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "433-47",
+      "status": "ok",
+      "duration_seconds": 25.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "43436",
+      "status": "ok",
+      "duration_seconds": 60.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "43589",
+      "status": "ok",
+      "duration_seconds": 14.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "43657",
+      "status": "ok",
+      "duration_seconds": 40.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "438-18",
+      "status": "ok",
+      "duration_seconds": 20.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "440-24",
+      "status": "ok",
+      "duration_seconds": 19.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "44017",
+      "status": "ok",
+      "duration_seconds": 136.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "44266",
+      "status": "ok",
+      "duration_seconds": 41.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "44296",
+      "status": "ok",
+      "duration_seconds": 23.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "44389",
+      "status": "ok",
+      "duration_seconds": 15.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "44628",
+      "status": "ok",
+      "duration_seconds": 15.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "448-11",
+      "status": "ok",
+      "duration_seconds": 26.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "44913",
+      "status": "ok",
+      "duration_seconds": 26.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45063",
+      "status": "ok",
+      "duration_seconds": 26.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45300",
+      "status": "ok",
+      "duration_seconds": 14.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45372",
+      "status": "ok",
+      "duration_seconds": 19.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "455-35",
+      "status": "ok",
+      "duration_seconds": 249.3,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45635",
+      "status": "ok",
+      "duration_seconds": 31.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45707",
+      "status": "ok",
+      "duration_seconds": 35.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45738",
+      "status": "ok",
+      "duration_seconds": 76.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45896",
+      "status": "ok",
+      "duration_seconds": 35.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45937",
+      "status": "ok",
+      "duration_seconds": 35.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "45944",
+      "status": "ok",
+      "duration_seconds": 36.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "46121",
+      "status": "ok",
+      "duration_seconds": 43.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "46167",
+      "status": "ok",
+      "duration_seconds": 13.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "46240",
+      "status": "ok",
+      "duration_seconds": 15.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "463-17",
+      "status": "ok",
+      "duration_seconds": 14.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "46646",
+      "status": "ok",
+      "duration_seconds": 24.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "46897",
+      "status": "ok",
+      "duration_seconds": 23.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "469-9",
+      "status": "ok",
+      "duration_seconds": 14.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "4714",
+      "status": "ok",
+      "duration_seconds": 76.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "472-15",
+      "status": "ok",
+      "duration_seconds": 12.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "477-45",
+      "status": "ok",
+      "duration_seconds": 23.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "47766",
+      "status": "ok",
+      "duration_seconds": 110.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "47798",
+      "status": "ok",
+      "duration_seconds": 13.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "47827",
+      "status": "ok",
+      "duration_seconds": 40.3,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "47842",
+      "status": "ok",
+      "duration_seconds": 18.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "47933",
+      "status": "ok",
+      "duration_seconds": 14.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48080",
+      "status": "ok",
+      "duration_seconds": 28.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48257",
+      "status": "ok",
+      "duration_seconds": 24.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48365",
+      "status": "ok",
+      "duration_seconds": 23.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48527",
+      "status": "ok",
+      "duration_seconds": 27.3,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48588",
+      "status": "ok",
+      "duration_seconds": 46.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "486-17",
+      "status": "ok",
+      "duration_seconds": 13.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48608",
+      "status": "ok",
+      "duration_seconds": 22.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48620",
+      "status": "ok",
+      "duration_seconds": 51.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48643",
+      "status": "ok",
+      "duration_seconds": 23.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48745",
+      "status": "ok",
+      "duration_seconds": 17.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "488-14",
+      "status": "ok",
+      "duration_seconds": 16.1,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48921",
+      "status": "ok",
+      "duration_seconds": 25.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48924",
+      "status": "ok",
+      "duration_seconds": 18.6,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48969",
+      "status": "ok",
+      "duration_seconds": 31.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48975",
+      "status": "ok",
+      "duration_seconds": 36.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48982",
+      "status": "ok",
+      "duration_seconds": 27.9,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "48983",
+      "status": "ok",
+      "duration_seconds": 48.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "49036",
+      "status": "ok",
+      "duration_seconds": 19.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "49196",
+      "status": "ok",
+      "duration_seconds": 24.0,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "49237",
+      "status": "ok",
+      "duration_seconds": 18.7,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "493-18",
+      "status": "ok",
+      "duration_seconds": 19.1,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "493-5",
+      "status": "ok",
+      "duration_seconds": 26.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "49300",
+      "status": "ok",
+      "duration_seconds": 22.5,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "49333",
+      "status": "ok",
+      "duration_seconds": 47.2,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "496-15",
+      "status": "ok",
+      "duration_seconds": 17.4,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "496-34",
+      "status": "ok",
+      "duration_seconds": 84.8,
+      "worker": "sonsini",
+      "source_run": "bare2-opus46-sonsini_001"
+    },
+    {
+      "task_id": "49667",
+      "status": "ok",
+      "duration_seconds": 205.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "49801",
+      "status": "ok",
+      "duration_seconds": 16.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "49857",
+      "status": "ok",
+      "duration_seconds": 28.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "49945",
+      "status": "ok",
+      "duration_seconds": 17.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50051",
+      "status": "ok",
+      "duration_seconds": 126.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50088",
+      "status": "ok",
+      "duration_seconds": 28.2,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50193",
+      "status": "ok",
+      "duration_seconds": 57.4,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50250",
+      "status": "ok",
+      "duration_seconds": 20.5,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50324",
+      "status": "ok",
+      "duration_seconds": 40.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50486",
+      "status": "ok",
+      "duration_seconds": 14.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50521",
+      "status": "ok",
+      "duration_seconds": 52.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50526",
+      "status": "ok",
+      "duration_seconds": 35.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50631",
+      "status": "ok",
+      "duration_seconds": 246.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50682",
+      "status": "ok",
+      "duration_seconds": 115.4,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50683",
+      "status": "ok",
+      "duration_seconds": 20.0,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50768",
+      "status": "ok",
+      "duration_seconds": 21.5,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50796",
+      "status": "ok",
+      "duration_seconds": 17.3,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50811",
+      "status": "ok",
+      "duration_seconds": 22.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50916",
+      "status": "ok",
+      "duration_seconds": 50.2,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50952",
+      "status": "ok",
+      "duration_seconds": 35.5,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "50971",
+      "status": "ok",
+      "duration_seconds": 36.9,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51-12",
+      "status": "ok",
+      "duration_seconds": 45.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "510-3",
+      "status": "ok",
+      "duration_seconds": 25.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51090",
+      "status": "ok",
+      "duration_seconds": 185.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51249",
+      "status": "ok",
+      "duration_seconds": 19.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51262",
+      "status": "ok",
+      "duration_seconds": 38.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51289",
+      "status": "ok",
+      "duration_seconds": 33.6,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51354",
+      "status": "ok",
+      "duration_seconds": 25.0,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51359",
+      "status": "ok",
+      "duration_seconds": 40.0,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51431",
+      "status": "ok",
+      "duration_seconds": 16.5,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51556",
+      "status": "ok",
+      "duration_seconds": 46.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51586",
+      "status": "ok",
+      "duration_seconds": 25.9,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "516-46",
+      "status": "ok",
+      "duration_seconds": 25.4,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "51680",
+      "status": "ok",
+      "duration_seconds": 25.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52050",
+      "status": "ok",
+      "duration_seconds": 19.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52216",
+      "status": "ok",
+      "duration_seconds": 54.3,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52220",
+      "status": "ok",
+      "duration_seconds": 14.3,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52233",
+      "status": "ok",
+      "duration_seconds": 29.3,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52305",
+      "status": "ok",
+      "duration_seconds": 38.4,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "524-31",
+      "status": "ok",
+      "duration_seconds": 35.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52532",
+      "status": "ok",
+      "duration_seconds": 29.6,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52541",
+      "status": "ok",
+      "duration_seconds": 15.2,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52575",
+      "status": "ok",
+      "duration_seconds": 54.0,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52807",
+      "status": "ok",
+      "duration_seconds": 47.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52917",
+      "status": "ok",
+      "duration_seconds": 25.6,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "52964",
+      "status": "ok",
+      "duration_seconds": 47.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "531-18",
+      "status": "ok",
+      "duration_seconds": 31.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "53117",
+      "status": "ok",
+      "duration_seconds": 26.5,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "53161",
+      "status": "ok",
+      "duration_seconds": 146.6,
+      "worker": "bare2-retry2-tetra",
+      "source_run": "bare2-retry2-tetra_001"
+    },
+    {
+      "task_id": "53167",
+      "status": "ok",
+      "duration_seconds": 40.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "53383",
+      "status": "ok",
+      "duration_seconds": 21.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "534-26",
+      "status": "ok",
+      "duration_seconds": 32.4,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "53449",
+      "status": "ok",
+      "duration_seconds": 20.2,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "535-20",
+      "status": "ok",
+      "duration_seconds": 29.0,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "53647",
+      "status": "ok",
+      "duration_seconds": 57.6,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "53994",
+      "status": "ok",
+      "duration_seconds": 142.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54085",
+      "status": "ok",
+      "duration_seconds": 29.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54144",
+      "status": "ok",
+      "duration_seconds": 47.5,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54196",
+      "status": "ok",
+      "duration_seconds": 35.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54242",
+      "status": "ok",
+      "duration_seconds": 12.6,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54274",
+      "status": "ok",
+      "duration_seconds": 17.9,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54474",
+      "status": "ok",
+      "duration_seconds": 20.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "545-35",
+      "status": "ok",
+      "duration_seconds": 16.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54513",
+      "status": "ok",
+      "duration_seconds": 14.2,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54590",
+      "status": "ok",
+      "duration_seconds": 33.7,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54638",
+      "status": "ok",
+      "duration_seconds": 59.9,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54667",
+      "status": "ok",
+      "duration_seconds": 21.9,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54675",
+      "status": "ok",
+      "duration_seconds": 14.1,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "547-18",
+      "status": "ok",
+      "duration_seconds": 24.4,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "547-43",
+      "status": "ok",
+      "duration_seconds": 33.6,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54717",
+      "status": "ok",
+      "duration_seconds": 88.8,
+      "worker": "tetra",
+      "source_run": "bare2-opus46-tetra_001"
+    },
+    {
+      "task_id": "54925",
+      "status": "ok",
+      "duration_seconds": 51.4,
+      "worker": "bare2-opus46-retry-sonsini",
+      "source_run": "bare2-opus46-retry-sonsini_001"
+    },
+    {
+      "task_id": "55049",
+      "status": "ok",
+      "duration_seconds": 25.5,
+      "worker": "bare2-opus46-retry-sonsini",
+      "source_run": "bare2-opus46-retry-sonsini_001"
+    },
+    {
+      "task_id": "55060",
+      "status": "ok",
+      "duration_seconds": 30.2,
+      "worker": "bare2-opus46-retry-sonsini",
+      "source_run": "bare2-opus46-retry-sonsini_001"
+    },
+    {
+      "task_id": "55085",
+      "status": "ok",
+      "duration_seconds": 78.2,
+      "worker": "bare2-opus46-retry-sonsini",
+      "source_run": "bare2-opus46-retry-sonsini_001"
+    },
+    {
+      "task_id": "55260",
+      "status": "ok",
+      "duration_seconds": 48.1,
+      "worker": "bare2-opus46-retry-yass",
+      "source_run": "bare2-opus46-retry-yass_001"
+    },
+    {
+      "task_id": "55421",
+      "status": "ok",
+      "duration_seconds": 38.8,
+      "worker": "bare2-opus46-retry-yass",
+      "source_run": "bare2-opus46-retry-yass_001"
+    },
+    {
+      "task_id": "55427",
+      "status": "ok",
+      "duration_seconds": 55.3,
+      "worker": "bare2-opus46-retry-yass",
+      "source_run": "bare2-opus46-retry-yass_001"
+    },
+    {
+      "task_id": "55468",
+      "status": "ok",
+      "duration_seconds": 36.3,
+      "worker": "bare2-opus46-retry-yass",
+      "source_run": "bare2-opus46-retry-yass_001"
+    },
+    {
+      "task_id": "55708",
+      "status": "ok",
+      "duration_seconds": 17.2,
+      "worker": "bare2-opus46-retry-tetra",
+      "source_run": "bare2-opus46-retry-tetra_001"
+    },
+    {
+      "task_id": "55817",
+      "status": "ok",
+      "duration_seconds": 22.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "55965",
+      "status": "ok",
+      "duration_seconds": 64.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "55976",
+      "status": "ok",
+      "duration_seconds": 27.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "55977",
+      "status": "ok",
+      "duration_seconds": 39.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "55979",
+      "status": "ok",
+      "duration_seconds": 19.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "560-12",
+      "status": "ok",
+      "duration_seconds": 21.3,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56225",
+      "status": "ok",
+      "duration_seconds": 40.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56274",
+      "status": "ok",
+      "duration_seconds": 37.2,
+      "worker": "bare2-final5-sonsini",
+      "source_run": "bare2-final5-sonsini_001"
+    },
+    {
+      "task_id": "56378",
+      "status": "ok",
+      "duration_seconds": 94.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56419",
+      "status": "ok",
+      "duration_seconds": 40.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56427",
+      "status": "ok",
+      "duration_seconds": 78.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56563",
+      "status": "ok",
+      "duration_seconds": 23.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56599",
+      "status": "ok",
+      "duration_seconds": 49.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "567-21",
+      "status": "ok",
+      "duration_seconds": 24.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56786",
+      "status": "ok",
+      "duration_seconds": 75.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56915",
+      "status": "ok",
+      "duration_seconds": 46.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56920",
+      "status": "ok",
+      "duration_seconds": 35.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56921",
+      "status": "ok",
+      "duration_seconds": 45.1,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "56953",
+      "status": "ok",
+      "duration_seconds": 121.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57033",
+      "status": "ok",
+      "duration_seconds": 30.5,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57113",
+      "status": "ok",
+      "duration_seconds": 35.3,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57117",
+      "status": "ok",
+      "duration_seconds": 16.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57232",
+      "status": "ok",
+      "duration_seconds": 46.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57262",
+      "status": "ok",
+      "duration_seconds": 38.3,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57354",
+      "status": "ok",
+      "duration_seconds": 32.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57445",
+      "status": "ok",
+      "duration_seconds": 35.3,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57558",
+      "status": "ok",
+      "duration_seconds": 24.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57590",
+      "status": "ok",
+      "duration_seconds": 46.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57612",
+      "status": "ok",
+      "duration_seconds": 13.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57693",
+      "status": "ok",
+      "duration_seconds": 16.1,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "577-40",
+      "status": "ok",
+      "duration_seconds": 25.1,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57743",
+      "status": "ok",
+      "duration_seconds": 25.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "57989",
+      "status": "ok",
+      "duration_seconds": 37.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58032",
+      "status": "ok",
+      "duration_seconds": 68.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58109",
+      "status": "ok",
+      "duration_seconds": 21.6,
+      "worker": "bare2-final5-yass",
+      "source_run": "bare2-final5-yass_001"
+    },
+    {
+      "task_id": "58147",
+      "status": "ok",
+      "duration_seconds": 142.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "5835",
+      "status": "ok",
+      "duration_seconds": 25.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58484",
+      "status": "ok",
+      "duration_seconds": 134.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58499",
+      "status": "ok",
+      "duration_seconds": 20.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "585-41",
+      "status": "ok",
+      "duration_seconds": 14.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58687",
+      "status": "ok",
+      "duration_seconds": 59.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58701",
+      "status": "ok",
+      "duration_seconds": 14.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58723",
+      "status": "ok",
+      "duration_seconds": 33.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58904",
+      "status": "ok",
+      "duration_seconds": 23.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58942",
+      "status": "ok",
+      "duration_seconds": 17.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "58949",
+      "status": "ok",
+      "duration_seconds": 41.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59129",
+      "status": "ok",
+      "duration_seconds": 63.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59160",
+      "status": "ok",
+      "duration_seconds": 28.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59196",
+      "status": "ok",
+      "duration_seconds": 24.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59224",
+      "status": "ok",
+      "duration_seconds": 73.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59358",
+      "status": "ok",
+      "duration_seconds": 31.0,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59511",
+      "status": "ok",
+      "duration_seconds": 51.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59595",
+      "status": "ok",
+      "duration_seconds": 19.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59639",
+      "status": "ok",
+      "duration_seconds": 23.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59734",
+      "status": "ok",
+      "duration_seconds": 30.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59794",
+      "status": "ok",
+      "duration_seconds": 57.1,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59884",
+      "status": "ok",
+      "duration_seconds": 49.7,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "599-9",
+      "status": "ok",
+      "duration_seconds": 17.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "59902",
+      "status": "ok",
+      "duration_seconds": 69.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "60-7",
+      "status": "ok",
+      "duration_seconds": 17.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "61-4",
+      "status": "ok",
+      "duration_seconds": 108.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "6239",
+      "status": "ok",
+      "duration_seconds": 79.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "66-24",
+      "status": "ok",
+      "duration_seconds": 27.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "6698",
+      "status": "ok",
+      "duration_seconds": 25.1,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "73-45",
+      "status": "ok",
+      "duration_seconds": 199.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "7665",
+      "status": "ok",
+      "duration_seconds": 19.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "79-7",
+      "status": "ok",
+      "duration_seconds": 15.1,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "7902",
+      "status": "ok",
+      "duration_seconds": 44.3,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "80-42",
+      "status": "ok",
+      "duration_seconds": 105.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "82-30",
+      "status": "ok",
+      "duration_seconds": 23.5,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "82-38",
+      "status": "ok",
+      "duration_seconds": 34.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "84-40",
+      "status": "ok",
+      "duration_seconds": 34.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "8942",
+      "status": "ok",
+      "duration_seconds": 21.9,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "91-34",
+      "status": "ok",
+      "duration_seconds": 29.5,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "9111",
+      "status": "ok",
+      "duration_seconds": 24.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "9391",
+      "status": "ok",
+      "duration_seconds": 110.4,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "9448",
+      "status": "ok",
+      "duration_seconds": 131.3,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "9569",
+      "status": "ok",
+      "duration_seconds": 44.6,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "97-36",
+      "status": "ok",
+      "duration_seconds": 20.2,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    },
+    {
+      "task_id": "9726",
+      "status": "ok",
+      "duration_seconds": 32.8,
+      "worker": "yass",
+      "source_run": "bare2-opus46-yass_001"
+    }
+  ]
+}
