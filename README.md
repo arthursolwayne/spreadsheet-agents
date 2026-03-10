@@ -1,7 +1,4 @@
-# SpreadsheetBench-400 Evidence Package
-
-Research-grade audit package comparing AI models on the SpreadsheetBench-400 benchmark.
-Generated 2026-03-09.
+# SpreadsheetBench-400 Results
 
 ## Key Results
 
