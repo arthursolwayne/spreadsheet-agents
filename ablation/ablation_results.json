@@ -46,7 +46,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "37378": {
       "opus_bare": true,
@@ -54,15 +54,15 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": false
     },
     "35742": {
       "opus_bare": true,
       "tetra": true,
       "bare_skill_disabled": false,
       "xlsx_hint": true,
-      "openpyxl_hint": null,
-      "strict": null
+      "openpyxl_hint": false,
+      "strict": false
     },
     "168-17": {
       "opus_bare": false,
@@ -102,7 +102,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": true
     },
     "16511": {
       "opus_bare": true,
@@ -110,7 +110,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "269-43": {
       "opus_bare": true,
@@ -126,7 +126,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "130-9": {
       "opus_bare": true,
@@ -134,7 +134,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "353-6": {
       "opus_bare": true,
@@ -158,7 +158,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": false,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "160-6": {
       "opus_bare": true,
@@ -174,7 +174,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": false,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "262-17": {
       "opus_bare": true,
@@ -206,7 +206,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": true
     },
     "31202": {
       "opus_bare": true,
@@ -214,7 +214,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "36277": {
       "opus_bare": true,
@@ -222,7 +222,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": false
     },
     "12864": {
       "opus_bare": true,
@@ -230,7 +230,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "402-43": {
       "opus_bare": true,
@@ -238,7 +238,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": true
     },
     "382-10": {
       "opus_bare": true,
@@ -246,7 +246,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": false
     },
     "408-39": {
       "opus_bare": true,
@@ -254,7 +254,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": true
     },
     "236-22": {
       "opus_bare": true,
@@ -286,7 +286,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": false
     },
     "157-4": {
       "opus_bare": false,
@@ -302,7 +302,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "32438": {
       "opus_bare": false,
@@ -310,7 +310,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": false
     },
     "290-27": {
       "opus_bare": true,
@@ -318,7 +318,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": false,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "38985": {
       "opus_bare": true,
@@ -342,7 +342,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": false,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "28-7": {
       "opus_bare": true,
@@ -358,7 +358,7 @@
       "bare_skill_disabled": true,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "37554": {
       "opus_bare": true,
@@ -374,7 +374,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": true,
-      "strict": null
+      "strict": true
     },
     "334-11": {
       "opus_bare": true,
@@ -398,7 +398,7 @@
       "bare_skill_disabled": false,
       "xlsx_hint": true,
       "openpyxl_hint": false,
-      "strict": null
+      "strict": true
     }
   },
   "run_summaries": {
@@ -420,15 +420,15 @@
       "label": "openpyxl hint",
       "description": "Added 'use Python with openpyxl' to prompt. Specific library hint.",
       "tasks_passed": 15,
-      "tasks_total": 44,
-      "accuracy_pct": 34.1
+      "tasks_total": 45,
+      "accuracy_pct": 33.3
     },
     "strict": {
       "label": "Strict (no VBA/formulas/text)",
       "description": "Full strict prompt: openpyxl only, no VBA macros, no formulas, no explanatory text.",
-      "tasks_passed": 8,
-      "tasks_total": 21,
-      "accuracy_pct": 38.1
+      "tasks_passed": 26,
+      "tasks_total": 45,
+      "accuracy_pct": 57.8
     },
     "opus_bare_same_45": {
       "label": "Claude Opus 4.6 (bare prompt)",
