@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "13-1",
+    "category": "Cross-Sheet Consolidation",
+    "difficulty": "Very Complex",
+    "reasoning": "Requires matching duplicates across sheets, sorting with secondary keys, adding totals, and clearing old data before repopulating."
+  },
+  {
+    "id": "17-35",
+    "category": "Date Range Filtering",
+    "difficulty": "Moderate",
+    "reasoning": "Filter rows by start/end date criteria and copy matching rows preserving formatting \u2014 single operation but large range."
+  },
+  {
+    "id": "22-47",
+    "category": "Custom Priority Sorting",
+    "difficulty": "Very Complex",
+    "reasoning": "Multi-rule sorting with helper column priority, deduplication by composite key, fallback alphabetical sort, and header skipping."
+  },
+  {
+    "id": "23-24",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete rows where column A values appear in column I \u2014 single lookup-based deletion across a large dataset."
+  },
+  {
+    "id": "24-23",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Filter and delete rows matching three specific group labels in column A \u2014 straightforward criteria."
+  },
+  {
+    "id": "28-7",
+    "category": "Pattern-Based Row Deletion",
+    "difficulty": "Complex",
+    "reasoning": "Delete rows between pattern-matched part numbers with regex-like conditions and variable blank rows between entries."
+  },
+  {
+    "id": "41-47",
+    "category": "Multi-Sheet Aggregation",
+    "difficulty": "Very Complex",
+    "reasoning": "Aggregate items from 3 sheets into categorized buckets on a summary sheet, ordered by item number, with dynamic clearing."
+  },
+  {
+    "id": "51-12",
+    "category": "Sequential Threshold Counting",
+    "difficulty": "Complex",
+    "reasoning": "Count 10% increases with restarting reference logic across a row \u2014 requires understanding iterative comparison semantics."
+  },
+  {
+    "id": "60-7",
+    "category": "Set Arithmetic Consolidation",
+    "difficulty": "Moderate",
+    "reasoning": "Combine rows from two sheets and subtract rows from a third \u2014 set union/difference with column alignment."
+  },
+  {
+    "id": "262-17",
+    "category": "Dynamic Column Sorting",
+    "difficulty": "Moderate",
+    "reasoning": "Dynamically locate headers and perform multi-level sort \u2014 the challenge is dynamic range detection, not the sort itself."
+  },
+  {
+    "id": "263-1",
+    "category": "Grouped Area Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Calculate total area per material type from width/height columns and display results \u2014 aggregation with grouping."
+  },
+  {
+    "id": "267-18",
+    "category": "Conditional String Manipulation",
+    "difficulty": "Simple",
+    "reasoning": "Add a prefix to concatenation formula only for yellow-highlighted rows \u2014 small scale, single operation."
+  },
+  {
+    "id": "267-21",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Look up IDs across two sheets and populate values into a merged sheet with error handling for missing entries."
+  },
+  {
+    "id": "269-43",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows where column I has data but column H is blank \u2014 simple two-column condition check."
+  },
+  {
+    "id": "269-44",
+    "category": "Pattern-Based Row Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete four rows before each 'Chassis' occurrence \u2014 requires positional awareness and careful row shifting."
+  },
+  {
+    "id": "279-23",
+    "category": "Text Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract text within parentheses across a column, handling edge cases of no parentheses and blank cells."
+  },
+  {
+    "id": "280-17",
+    "category": "Duplicate Row Removal",
+    "difficulty": "Moderate",
+    "reasoning": "Keep only last occurrence of each unique value in a column and delete earlier duplicates."
+  },
+  {
+    "id": "283-32",
+    "category": "Sheet Difference Detection",
+    "difficulty": "Complex",
+    "reasoning": "Compare two snapshots and output additions and subtractions to separate sheets \u2014 set difference in both directions."
+  },
+  {
+    "id": "290-1",
+    "category": "Data Transposition",
+    "difficulty": "Moderate",
+    "reasoning": "Transpose row-oriented data into column-oriented layout following a provided pattern."
+  },
+  {
+    "id": "290-27",
+    "category": "Text Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Remove alphabetic prefixes from alphanumeric strings while preserving dates \u2014 requires pattern recognition."
+  },
+  {
+    "id": "297-42",
+    "category": "Multi-Sheet Consolidation",
+    "difficulty": "Complex",
+    "reasoning": "Copy data from multiple sheets into a combined sheet with correct column header mapping across many rows."
+  },
+  {
+    "id": "304-35",
+    "category": "Conditional Cell Manipulation",
+    "difficulty": "Complex",
+    "reasoning": "Two interleaved operations: clear column F where E is empty, and fill column A downward with stopping conditions."
+  },
+  {
+    "id": "333-29",
+    "category": "Multi-Step Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Chain of lookups across two sheets with fallback logic \u2014 find Yes/NA, then find 100 above it, get date, cross-reference."
+  },
+  {
+    "id": "341-40",
+    "category": "Conditional Value Insertion",
+    "difficulty": "Simple",
+    "reasoning": "Insert text in column Q when three columns match specific values \u2014 straightforward multi-condition check."
+  },
+  {
+    "id": "384-4",
+    "category": "Set Difference Comparison",
+    "difficulty": "Moderate",
+    "reasoning": "Find values in Source but not Source2, with special handling for value 2 \u2014 set operations with exception."
+  },
+  {
+    "id": "408-5",
+    "category": "Conditional Aggregation Deletion",
+    "difficulty": "Complex",
+    "reasoning": "Sum values meeting a condition, insert result at specific location, then delete matching rows and blanks."
+  },
+  {
+    "id": "433-47",
+    "category": "Constrained Balancing",
+    "difficulty": "Very Complex",
+    "reasoning": "Distribute residuals across unit columns respecting min/max constraints with bidirectional logic \u2014 optimization problem."
+  },
+  {
+    "id": "455-35",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows where column B doesn't start with 'H' or 'A' \u2014 simple string prefix filter."
+  },
+  {
+    "id": "469-9",
+    "category": "Column Splitting",
+    "difficulty": "Simple",
+    "reasoning": "Split debit/credit values from one column into two separate columns as absolute values."
+  },
+  {
+    "id": "472-15",
+    "category": "Value Lookup Assignment",
+    "difficulty": "Simple",
+    "reasoning": "Map cell A1 text to a numeric value in B2 \u2014 simple lookup table with 6 entries."
+  },
+  {
+    "id": "477-45",
+    "category": "Duplicate Merge Summation",
+    "difficulty": "Complex",
+    "reasoning": "Merge rows with matching composite keys across three columns and sum values, outputting deduplicated results."
+  },
+  {
+    "id": "493-18",
+    "category": "Conditional Data Clearing",
+    "difficulty": "Moderate",
+    "reasoning": "Match column A against column F, clear non-matching rows in A-C, then compact remaining data upward."
+  },
+  {
+    "id": "547-18",
+    "category": "Pattern-Based Row Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Copy rows where column A starts with '**' to another sheet \u2014 straightforward pattern match and copy."
+  },
+  {
+    "id": "61-4",
+    "category": "Consecutive Value Merging",
+    "difficulty": "Very Complex",
+    "reasoning": "Identify consecutive negative values per stock, merge OHLCV data with specific aggregation rules per field."
+  },
+  {
+    "id": "66-24",
+    "category": "Date-Based Row Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Filter rows older than 30 days from max date, copy to new sheet with formatting, delete extra column."
+  },
+  {
+    "id": "73-45",
+    "category": "Text Pattern Highlighting",
+    "difficulty": "Complex",
+    "reasoning": "Search cells for editable word list patterns with whole-word matching and highlight \u2014 complex text search logic."
+  },
+  {
+    "id": "79-7",
+    "category": "Find And Replace",
+    "difficulty": "Simple",
+    "reasoning": "Remove all double quotes across all columns \u2014 single find/replace operation."
+  },
+  {
+    "id": "80-42",
+    "category": "Multi-Sheet Consolidation",
+    "difficulty": "Complex",
+    "reasoning": "Consolidate rows from multiple sheets with column mapping, sheet name tracking, and formatting preservation."
+  },
+  {
+    "id": "82-30",
+    "category": "Conditional Data Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Copy only whole numbers from source sheet to output sheet maintaining order and row limits."
+  },
+  {
+    "id": "82-38",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Match invoice numbers from one sheet to another by sheet name and fill column D with dynamic range handling."
+  },
+  {
+    "id": "84-40",
+    "category": "Cross-Sheet Summation",
+    "difficulty": "Moderate",
+    "reasoning": "Sum columns C and D from each sheet, populate summary sheet with totals and differences."
+  },
+  {
+    "id": "91-34",
+    "category": "Conditional Duplicate Removal",
+    "difficulty": "Complex",
+    "reasoning": "Delete one duplicate entry based on composite key match with exclusion rule for 'Employee' relationship."
+  },
+  {
+    "id": "97-36",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete all rows above first occurrence of 'domestic' \u2014 simple search and bulk delete."
+  },
+  {
+    "id": "105-24",
+    "category": "ID-to-Name Replacement",
+    "difficulty": "Moderate",
+    "reasoning": "Replace IDs in two columns with corresponding names from a lookup sheet \u2014 cross-sheet find/replace."
+  },
+  {
+    "id": "109-21",
+    "category": "Group Maximum Detection",
+    "difficulty": "Moderate",
+    "reasoning": "Determine if each person has the highest score in their group with tie-handling and solo-group rules."
+  },
+  {
+    "id": "118-50",
+    "category": "Word Pattern Matching",
+    "difficulty": "Very Complex",
+    "reasoning": "Find word pairs with S-vowel substitution, sort alphabetically, group by suffix \u2014 combinatorial string analysis."
+  },
+  {
+    "id": "130-9",
+    "category": "Cross-Sheet Data Merge",
+    "difficulty": "Complex",
+    "reasoning": "Append source data to destination by matching headers, negate amounts, set specific column values."
+  },
+  {
+    "id": "142-19",
+    "category": "Block-Wise Sorting",
+    "difficulty": "Moderate",
+    "reasoning": "Sort independent blocks separated by blank rows while keeping associated column B data paired."
+  },
+  {
+    "id": "146-49",
+    "category": "Word Pattern Matching",
+    "difficulty": "Very Complex",
+    "reasoning": "Find all word pairs differing only by S-to-vowel substitution across 5000 words \u2014 combinatorial matching with sorting."
+  },
+  {
+    "id": "147-48",
+    "category": "Data Transposition",
+    "difficulty": "Moderate",
+    "reasoning": "Transpose column A data into a multi-column layout following a demonstrated pattern."
+  },
+  {
+    "id": "156-14",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete rows containing specific text in column F across three named sheets."
+  },
+  {
+    "id": "157-4",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows where columns F-L are all empty within a specified range."
+  },
+  {
+    "id": "160-6",
+    "category": "Blank Row Removal",
+    "difficulty": "Simple",
+    "reasoning": "Delete blank rows and shift data up \u2014 basic cleanup operation."
+  },
+  {
+    "id": "165-23",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete rows where column C is NOT #N/A \u2014 inverse error-based filtering with formatting preservation."
+  },
+  {
+    "id": "168-17",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Find first 'Invoice No.' in column A and delete all rows above it."
+  },
+  {
+    "id": "170-13",
+    "category": "Cross-Sheet Expansion",
+    "difficulty": "Very Complex",
+    "reasoning": "Match headers between sheets, insert proportional rows, and append combined data into Sheet3 \u2014 multi-step expansion."
+  },
+  {
+    "id": "177-6",
+    "category": "Row Merging By Key",
+    "difficulty": "Complex",
+    "reasoning": "Merge rows with matching column H values, combining data across columns with specific formatting rules."
+  },
+  {
+    "id": "178-22",
+    "category": "Multi-Criteria Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract rows matching OR conditions across two columns to another sheet."
+  },
+  {
+    "id": "191-40",
+    "category": "Block-Wise Sorting",
+    "difficulty": "Complex",
+    "reasoning": "Sort blocks by column D descending while preserving formulas, formatting, and block separation \u2014 formula-aware sorting."
+  },
+  {
+    "id": "194-19",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Very Complex",
+    "reasoning": "Multi-level matching of meet names and race numbers across sheets with complex column mapping logic."
+  },
+  {
+    "id": "203-15",
+    "category": "Data Transposition",
+    "difficulty": "Complex",
+    "reasoning": "Pivot staff allowance data from rows to columns, creating a denormalized output with calculated totals."
+  },
+  {
+    "id": "208-20",
+    "category": "Column Sorting",
+    "difficulty": "Simple",
+    "reasoning": "Sort table by column I descending \u2014 straightforward sort with non-contiguous data handling."
+  },
+  {
+    "id": "230-16",
+    "category": "String Splitting",
+    "difficulty": "Moderate",
+    "reasoning": "Extract substring starting from first letter, move to column B, delete from column A."
+  },
+  {
+    "id": "236-22",
+    "category": "Pattern-Based Row Deletion",
+    "difficulty": "Complex",
+    "reasoning": "Delete 'Line No' header rows and the blank row below them across multiple sheets."
+  },
+  {
+    "id": "250-20",
+    "category": "Duplicate Merge Summation",
+    "difficulty": "Moderate",
+    "reasoning": "Sum column J for duplicate entries in columns B&C, keep one row per unique pair."
+  },
+  {
+    "id": "254-34",
+    "category": "Subset Sum Detection",
+    "difficulty": "Complex",
+    "reasoning": "Find combination of values summing to a target range \u2014 NP-hard subset sum problem with highlighting."
+  },
+  {
+    "id": "108-24",
+    "category": "Pattern-Based Row Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract rows matching multiple text prefixes containing 'Used' keyword, excluding specific ID."
+  },
+  {
+    "id": "120-24",
+    "category": "Multi-Condition Replacement",
+    "difficulty": "Complex",
+    "reasoning": "Replace values based on three-column condition chain with branching logic and conditional formatting."
+  },
+  {
+    "id": "141-20",
+    "category": "Cross-Sheet Match Deletion",
+    "difficulty": "Complex",
+    "reasoning": "Match invoice numbers and values across two sheets and delete matching rows from both \u2014 bidirectional deletion."
+  },
+  {
+    "id": "142-12",
+    "category": "Conditional Value Replacement",
+    "difficulty": "Simple",
+    "reasoning": "Replace text when two conditions met (specific text + whole number) \u2014 simple dual-condition check."
+  },
+  {
+    "id": "183-8",
+    "category": "Weighted Average Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Calculate weighted averages for three columns \u2014 requires understanding weighting logic from data context."
+  },
+  {
+    "id": "188-39",
+    "category": "Conditional Lookup Display",
+    "difficulty": "Moderate",
+    "reasoning": "Match designation criteria and display contact info or N/A based on role matching per location."
+  },
+  {
+    "id": "192-22",
+    "category": "Keyword Classification",
+    "difficulty": "Moderate",
+    "reasoning": "Scan column D for keyword list matches and output category label \u2014 text matching with partial match support."
+  },
+  {
+    "id": "209-30",
+    "category": "String Truncation",
+    "difficulty": "Simple",
+    "reasoning": "Remove last 3 characters from postcodes in a column \u2014 single string operation at scale."
+  },
+  {
+    "id": "227-40",
+    "category": "Row-Wise Deduplication",
+    "difficulty": "Moderate",
+    "reasoning": "Remove duplicate text values within the same row across columns \u2014 unusual horizontal dedup."
+  },
+  {
+    "id": "247-24",
+    "category": "Multi-Operation Transform",
+    "difficulty": "Very Complex",
+    "reasoning": "Five distinct operations: delete rows, conditional update, insert rows, VLOOKUP, cleanup \u2014 highly composite task."
+  },
+  {
+    "id": "302-1",
+    "category": "Cross-Sheet Value Sync",
+    "difficulty": "Moderate",
+    "reasoning": "Match and replace column B values across two sheets using a reference sheet \u2014 multi-sheet find/replace."
+  },
+  {
+    "id": "325-44",
+    "category": "Data Unpivoting",
+    "difficulty": "Moderate",
+    "reasoning": "Split filter column data into separate columns based on status \u2014 pivot/reshape operation."
+  },
+  {
+    "id": "334-11",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete blank rows and rows with small values between -1 and 1 in column C."
+  },
+  {
+    "id": "341-14",
+    "category": "Data Transposition",
+    "difficulty": "Moderate",
+    "reasoning": "Transform two-column data into a different layout with entries that may lack corresponding values."
+  },
+  {
+    "id": "343-20",
+    "category": "Duplicate Row Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract rows with duplicate values in column C to another sheet, sorted by multiple columns."
+  },
+  {
+    "id": "353-6",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Filter column I for specific text and delete matching rows \u2014 standard filter-and-delete."
+  },
+  {
+    "id": "353-29",
+    "category": "Sequential Label Generation",
+    "difficulty": "Complex",
+    "reasoning": "Generate alphanumeric URNs for blank cells based on preceding number with letter sequences beyond 26."
+  },
+  {
+    "id": "359-21",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows matching specific text values in column B \u2014 simple criteria-based deletion."
+  },
+  {
+    "id": "367-23",
+    "category": "Precision-Aware Row Deletion",
+    "difficulty": "Complex",
+    "reasoning": "Delete rows where near-zero values sum to approximately zero \u2014 floating-point precision handling."
+  },
+  {
+    "id": "370-43",
+    "category": "Conditional Row Insertion",
+    "difficulty": "Simple",
+    "reasoning": "Insert blank row above each row with 'X' in column A \u2014 straightforward insertion pattern."
+  },
+  {
+    "id": "374-18",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows where column E value is less than 1 \u2014 simple numeric threshold deletion."
+  },
+  {
+    "id": "374-31",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete blank rows only above a cell containing 'Code' \u2014 positional blank row removal."
+  },
+  {
+    "id": "379-36",
+    "category": "Conditional Value Replacement",
+    "difficulty": "Moderate",
+    "reasoning": "Replace text based on whether corresponding numeric value is whole or has decimals \u2014 dual-branch logic."
+  },
+  {
+    "id": "382-10",
+    "category": "Conditional Cell Clearing",
+    "difficulty": "Simple",
+    "reasoning": "Clear all values in column A that don't equal 'comments' \u2014 simple inequality filter."
+  },
+  {
+    "id": "382-29",
+    "category": "Cross-Sheet Summation",
+    "difficulty": "Moderate",
+    "reasoning": "Sum corresponding cells across multiple sheets into a totals sheet \u2014 repetitive but straightforward aggregation."
+  },
+  {
+    "id": "387-16",
+    "category": "Matched Value Removal",
+    "difficulty": "Complex",
+    "reasoning": "Remove matched values from columns with compaction and calculate solver result \u2014 multi-step with shifting logic."
+  },
+  {
+    "id": "388-47",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows where column E starts with 'Z1' or 'X1' \u2014 prefix-based wildcard filter deletion."
+  },
+  {
+    "id": "395-36",
+    "category": "Missing ID Insertion",
+    "difficulty": "Complex",
+    "reasoning": "Compare ID lists, insert missing IDs with blank rows into result sheet \u2014 gap detection and row insertion."
+  },
+  {
+    "id": "398-14",
+    "category": "Multi-Sheet Aggregation",
+    "difficulty": "Very Complex",
+    "reasoning": "Match and sum across sheets, add calculated column, format negatives, handle empty cells \u2014 many interleaved requirements."
+  },
+  {
+    "id": "399-14",
+    "category": "Threshold Column Splitting",
+    "difficulty": "Moderate",
+    "reasoning": "Split hours into regular and overtime based on 40-hour threshold with specific number formatting."
+  },
+  {
+    "id": "402-43",
+    "category": "Row Duplication By Count",
+    "difficulty": "Moderate",
+    "reasoning": "Duplicate rows based on a count column value \u2014 repeat each row N times."
+  },
+  {
+    "id": "408-39",
+    "category": "Dynamic Column Reordering",
+    "difficulty": "Moderate",
+    "reasoning": "Find column by header text and move it to a fixed position \u2014 dynamic column location with insert."
+  },
+  {
+    "id": "409-45",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Complex",
+    "reasoning": "Delete empty rows within ID-based ranges with fallback to delete all empty rows when filter cell is empty."
+  },
+  {
+    "id": "414-20",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete all rows above first occurrence of 'Invoice No.' \u2014 identical pattern to task 168-17."
+  },
+  {
+    "id": "416-15",
+    "category": "Text Cleaning",
+    "difficulty": "Simple",
+    "reasoning": "Strip fixed-length time suffix from date strings in a single column using pattern matching."
+  },
+  {
+    "id": "416-27",
+    "category": "Blank Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete rows where column A is blank within a defined range; single operation on one column."
+  },
+  {
+    "id": "423-16",
+    "category": "Conditional Transpose",
+    "difficulty": "Moderate",
+    "reasoning": "Filter cells by background color, transpose to another sheet, and apply formatting\u2014multi-step but conceptually straightforward."
+  },
+  {
+    "id": "438-18",
+    "category": "Value Replacement Mapping",
+    "difficulty": "Simple",
+    "reasoning": "Replace known country names with abbreviations while copying between sheets; direct find-and-replace with a fixed mapping."
+  },
+  {
+    "id": "440-24",
+    "category": "Column Value Mapping",
+    "difficulty": "Simple",
+    "reasoning": "Overwrite column B with corresponding values from column H; a single-pass copy operation."
+  },
+  {
+    "id": "448-11",
+    "category": "Duplicate Row Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Remove rows with duplicate values in column A; single-criteria deduplication."
+  },
+  {
+    "id": "463-17",
+    "category": "Row Expansion By Count",
+    "difficulty": "Moderate",
+    "reasoning": "Repeat each company name N times based on a count column; requires iterating and expanding rows dynamically."
+  },
+  {
+    "id": "486-17",
+    "category": "Date Reformatting",
+    "difficulty": "Simple",
+    "reasoning": "Parse a fixed-format numeric string and insert spaces to reformat dates across ~130 rows."
+  },
+  {
+    "id": "488-14",
+    "category": "Frequency-Based Sorting",
+    "difficulty": "Moderate",
+    "reasoning": "Sort column by occurrence frequency rather than value; requires counting then reordering."
+  },
+  {
+    "id": "493-5",
+    "category": "Paired Row Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete matching row pairs based on cross-column value matching across three criteria simultaneously."
+  },
+  {
+    "id": "496-15",
+    "category": "Conditional Text Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Parse numeric values from text cells containing 'Check', place in another column, and update source text."
+  },
+  {
+    "id": "496-34",
+    "category": "Duplicate Aggregation",
+    "difficulty": "Complex",
+    "reasoning": "Aggregate amounts by duplicate ID, unmerge cells, reformat fonts/colors, and reposition merged cell data\u2014many constraints."
+  },
+  {
+    "id": "510-3",
+    "category": "Date Component Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Split date strings into Y/M/D components and compute a weighted sum across ~77 rows with format preservation."
+  },
+  {
+    "id": "516-46",
+    "category": "Group Aggregation By Date",
+    "difficulty": "Complex",
+    "reasoning": "Filter to last date per brand, merge duplicate entries by summing quantities, and output to a new range."
+  },
+  {
+    "id": "524-31",
+    "category": "Category Assignment",
+    "difficulty": "Complex",
+    "reasoning": "Match transaction descriptions against shortened vendor names to assign categories via fuzzy partial matching across 53 rows."
+  },
+  {
+    "id": "531-18",
+    "category": "Multi-Column Unpivot",
+    "difficulty": "Complex",
+    "reasoning": "Transpose a wide date-column matrix into long format (ITEM/DATE/QTY) producing ~970 rows from a pivot table."
+  },
+  {
+    "id": "534-26",
+    "category": "Conditional Column Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete columns where the header date precedes current month/year; requires date comparison across many columns."
+  },
+  {
+    "id": "535-20",
+    "category": "Conditional Column Deletion",
+    "difficulty": "Simple",
+    "reasoning": "Delete all columns containing '/description' in row 1; single keyword match across columns."
+  },
+  {
+    "id": "545-35",
+    "category": "Non-Numeric Cell Replacement",
+    "difficulty": "Simple",
+    "reasoning": "Replace any cell containing non-numeric characters with zero in a defined range."
+  },
+  {
+    "id": "547-43",
+    "category": "Transpose With Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Transpose column data to rows, add category/subcategory via lookup table matching\u2014multi-step reshape and join."
+  },
+  {
+    "id": "560-12",
+    "category": "Frequency Counting",
+    "difficulty": "Simple",
+    "reasoning": "Count occurrences of each unique item and output in a specified order with formatting."
+  },
+  {
+    "id": "567-21",
+    "category": "Most Recent Row Filtering",
+    "difficulty": "Complex",
+    "reasoning": "Keep only rows with the most recent date per account-number pair, handle ties and missing dates\u2014multi-criteria filtering."
+  },
+  {
+    "id": "577-40",
+    "category": "Conditional Row Deletion",
+    "difficulty": "Moderate",
+    "reasoning": "Delete rows where both columns J and K match a set of blank/zero-like values; dual-column condition check."
+  },
+  {
+    "id": "585-41",
+    "category": "Text Cleaning",
+    "difficulty": "Simple",
+    "reasoning": "Strip non-numeric characters while preserving decimals in 8 cells; single regex-style replacement."
+  },
+  {
+    "id": "599-9",
+    "category": "Conditional Value Transfer",
+    "difficulty": "Simple",
+    "reasoning": "Copy dates from column G to K when present, otherwise keep existing K value; simple conditional copy."
+  },
+  {
+    "id": "12307",
+    "category": "Cross-Table Counting",
+    "difficulty": "Moderate",
+    "reasoning": "Count countries where a company has >0 employees by cross-referencing two tables."
+  },
+  {
+    "id": "15380",
+    "category": "Substring Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Extract a code from a text string, look it up in a reference range, and return the corresponding month value."
+  },
+  {
+    "id": "30930",
+    "category": "Segmented Conditional Count",
+    "difficulty": "Complex",
+    "reasoning": "Count positive values in column A between occurrences of 1 in column B; requires dynamic segment boundary detection."
+  },
+  {
+    "id": "31202",
+    "category": "Running Balance Update",
+    "difficulty": "Complex",
+    "reasoning": "Maintain a cumulative debt balance per worker across weeks with additions and deductions\u2014stateful multi-row logic."
+  },
+  {
+    "id": "33722",
+    "category": "Rolling Percentile Median",
+    "difficulty": "Very Complex",
+    "reasoning": "Calculate median within percentile ranges with progressive row exclusion; chained statistical operations with shifting boundaries."
+  },
+  {
+    "id": "34033",
+    "category": "Date Range Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Return a value when a date falls between two adjacent dates with an additional column condition."
+  },
+  {
+    "id": "37900",
+    "category": "Date-Based Lookup",
+    "difficulty": "Simple",
+    "reasoning": "Return a value based on today's date; single formula with current date matching."
+  },
+  {
+    "id": "38074",
+    "category": "Conditional Aggregation",
+    "difficulty": "Moderate",
+    "reasoning": "Sum profit minus expenses using case-sensitive matching across multiple columns with blank-as-zero handling."
+  },
+  {
+    "id": "38462",
+    "category": "Time Rounding",
+    "difficulty": "Simple",
+    "reasoning": "Round up a duration value to the nearest whole hour; single arithmetic operation."
+  },
+  {
+    "id": "38537",
+    "category": "Sequential Numbering",
+    "difficulty": "Moderate",
+    "reasoning": "Generate sequential three-digit numbers concatenated with a prefix, handling gaps in the source range."
+  },
+  {
+    "id": "38703",
+    "category": "Segmented Unique Count",
+    "difficulty": "Moderate",
+    "reasoning": "Count unique item numbers within three defined row segments and place results at specific cells."
+  },
+  {
+    "id": "38823",
+    "category": "Date-Filtered Conditional Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum values matching a search term within a date range using SUMIFS-style multi-criteria logic."
+  },
+  {
+    "id": "38969",
+    "category": "Nested Conditional Logic",
+    "difficulty": "Simple",
+    "reasoning": "Apply a three-branch IF formula based on error status and numeric thresholds; straightforward conditional."
+  },
+  {
+    "id": "38985",
+    "category": "Transposed Duplicate Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Retrieve multiple values for duplicate names from one table and transpose them into rows in another."
+  },
+  {
+    "id": "39046",
+    "category": "Multi-Step Conditional Count",
+    "difficulty": "Complex",
+    "reasoning": "Chain cancelled-status check, substring matching across columns, yes/no assignment, and final count\u2014four dependent operations."
+  },
+  {
+    "id": "39432",
+    "category": "FIFO Cost Calculation",
+    "difficulty": "Very Complex",
+    "reasoning": "Calculate per-unit cost using FIFO across variable purchase orders with conditional averaging\u2014domain-specific inventory logic."
+  },
+  {
+    "id": "39515",
+    "category": "Two-Dimensional Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "INDEX/MATCH lookup by both month and year to pull the correct value from a matrix."
+  },
+  {
+    "id": "39667",
+    "category": "Reverse Lookup",
+    "difficulty": "Simple",
+    "reasoning": "Look up a description and return corresponding IDs from a reference table; basic VLOOKUP/INDEX-MATCH."
+  },
+  {
+    "id": "39903",
+    "category": "Parsed String Counting",
+    "difficulty": "Complex",
+    "reasoning": "Parse colon-delimited location strings, exclude those starting with X/Z, and count unique valid locations."
+  },
+  {
+    "id": "39931",
+    "category": "Two-Criteria Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Return values by matching on two columns simultaneously; standard INDEX/MATCH with two criteria."
+  },
+  {
+    "id": "40478",
+    "category": "Text Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract substring between second space and first dash; single string manipulation formula."
+  },
+  {
+    "id": "41410",
+    "category": "Filtered Data Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract rows matching 'lighting' from a table into a separate range; single-criteria filter."
+  },
+  {
+    "id": "41601",
+    "category": "Dynamic Sheet Reference",
+    "difficulty": "Moderate",
+    "reasoning": "Build INDIRECT references to pull cell values from sheets named after students; requires dynamic sheet name construction."
+  },
+  {
+    "id": "41691",
+    "category": "Formula Error Fix",
+    "difficulty": "Simple",
+    "reasoning": "Fix a single #REF! error in one cell; minimal debugging."
+  },
+  {
+    "id": "41969",
+    "category": "Offset Pattern Formula",
+    "difficulty": "Moderate",
+    "reasoning": "Apply COUNTBLANK with shifting column ranges using OFFSET or INDIRECT; requires formula pattern generalization."
+  },
+  {
+    "id": "42198",
+    "category": "Cumulative Conditional Logic",
+    "difficulty": "Complex",
+    "reasoning": "Expanding-range COUNTIFS with priority-ordered conditions evaluated cumulatively row by row."
+  },
+  {
+    "id": "42526",
+    "category": "Proportional Scoring",
+    "difficulty": "Moderate",
+    "reasoning": "Map values to a -5 to +5 scale proportionally around zero with asymmetric positive/negative ranges plus formatting."
+  },
+  {
+    "id": "44389",
+    "category": "Row-Wise Minimum Header",
+    "difficulty": "Moderate",
+    "reasoning": "Find the column header(s) of the smallest positive value per row, joining ties with commas."
+  },
+  {
+    "id": "45300",
+    "category": "Text Truncation",
+    "difficulty": "Simple",
+    "reasoning": "Remove everything from 'FT' onward in each cell; single LEFT/FIND operation."
+  },
+  {
+    "id": "45635",
+    "category": "Tie-Aware Scoring",
+    "difficulty": "Moderate",
+    "reasoning": "Assign points based on rank with tie-handling rules across a small grid; conditional logic with tie detection."
+  },
+  {
+    "id": "45896",
+    "category": "Multi-Date Formatting",
+    "difficulty": "Complex",
+    "reasoning": "Join multiple dates from a cross-sheet lookup into one cell with DD/MM/YYYY formatting using TEXTJOIN and array formulas."
+  },
+  {
+    "id": "46167",
+    "category": "Conditional Sum",
+    "difficulty": "Simple",
+    "reasoning": "SUMIF on a single criterion to sum quantities for a matching product ID."
+  },
+  {
+    "id": "46240",
+    "category": "Nested Conditional Logic",
+    "difficulty": "Simple",
+    "reasoning": "Three-branch IF checking for date, text, or blank in a single column."
+  },
+  {
+    "id": "47766",
+    "category": "Date-Filtered Conditional Sum",
+    "difficulty": "Complex",
+    "reasoning": "Adapt SUMIF formulas to use date ranges for annual production calculation across multiple row segments."
+  },
+  {
+    "id": "47798",
+    "category": "Text Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract text after 'Collection-' up to the next comma or end of string."
+  },
+  {
+    "id": "47842",
+    "category": "Case-Matching Correction",
+    "difficulty": "Moderate",
+    "reasoning": "Compare initial letter case between two columns and correct the case while preserving tense\u2014string manipulation with conditional logic."
+  },
+  {
+    "id": "47933",
+    "category": "Conditional Multiplication",
+    "difficulty": "Simple",
+    "reasoning": "IF formula multiplying rate by 2 or 1.5 based on hours threshold; applied across ~150 rows."
+  },
+  {
+    "id": "48080",
+    "category": "Nth Row Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract every nth row value using OFFSET or INDEX; single-pattern formula."
+  },
+  {
+    "id": "48257",
+    "category": "Numeric Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract numerical values from mixed currency text strings with varying decimal/thousand separator conventions."
+  },
+  {
+    "id": "48365",
+    "category": "Multi-Criteria Conditional Sum",
+    "difficulty": "Moderate",
+    "reasoning": "SUMIFS with OR logic across up to 3 region selections plus an 'All' option."
+  },
+  {
+    "id": "48588",
+    "category": "Sequential Numbering",
+    "difficulty": "Moderate",
+    "reasoning": "Assign unique sequential IDs to unsorted products with duplicates across 42 rows."
+  },
+  {
+    "id": "48608",
+    "category": "Filtered Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Match session IDs marked as 'pass' to agent names; fix a VLOOKUP returning wrong column."
+  },
+  {
+    "id": "48620",
+    "category": "Nth Match Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Return the Nth matching value for duplicate lookup keys rather than always the first match."
+  },
+  {
+    "id": "48643",
+    "category": "Compound Interest Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Calculate cumulative wealth with variable annual deposits and rates over 39 years; recursive formula pattern."
+  },
+  {
+    "id": "48745",
+    "category": "Multi-Value Cell Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Parse semicolon-delimited product codes, look up each in a table, and return group(s) or 'BOTH'\u2014multi-step string parsing and lookup."
+  },
+  {
+    "id": "48921",
+    "category": "Leading Character Removal",
+    "difficulty": "Simple",
+    "reasoning": "Strip leading characters from numbers with variable-length prefix removal across ~4450 rows."
+  },
+  {
+    "id": "48924",
+    "category": "Missing Date Detection",
+    "difficulty": "Moderate",
+    "reasoning": "Identify and list gaps in a date sequence; requires comparing consecutive dates and outputting missing ones."
+  },
+  {
+    "id": "48969",
+    "category": "Two-Dimensional Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Match rows and columns between two data sources to populate a result matrix."
+  },
+  {
+    "id": "48975",
+    "category": "Conditional Row Copy",
+    "difficulty": "Moderate",
+    "reasoning": "Copy rows from Input to Output sheet where column E is 'yes', skipping blanks, without VBA."
+  },
+  {
+    "id": "48982",
+    "category": "Circular Reference Fix",
+    "difficulty": "Moderate",
+    "reasoning": "Diagnose and fix a circular reference in a MAX formula that references its own cell within the range."
+  },
+  {
+    "id": "48983",
+    "category": "Two-Dimensional Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "INDEX/MATCH to transfer data matching category and brand headers across two tables."
+  },
+  {
+    "id": "49036",
+    "category": "Text-Number Parsing",
+    "difficulty": "Moderate",
+    "reasoning": "Extract numbers from mixed text/number cells, compute percentage, and append text label with formatting."
+  },
+  {
+    "id": "49196",
+    "category": "Date Reformatting",
+    "difficulty": "Moderate",
+    "reasoning": "Parse European-style dates with periods, update year dynamically, and reformat with slashes across 46 rows."
+  },
+  {
+    "id": "49237",
+    "category": "Conditional Text Append",
+    "difficulty": "Moderate",
+    "reasoning": "Extract middle initial from full name and conditionally append a period; chained string functions with edge case handling."
+  },
+  {
+    "id": "49300",
+    "category": "Two-Criteria Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Fix an INDEX/MATCH with two criteria using array formula (CSE) to retrieve values from a matrix."
+  },
+  {
+    "id": "49333",
+    "category": "Lookup Error Debugging",
+    "difficulty": "Moderate",
+    "reasoning": "Debug VLOOKUP #N/A caused by whitespace in lookup table; apply TRIM within the formula and reformat output."
+  },
+  {
+    "id": "49667",
+    "category": "Block Detection Formula",
+    "difficulty": "Very Complex",
+    "reasoning": "Scan a wide grid for contiguous 'm' blocks, extract start/finish dates and times for up to two meetings per row across 15 rows."
+  },
+  {
+    "id": "49801",
+    "category": "String Concatenation",
+    "difficulty": "Simple",
+    "reasoning": "Combine LEFT and RIGHT extractions into a single cell; trivial concatenation."
+  },
+  {
+    "id": "50088",
+    "category": "Conditional Counting",
+    "difficulty": "Moderate",
+    "reasoning": "Count values in column B with fallback to column A when B is empty; requires combined COUNTIFS logic."
+  },
+  {
+    "id": "50193",
+    "category": "Sequential Ranking",
+    "difficulty": "Complex",
+    "reasoning": "Fix SUMPRODUCT ranking to eliminate ties and enforce sequential order within categories across 600 rows."
+  },
+  {
+    "id": "50324",
+    "category": "Cross-Selling Analysis",
+    "difficulty": "Complex",
+    "reasoning": "Calculate pairwise product co-purchase percentages across 30 customers in an 8x8 matrix with diagonal special case."
+  },
+  {
+    "id": "50526",
+    "category": "Dynamic Filtered List",
+    "difficulty": "Moderate",
+    "reasoning": "List column headers where the lookup row has values >0, dynamically changing based on a dropdown selection."
+  },
+  {
+    "id": "50682",
+    "category": "Multi-Column Search Sum",
+    "difficulty": "Complex",
+    "reasoning": "Search for a part number across many non-contiguous columns and sum corresponding quantities from adjacent columns."
+  },
+  {
+    "id": "50768",
+    "category": "Matrix Placement",
+    "difficulty": "Moderate",
+    "reasoning": "Place risk IDs into a 3x3 matrix based on impact/likelihood values, concatenating when multiple share a cell."
+  },
+  {
+    "id": "50796",
+    "category": "Conditional Value Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum values in an adjacent column where the descriptor matches a target, rather than counting rows."
+  },
+  {
+    "id": "50916",
+    "category": "Lookup Formula Fix",
+    "difficulty": "Complex",
+    "reasoning": "Fix INDEX-MATCH for multi-row retrieval contingent on a dropdown toggle between two data sections across 5 columns and rows."
+  },
+  {
+    "id": "50952",
+    "category": "Fuzzy Text Matching",
+    "difficulty": "Complex",
+    "reasoning": "Search variable-format comment strings against a parameter table to return corresponding IDs; requires partial/fuzzy matching."
+  },
+  {
+    "id": "51090",
+    "category": "Multi-Criteria Aggregation",
+    "difficulty": "Very Complex",
+    "reasoning": "Calculate cartons minus errors filtered by warehouse, error codes, dates, and users with positive-only constraint\u2014many interacting criteria."
+  },
+  {
+    "id": "51262",
+    "category": "Multi-Criteria Conditional Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Fix SUMIFS with date range and list-based criteria; requires array-style OR logic within SUMIFS."
+  },
+  {
+    "id": "51289",
+    "category": "Conditional Ranking",
+    "difficulty": "Moderate",
+    "reasoning": "Find 1st and 2nd largest values per category (cat/dog) across a row and assign rank labels."
+  },
+  {
+    "id": "51359",
+    "category": "Consecutive Run Counting",
+    "difficulty": "Moderate",
+    "reasoning": "Sum consecutive 1s only when the run length is 2 or more; requires detecting and measuring contiguous groups."
+  },
+  {
+    "id": "51431",
+    "category": "Text Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract the first name before a semicolon from a delimited string; basic LEFT/FIND formula."
+  },
+  {
+    "id": "51586",
+    "category": "Substring Containment Check",
+    "difficulty": "Simple",
+    "reasoning": "Check if city name from column B appears at the end of store name in column A with formatting."
+  },
+  {
+    "id": "52216",
+    "category": "Conditional Index-Match",
+    "difficulty": "Complex",
+    "reasoning": "Fix INDEX-MATCH to work across multiple expense rows with a dropdown toggling between two data sections across 5 columns."
+  },
+  {
+    "id": "52575",
+    "category": "Segmented Dual-Condition Check",
+    "difficulty": "Complex",
+    "reasoning": "Flag weeks where an employee has both overtime and sick day, only at week-number boundaries\u2014multi-condition segment detection across 91 rows."
+  },
+  {
+    "id": "52807",
+    "category": "Conditional Formula Switching",
+    "difficulty": "Complex",
+    "reasoning": "Combines SUMIFS with a fallback forecast calculation across a 4x12 grid, requiring IF-based formula branching and cross-sheet references."
+  },
+  {
+    "id": "52917",
+    "category": "Date Construction",
+    "difficulty": "Simple",
+    "reasoning": "Concatenate day/month/year columns into a date using DATE() \u2014 single straightforward operation."
+  },
+  {
+    "id": "53167",
+    "category": "Running Difference",
+    "difficulty": "Moderate",
+    "reasoning": "Calculate usage since last non-zero entry requires conditional lookback logic to find the previous reference value."
+  },
+  {
+    "id": "54144",
+    "category": "Partial String Matching",
+    "difficulty": "Complex",
+    "reasoning": "Sum quantities where truck names on Data sheet must be matched against concatenated names on Report sheet \u2014 requires substring search within aggregation."
+  },
+  {
+    "id": "54196",
+    "category": "Lookup Formula Debugging",
+    "difficulty": "Moderate",
+    "reasoning": "Fix a broken VLOOKUP/INDEX-MATCH across sheets with mismatched table lengths \u2014 straightforward lookup once the error is identified."
+  },
+  {
+    "id": "54242",
+    "category": "Conditional Labeling",
+    "difficulty": "Simple",
+    "reasoning": "Simple IF formula checking for 'deposit' vs 'withdrawal' to return a label \u2014 single condition per cell."
+  },
+  {
+    "id": "54590",
+    "category": "Conditional Summation",
+    "difficulty": "Moderate",
+    "reasoning": "SUMIFS with multiple conditions across non-adjacent column ranges \u2014 single cell but tricky range references."
+  },
+  {
+    "id": "54675",
+    "category": "Partial Match Counting",
+    "difficulty": "Moderate",
+    "reasoning": "COUNTIFS with wildcard matching for partial name matches combined with an exact numeric condition."
+  },
+  {
+    "id": "1563",
+    "category": "Gap Filling",
+    "difficulty": "Moderate",
+    "reasoning": "Fill blank cells with the nearest non-blank value above \u2014 requires a lookup-back pattern across 29 cells."
+  },
+  {
+    "id": "1818",
+    "category": "Filtered Extraction",
+    "difficulty": "Complex",
+    "reasoning": "Extract lowest-performing students to a summary sheet without FILTER function (Excel 2013), requiring array formula workarounds."
+  },
+  {
+    "id": "1925",
+    "category": "Dynamic Column Lookup",
+    "difficulty": "Complex",
+    "reasoning": "INDEX/MATCH where the column dynamically shifts based on a date match in row headers across sheets."
+  },
+  {
+    "id": "2768",
+    "category": "Inventory Allocation",
+    "difficulty": "Very Complex",
+    "reasoning": "FIFO stock allocation across multiple order lines with cross-sheet lookup, running balance deduction, and priority ordering \u2014 highly compositional."
+  },
+  {
+    "id": "3002",
+    "category": "Duplicate Detection",
+    "difficulty": "Moderate",
+    "reasoning": "Identify duplicate composite key combinations and label as Multiple/Single \u2014 conditional counting with formatting."
+  },
+  {
+    "id": "3413",
+    "category": "Fallback Conditional Sum",
+    "difficulty": "Complex",
+    "reasoning": "SUMIFS with an OR-like fallback: match department+RU if exists, otherwise sum all for department \u2014 requires nested conditional logic."
+  },
+  {
+    "id": "3911",
+    "category": "Currency Denomination Split",
+    "difficulty": "Very Complex",
+    "reasoning": "Distribute 120 currency notes across employees by salary \u2014 combinatorial bin-packing problem with multiple denominations and constraints."
+  },
+  {
+    "id": "4714",
+    "category": "Rolling Window Average",
+    "difficulty": "Complex",
+    "reasoning": "4-month rolling average per employee with conditional display and threshold flagging \u2014 multi-step with grouping and windowing."
+  },
+  {
+    "id": "5835",
+    "category": "Lookup Aggregation",
+    "difficulty": "Moderate",
+    "reasoning": "Add LOG VALUE from a reference column to corresponding items via lookup \u2014 straightforward matching and addition."
+  },
+  {
+    "id": "6239",
+    "category": "Multi-Tier Lookup",
+    "difficulty": "Very Complex",
+    "reasoning": "Three-dimensional incentive lookup across Goal buckets, Variance ranges, and Metric2 ranges \u2014 deeply nested conditional logic."
+  },
+  {
+    "id": "6698",
+    "category": "Multi-Criteria Counting",
+    "difficulty": "Moderate",
+    "reasoning": "Modify COUNTIFS to add a column A match condition on top of existing OR-style counting across B and C."
+  },
+  {
+    "id": "7665",
+    "category": "Unique Sort Transpose",
+    "difficulty": "Moderate",
+    "reasoning": "Extract unique values from vertical column, sort, and display horizontally \u2014 requires dedup + sort + transpose."
+  },
+  {
+    "id": "7902",
+    "category": "Conditional Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "VLOOKUP with a same-row comparison shortcut \u2014 branching between direct return and standard lookup."
+  },
+  {
+    "id": "8942",
+    "category": "Monthly Conditional Sum",
+    "difficulty": "Moderate",
+    "reasoning": "SUMIFS to total paychecks by month from a validation-selected month \u2014 cross-sheet aggregation with date filtering."
+  },
+  {
+    "id": "9111",
+    "category": "Cascading Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Priority-based lookup across two lists with multiple fallback conditions and blank handling \u2014 5+ conditional branches."
+  },
+  {
+    "id": "9391",
+    "category": "Cross-Sheet Date Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Multi-criteria lookup across sheets with date matching and dynamic agent ordering \u2014 must handle missing dates gracefully."
+  },
+  {
+    "id": "9448",
+    "category": "Last Non-Empty Column",
+    "difficulty": "Moderate",
+    "reasoning": "Find the rightmost non-empty cell in a row range and return its column header \u2014 reverse scan with header extraction."
+  },
+  {
+    "id": "9569",
+    "category": "First Non-Zero Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Find earliest non-zero value across many month columns per row \u2014 horizontal scan without array formulas over 1280 rows."
+  },
+  {
+    "id": "9726",
+    "category": "Prior Date Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Find the latest visit date strictly before a submission date for a matching student \u2014 conditional MAX with cross-table matching."
+  },
+  {
+    "id": "10452",
+    "category": "Conditional Filtered List",
+    "difficulty": "Moderate",
+    "reasoning": "Extract values starting with 'PK' from a column into a sequential list \u2014 filter-and-compact pattern."
+  },
+  {
+    "id": "10747",
+    "category": "Formula Debugging",
+    "difficulty": "Simple",
+    "reasoning": "Fix a single SUMPRODUCT formula to sum net profit by year and share number \u2014 small output, clear error."
+  },
+  {
+    "id": "11276",
+    "category": "Formula Correction",
+    "difficulty": "Simple",
+    "reasoning": "Fix TEXT format string from 'DD' to 'DDD' to show weekday abbreviation \u2014 single format code change applied across cells."
+  },
+  {
+    "id": "11842",
+    "category": "Cross-Sheet Attendance Count",
+    "difficulty": "Very Complex",
+    "reasoning": "COUNTIFS across 12 monthly sheets with dual-row-per-person structure and dropdown filtering \u2014 large scale, multi-sheet composition."
+  },
+  {
+    "id": "12864",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "INDEX/MATCH to retrieve dates from Sheet 2 by matching column D on Sheet 1 \u2014 standard two-sheet lookup."
+  },
+  {
+    "id": "13284",
+    "category": "Range-Based Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Match exact text plus numeric range (between min/max) across sheets \u2014 compound criteria with range containment logic."
+  },
+  {
+    "id": "14240",
+    "category": "Formula Debugging",
+    "difficulty": "Moderate",
+    "reasoning": "Fix SUMPRODUCT syntax with three match criteria against row and column headers \u2014 72 cells but same formula pattern."
+  },
+  {
+    "id": "15387",
+    "category": "Conditional List Extraction",
+    "difficulty": "Complex",
+    "reasoning": "Dynamic customer list based on input flags in B1:F1 \u2014 requires filtering logic to extract matching names."
+  },
+  {
+    "id": "15671",
+    "category": "Format Conversion",
+    "difficulty": "Simple",
+    "reasoning": "Convert number-formatted-as-text cells to proper text in column B \u2014 single formula like TEXT() or concatenation across 260 rows."
+  },
+  {
+    "id": "16511",
+    "category": "Grouped Sequential Counter",
+    "difficulty": "Moderate",
+    "reasoning": "Auto-increment track numbers per album \u2014 requires COUNTIF-based grouping to restart numbering per group."
+  },
+  {
+    "id": "17111",
+    "category": "Conditional Cross-Sheet Sum",
+    "difficulty": "Moderate",
+    "reasoning": "SUMIFS with status filtering across sheets for HD/SD categories \u2014 standard multi-criteria sum."
+  },
+  {
+    "id": "18645",
+    "category": "Lookup-Based Calculation",
+    "difficulty": "Simple",
+    "reasoning": "Multiply revenue by a stage-dependent percentage looked up from a reference table \u2014 single VLOOKUP + multiply."
+  },
+  {
+    "id": "18935",
+    "category": "Multi-Criteria Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Three-criteria lookup from a data table using work criteria, category type, and material \u2014 INDEX/MATCH with multiple conditions."
+  },
+  {
+    "id": "31011",
+    "category": "Date-Time Range Sum",
+    "difficulty": "Moderate",
+    "reasoning": "SUMIFS with both date range and time range criteria on rows and columns \u2014 compound but single cell."
+  },
+  {
+    "id": "31628",
+    "category": "Date Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract the day number from the last date in a range \u2014 single cell, straightforward MAX or LOOKUP."
+  },
+  {
+    "id": "31746",
+    "category": "Contract Savings Calculation",
+    "difficulty": "Complex",
+    "reasoning": "Calculate remaining-months \u00d7 savings for multiple cost events per contract and sum \u2014 multi-row formula with running duration logic across 36 rows."
+  },
+  {
+    "id": "31915",
+    "category": "First-Occurrence Grouped Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum prices per serial number but show only on first occurrence \u2014 SUMIF combined with duplicate detection."
+  },
+  {
+    "id": "32023",
+    "category": "Date-Based Department Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Determine current department by scanning date columns to find which assignment is active as of today \u2014 multi-column date comparison."
+  },
+  {
+    "id": "32093",
+    "category": "Priority Column Selection",
+    "difficulty": "Simple",
+    "reasoning": "Pick rightmost non-empty value from columns C/D/E, defaulting to B \u2014 nested IF or COALESCE pattern."
+  },
+  {
+    "id": "32255",
+    "category": "Blank-Aware Formula",
+    "difficulty": "Simple",
+    "reasoning": "Modify formula to return empty when source cells are blank \u2014 add IF wrapper for blank check."
+  },
+  {
+    "id": "32293",
+    "category": "Value Mapping",
+    "difficulty": "Simple",
+    "reasoning": "Map 4 ticker symbols to corresponding values using IF or INDEX/MATCH \u2014 small fixed mapping."
+  },
+  {
+    "id": "32337",
+    "category": "Age-Based Classification",
+    "difficulty": "Moderate",
+    "reasoning": "Lookup category from age calculated via DOB and report date, plus compute actual age \u2014 two-step with date arithmetic and range lookup."
+  },
+  {
+    "id": "32438",
+    "category": "Time Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract time portion from datetime string and format as AM/PM \u2014 single parsing operation."
+  },
+  {
+    "id": "32562",
+    "category": "Occurrence Counter",
+    "difficulty": "Simple",
+    "reasoning": "Count nth occurrence of each value in column A \u2014 COUNTIF with expanding range pattern."
+  },
+  {
+    "id": "32612",
+    "category": "Holiday-Aware Weekday",
+    "difficulty": "Moderate",
+    "reasoning": "Display weekday abbreviation or holiday type by cross-referencing a holiday list \u2014 conditional with lookup across 74 rows."
+  },
+  {
+    "id": "32789",
+    "category": "Dual-Header Lookup",
+    "difficulty": "Complex",
+    "reasoning": "INDEX/MATCH with two-level headers (primary + secondary) to retrieve and format values from a distant range."
+  },
+  {
+    "id": "32902",
+    "category": "Tiered Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Calculate tiered bonuses with three income brackets \u2014 nested MIN/MAX or IF logic with defined thresholds."
+  },
+  {
+    "id": "33157",
+    "category": "Earliest Date Column ID",
+    "difficulty": "Moderate",
+    "reasoning": "Find which activity column contains the earliest date per person and return that column's header."
+  },
+  {
+    "id": "34210",
+    "category": "Gap Filling",
+    "difficulty": "Simple",
+    "reasoning": "Fill empty cells in column C with corresponding column A value \u2014 simple IF formula."
+  },
+  {
+    "id": "35739",
+    "category": "Formula Debugging",
+    "difficulty": "Moderate",
+    "reasoning": "Fix midnight-crossing time subtraction and handle blank rows \u2014 time arithmetic edge case with error handling."
+  },
+  {
+    "id": "35742",
+    "category": "Text-to-Number Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum values produced by IF formulas that return text-like numbers \u2014 requires VALUE conversion or SUMPRODUCT workaround."
+  },
+  {
+    "id": "35747",
+    "category": "Multi-Criteria Array Count",
+    "difficulty": "Complex",
+    "reasoning": "Count values >100 where date is in range and asset ID matches \u2014 array formula across a 2D range with row+column criteria."
+  },
+  {
+    "id": "36097",
+    "category": "Conditional Tax Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Three-branch IF for tax recoupment based on profit/loss scenarios \u2014 clear logic with 4 rows."
+  },
+  {
+    "id": "36191",
+    "category": "String Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract first and last name from a string containing email \u2014 two FIND/MID operations."
+  },
+  {
+    "id": "36764",
+    "category": "Conditional Sum",
+    "difficulty": "Simple",
+    "reasoning": "SUMIF matching product in column A across sheets \u2014 single standard formula."
+  },
+  {
+    "id": "37086",
+    "category": "Conditional Arithmetic",
+    "difficulty": "Simple",
+    "reasoning": "IF A then +10, IF B then -10 \u2014 trivial single-condition formula."
+  },
+  {
+    "id": "37229",
+    "category": "Monthly Aggregation Matrix",
+    "difficulty": "Complex",
+    "reasoning": "Sum values into a month\u00d7category matrix by matching month-end dates \u2014 60 cells with SUMIFS across date-keyed data."
+  },
+  {
+    "id": "37378",
+    "category": "Conditional Auto-Number",
+    "difficulty": "Simple",
+    "reasoning": "Sequential numbering in column A when column B is non-empty \u2014 simple IF + row counter."
+  },
+  {
+    "id": "37462",
+    "category": "Cross-Reference Currency Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Fix SUMPRODUCT/XLOOKUP to return USD instead of local currency across 241 rows with formatting \u2014 column offset error in lookup plus bulk formatting."
+  },
+  {
+    "id": "37554",
+    "category": "Exact Match Counting",
+    "difficulty": "Moderate",
+    "reasoning": "Fix SEARCH-based counting to use exact matching instead of substring matching \u2014 16 cells with delimiter-aware logic."
+  },
+  {
+    "id": "36277",
+    "category": "Header-Based Lookup",
+    "difficulty": "Simple",
+    "reasoning": "Create a draggable lookup formula referencing column headers \u2014 standard INDEX/MATCH pattern."
+  },
+  {
+    "id": "37456",
+    "category": "Custom Window Sales",
+    "difficulty": "Complex",
+    "reasoning": "Calculate daily sales using 6AM-to-6AM windows with cumulative subtraction, dynamic product headers, and boundary logic."
+  },
+  {
+    "id": "39190",
+    "category": "Conditional Labeling",
+    "difficulty": "Simple",
+    "reasoning": "Mark rows with 'Delete' if column A value exists in column F \u2014 IF + MATCH/COUNTIF with formatting."
+  },
+  {
+    "id": "40757",
+    "category": "Conditional Sum",
+    "difficulty": "Simple",
+    "reasoning": "SUMIF by month ignoring zero results \u2014 straightforward with minor zero-handling twist."
+  },
+  {
+    "id": "40892",
+    "category": "Text Pattern Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract color names from descriptive text using a reference list \u2014 requires SEARCH across multiple possible colors per cell."
+  },
+  {
+    "id": "40959",
+    "category": "Multi-Condition Labeling",
+    "difficulty": "Moderate",
+    "reasoning": "Three-way IF logic across two columns with an override condition \u2014 nested IF with exception case."
+  },
+  {
+    "id": "41265",
+    "category": "Whole-Word Match Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum search volumes where root words match as complete words within keyword phrases \u2014 word boundary matching in aggregation."
+  },
+  {
+    "id": "41348",
+    "category": "Group Membership Flag",
+    "difficulty": "Moderate",
+    "reasoning": "Flag all lines of a project with 'Y' if any line has technology \u2014 requires checking group membership via shared budget ID."
+  },
+  {
+    "id": "41420",
+    "category": "Digit Dedup Sort",
+    "difficulty": "Complex",
+    "reasoning": "Extract unique digits from numbers, sort ascending, and spread across columns \u2014 multi-step string/number manipulation per row."
+  },
+  {
+    "id": "41589",
+    "category": "Date-Based Status Logic",
+    "difficulty": "Simple",
+    "reasoning": "Nested IF with date comparison (30-day window) and yes/no check \u2014 clear two-condition branching."
+  },
+  {
+    "id": "41978",
+    "category": "Conditional Cross-Sheet Count",
+    "difficulty": "Moderate",
+    "reasoning": "COUNTIFS across date range and status column with dropdown-based filtering \u2014 standard but with merged cell complications."
+  },
+  {
+    "id": "42181",
+    "category": "Conditional Text Sum",
+    "difficulty": "Complex",
+    "reasoning": "SUMIF where reference column contains specific text but excludes entries with numbers \u2014 requires regex-like exclusion logic in formulas."
+  },
+  {
+    "id": "42216",
+    "category": "Data Reshaping",
+    "difficulty": "Very Complex",
+    "reasoning": "Transform columnar data to row format with sentinel value exclusion, NA handling, date alignment, and row insertion \u2014 320 cells with multiple rules."
+  },
+  {
+    "id": "42354",
+    "category": "Error Coalescing",
+    "difficulty": "Simple",
+    "reasoning": "Return first non-#N/A value from columns A/B/C \u2014 nested IFNA or IFERROR chain."
+  },
+  {
+    "id": "42515",
+    "category": "Dynamic Reference Formula",
+    "difficulty": "Moderate",
+    "reasoning": "Replace absolute reference with INDEX/MATCH so dragging down auto-adjusts the date lookup \u2014 formula restructuring."
+  },
+  {
+    "id": "42930",
+    "category": "Group Ranking",
+    "difficulty": "Moderate",
+    "reasoning": "Assign subdivision rank based on earliest house build date \u2014 MIN per group then RANK or MATCH."
+  },
+  {
+    "id": "43436",
+    "category": "Point-In-Time Counting",
+    "difficulty": "Moderate",
+    "reasoning": "Count records open at month-end using created/closed date logic \u2014 COUNTIFS with date boundary conditions."
+  },
+  {
+    "id": "43589",
+    "category": "Text Range Parsing",
+    "difficulty": "Simple",
+    "reasoning": "Parse '2 to 5' text to compute day count (5-2+1=4) \u2014 simple text extraction and arithmetic."
+  },
+  {
+    "id": "44266",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "INDEX/MATCH to pull a specific row's value from Data tab by year \u2014 standard but must handle missing years."
+  },
+  {
+    "id": "44296",
+    "category": "Cross-Sheet Mapping",
+    "difficulty": "Moderate",
+    "reasoning": "Map units to states across sheets using formula \u2014 102 cells with lookup-based conversion."
+  },
+  {
+    "id": "44628",
+    "category": "Grouped Letter Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Aggregate sales by first letter of product SKU \u2014 SUMIF with LEFT-based criteria matching."
+  },
+  {
+    "id": "45063",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Simple",
+    "reasoning": "VLOOKUP/INDEX-MATCH from sheet 1 items to sheet 2 quantities \u2014 standard lookup with empty string fallback."
+  },
+  {
+    "id": "45372",
+    "category": "Time-Based Conditional",
+    "difficulty": "Simple",
+    "reasoning": "IF before/after 09:45 pick column B or C \u2014 single time comparison with formatting."
+  },
+  {
+    "id": "45738",
+    "category": "Bond Cashflow Schedule",
+    "difficulty": "Very Complex",
+    "reasoning": "Generate payment schedules for 20 bonds across 20 date columns based on frequency, maturity, working backwards \u2014 highly compositional with date arithmetic."
+  },
+  {
+    "id": "45944",
+    "category": "Cross-Table Matching",
+    "difficulty": "Complex",
+    "reasoning": "Match names/dates across non-aligned tables using lookup instead of positional comparison \u2014 requires INDEX/MATCH across multiple table sections."
+  },
+  {
+    "id": "46121",
+    "category": "Monthly Category Allocation",
+    "difficulty": "Complex",
+    "reasoning": "SUMIFS to allocate transaction amounts into a month\u00d7category matrix from a transaction log \u2014 48 cells with date+category criteria."
+  },
+  {
+    "id": "46897",
+    "category": "Header-Based Count",
+    "difficulty": "Simple",
+    "reasoning": "COUNTIF matching a value in a column identified by header name \u2014 single cell, straightforward."
+  },
+  {
+    "id": "48527",
+    "category": "Conditional Unique Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract unique values from column C where columns A and B match \u2014 dedup with compound criteria."
+  },
+  {
+    "id": "49857",
+    "category": "Conditional Sequential Counter",
+    "difficulty": "Simple",
+    "reasoning": "Increment counter only when column F is 'YES', else 0 \u2014 IF with running count pattern."
+  },
+  {
+    "id": "49945",
+    "category": "Multi-Row Lookup Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum quantities across multiple rows for a model using SUMIF instead of single-value XLOOKUP \u2014 aggregation fix."
+  },
+  {
+    "id": "50051",
+    "category": "Sorted Index Extraction",
+    "difficulty": "Very Complex",
+    "reasoning": "SMALL/IF array formula to extract row numbers for sorted scores with category matching \u2014 complex array logic constrained to Excel 2007."
+  },
+  {
+    "id": "50250",
+    "category": "Conditional Sum",
+    "difficulty": "Simple",
+    "reasoning": "Sum numeric cells in C-E where A or B matches reference value \u2014 single SUMPRODUCT cell."
+  },
+  {
+    "id": "50486",
+    "category": "Conditional Labeling",
+    "difficulty": "Simple",
+    "reasoning": "Display 'Chep' or 'Loscam' based on which column has numeric values \u2014 simple IF/ISNUMBER check."
+  },
+  {
+    "id": "50521",
+    "category": "Gap Detection Formula",
+    "difficulty": "Complex",
+    "reasoning": "Requires finding positions of first and second non-blank entries per row, counting blanks between them, with a conditional override \u2014 multi-step array logic."
+  },
+  {
+    "id": "50631",
+    "category": "Workday Date Series",
+    "difficulty": "Very Complex",
+    "reasoning": "Multiple interrelated formula fixes across columns, holiday-aware WORKDAY function, date series generation, plus formatting and layout reproduction."
+  },
+  {
+    "id": "50683",
+    "category": "Dynamic Range Average",
+    "difficulty": "Complex",
+    "reasoning": "Average of last N non-blank values requires identifying positions of non-blanks in reverse order across sparse data \u2014 needs LARGE/IF array formula."
+  },
+  {
+    "id": "50811",
+    "category": "Multi-Criteria Lookup",
+    "difficulty": "Simple",
+    "reasoning": "Standard two-criteria INDEX/MATCH on a small dataset with 3 output cells."
+  },
+  {
+    "id": "50971",
+    "category": "Duplicate Value Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract column B values associated with duplicate column A entries \u2014 requires conditional array extraction logic."
+  },
+  {
+    "id": "51249",
+    "category": "Nested Conditional Text",
+    "difficulty": "Simple",
+    "reasoning": "Straightforward nested IF based on two cell values, applied to 3 output cells with formatting."
+  },
+  {
+    "id": "51354",
+    "category": "Date Text Manipulation",
+    "difficulty": "Moderate",
+    "reasoning": "Extract month-year from string end, increment month by one, handle non-standard date format \u2014 string parsing plus date arithmetic."
+  },
+  {
+    "id": "51556",
+    "category": "Conditional Average Lookup",
+    "difficulty": "Complex",
+    "reasoning": "AVERAGEIFS-like logic matching both row and column criteria across a matrix layout, with IFERROR handling."
+  },
+  {
+    "id": "51680",
+    "category": "Header Concatenation",
+    "difficulty": "Moderate",
+    "reasoning": "Concatenate column headers where row has 'Y', comma-separated without trailing comma \u2014 requires iterating across columns in a formula."
+  },
+  {
+    "id": "52050",
+    "category": "Conditional Range Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Replace 50+ chained IF statements with a single SUMPRODUCT filtering by week number comparison \u2014 formula simplification."
+  },
+  {
+    "id": "52220",
+    "category": "Conditional Sum",
+    "difficulty": "Simple",
+    "reasoning": "Simple IF checking two cells non-empty then summing \u2014 minimal logic, 2 output cells."
+  },
+  {
+    "id": "52233",
+    "category": "Dynamic Reference Formula",
+    "difficulty": "Moderate",
+    "reasoning": "Modify INDEX/MATCH so column reference shifts when dragged down while row stays fixed \u2014 requires understanding mixed references."
+  },
+  {
+    "id": "52305",
+    "category": "Time-Based Crosstab",
+    "difficulty": "Complex",
+    "reasoning": "COUNTIFS across a large matrix matching name and time range criteria, filling a 5\u00d719 heat map grid."
+  },
+  {
+    "id": "52532",
+    "category": "Conditional Count",
+    "difficulty": "Moderate",
+    "reasoning": "Count wins per player by identifying max score per game across multiple columns \u2014 COUNTIF with conditional max logic."
+  },
+  {
+    "id": "52541",
+    "category": "Nested Conditional Text",
+    "difficulty": "Simple",
+    "reasoning": "Fix an IF formula to add a 'Prepaid' condition based on negative outstanding amount \u2014 straightforward nested IF."
+  },
+  {
+    "id": "52964",
+    "category": "Lookup With Arithmetic",
+    "difficulty": "Moderate",
+    "reasoning": "INDEX/MATCH to find a row, then subtract two column values \u2014 single formula combining lookup and calculation."
+  },
+  {
+    "id": "53117",
+    "category": "Conditional Max Lookup",
+    "difficulty": "Complex",
+    "reasoning": "For 'US' rows, find max invoice from non-US countries for same customer \u2014 requires per-row conditional MAX across unsorted data."
+  },
+  {
+    "id": "53161",
+    "category": "Schedule-Based Aggregation",
+    "difficulty": "Very Complex",
+    "reasoning": "Cross-reference agent schedules with category assignments across time intervals, summing into a 26\u00d730 matrix \u2014 multi-table SUMIFS logic."
+  },
+  {
+    "id": "53383",
+    "category": "Cross-Sheet Comparison",
+    "difficulty": "Simple",
+    "reasoning": "Compare name+status across two sheets, return matched/not matched \u2014 basic INDEX/MATCH or VLOOKUP with two criteria."
+  },
+  {
+    "id": "53449",
+    "category": "Conditional Flag",
+    "difficulty": "Simple",
+    "reasoning": "Simple IF checking if a column contains 'Covid Test' and returning 'X' or blank \u2014 15 output cells."
+  },
+  {
+    "id": "53647",
+    "category": "Conditional Reference Switch",
+    "difficulty": "Moderate",
+    "reasoning": "Formula picks different reference cell based on which of two columns has data \u2014 IF-based branching across 10 cells."
+  },
+  {
+    "id": "53994",
+    "category": "Multi-Criteria Matrix Sum",
+    "difficulty": "Complex",
+    "reasoning": "SUMPRODUCT across repeating 3-row blocks matching machine and phase within date ranges \u2014 structured array formula."
+  },
+  {
+    "id": "54085",
+    "category": "Filtered List Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract items from column B excluding one item from column A \u2014 small output, basic filtering formula."
+  },
+  {
+    "id": "54274",
+    "category": "Tiered Conditional Logic",
+    "difficulty": "Moderate",
+    "reasoning": "Nested IF with 5 tiers comparing total against target/stretch/overstretch with capped division \u2014 single cell output."
+  },
+  {
+    "id": "54474",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Simple",
+    "reasoning": "Pull specific data from one tab to another based on site matching \u2014 small output range, basic lookup."
+  },
+  {
+    "id": "54513",
+    "category": "Discount Calculation",
+    "difficulty": "Simple",
+    "reasoning": "Single arithmetic formula: price \u00d7 (1 - discount) \u2014 one cell output."
+  },
+  {
+    "id": "54638",
+    "category": "Unique Value Extraction",
+    "difficulty": "Complex",
+    "reasoning": "Non-dynamic array formula to extract unique values from 150 rows \u2014 requires COUNTIF/MATCH array approach across large range plus formatting."
+  },
+  {
+    "id": "54667",
+    "category": "Conditional Lookup Override",
+    "difficulty": "Moderate",
+    "reasoning": "Modify VLOOKUP to return local value when two columns match, otherwise use external lookup \u2014 56 output cells."
+  },
+  {
+    "id": "54717",
+    "category": "Dynamic Range Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum values from a column determined by cell references with variable start/end rows \u2014 INDIRECT or OFFSET-based."
+  },
+  {
+    "id": "54925",
+    "category": "Multi-Criteria Extraction",
+    "difficulty": "Complex",
+    "reasoning": "Array formula extracting rows matching two criteria with OR condition across 39 rows \u2014 conditional INDEX/SMALL pattern."
+  },
+  {
+    "id": "55049",
+    "category": "Multi-Column Conditional Sum",
+    "difficulty": "Moderate",
+    "reasoning": "SUMPRODUCT across multiple columns with single-criterion matching from another sheet \u2014 21 output cells."
+  },
+  {
+    "id": "55060",
+    "category": "Conditional Cell Mirror",
+    "difficulty": "Simple",
+    "reasoning": "IF blank check to replicate or blank a cell \u2014 trivial logic, small output."
+  },
+  {
+    "id": "55085",
+    "category": "Multi-Criteria Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "INDEX/MATCH with filters from two rows across two source columns \u2014 6 output cells."
+  },
+  {
+    "id": "55427",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Fix INDEX/MATCH formula referencing wrong columns across 1460 rows \u2014 column alignment debugging at scale."
+  },
+  {
+    "id": "55817",
+    "category": "Symmetrical Transpose",
+    "difficulty": "Moderate",
+    "reasoning": "Reshape single-column symmetrical data into a matrix layout \u2014 requires understanding the symmetry pattern."
+  },
+  {
+    "id": "55965",
+    "category": "Last-N Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Retrieve last 10 matching results from a data sheet based on ID comparison \u2014 reverse-order conditional extraction."
+  },
+  {
+    "id": "55979",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Identify supplier by searching item number across multiple supplier sheets \u2014 multi-sheet search logic."
+  },
+  {
+    "id": "56225",
+    "category": "Conditional Sum",
+    "difficulty": "Moderate",
+    "reasoning": "SUMIFS with date and name criteria where dates have format issues \u2014 debugging data type mismatch."
+  },
+  {
+    "id": "56274",
+    "category": "Index-Based Retrieval",
+    "difficulty": "Moderate",
+    "reasoning": "Populate 4 financial fields based on fiscal month lookup \u2014 INDEX/MATCH returning multiple related values."
+  },
+  {
+    "id": "56378",
+    "category": "Filtered List Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract products with non-empty quantity into a new frame with associated values \u2014 conditional extraction plus formatting."
+  },
+  {
+    "id": "56419",
+    "category": "Non-Zero Value Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Single formula to list non-zero quantities with associated types, replacing multi-step approach \u2014 array extraction with error handling."
+  },
+  {
+    "id": "56599",
+    "category": "Lookup With Validation",
+    "difficulty": "Simple",
+    "reasoning": "Find book number for a slip number with not-found handling \u2014 single cell VLOOKUP/INDEX."
+  },
+  {
+    "id": "56920",
+    "category": "Pattern Extraction",
+    "difficulty": "Moderate",
+    "reasoning": "Extract 10-digit codes starting with '955' or 'CHK' from text strings with priority logic \u2014 string parsing with FIND/MID."
+  },
+  {
+    "id": "56921",
+    "category": "Periodic Column Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Fix SUMPRODUCT to sum every 4th column matching a criterion \u2014 MOD-based column selection with array formula."
+  },
+  {
+    "id": "57033",
+    "category": "Multi-Criteria Match",
+    "difficulty": "Moderate",
+    "reasoning": "Three-way match (company, account, xchar) across sheets returning Match/dash \u2014 compound criteria with formatting."
+  },
+  {
+    "id": "57113",
+    "category": "Multi-Value Extraction",
+    "difficulty": "Complex",
+    "reasoning": "Extract multiple hashtags from tweets into adjacent columns without # symbol \u2014 iterative string parsing formula."
+  },
+  {
+    "id": "57232",
+    "category": "Multi-Criteria Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Three-criteria match (origin, equipment, destination) returning volume across 190 rows \u2014 compound INDEX/MATCH at scale."
+  },
+  {
+    "id": "57445",
+    "category": "Cross-Sheet Lookup",
+    "difficulty": "Simple",
+    "reasoning": "Two-criteria lookup from pricing worksheet to package data \u2014 standard INDEX/MATCH, 4 output cells."
+  },
+  {
+    "id": "57590",
+    "category": "Date-Filtered Sum",
+    "difficulty": "Simple",
+    "reasoning": "SUMIFS with month-based date range \u2014 fix existing formula for single cell output."
+  },
+  {
+    "id": "57743",
+    "category": "Lookup With Fallback",
+    "difficulty": "Simple",
+    "reasoning": "INDEX/MATCH with IFERROR for missing items \u2014 straightforward formula across 18 rows."
+  },
+  {
+    "id": "58147",
+    "category": "Text Extraction",
+    "difficulty": "Simple",
+    "reasoning": "Extract values/text from column I to column J \u2014 basic string manipulation, 5 cells."
+  },
+  {
+    "id": "58484",
+    "category": "Conditional Running Count",
+    "difficulty": "Complex",
+    "reasoning": "Count operator transfers and display total only at last occurrence \u2014 requires tracking groups and showing count at final row, plus layout recreation."
+  },
+  {
+    "id": "58701",
+    "category": "Simple Lookup",
+    "difficulty": "Simple",
+    "reasoning": "VLOOKUP location name to return office code \u2014 basic single-criterion lookup, 2 cells."
+  },
+  {
+    "id": "58723",
+    "category": "Latest Entry Detection",
+    "difficulty": "Moderate",
+    "reasoning": "Identify latest entry time per name and label Latest vs Not Latest across 40 rows \u2014 MAX conditional comparison."
+  },
+  {
+    "id": "58949",
+    "category": "Data Pivot Reshape",
+    "difficulty": "Complex",
+    "reasoning": "Reorganize multi-row client data into horizontal layout with predefined headers and N/A fill \u2014 reshape with missing data handling."
+  },
+  {
+    "id": "59196",
+    "category": "Column Header Return",
+    "difficulty": "Simple",
+    "reasoning": "Return header of column with max value per row \u2014 INDEX/MATCH on MAX, 3 cells."
+  },
+  {
+    "id": "59595",
+    "category": "Rolling Window Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum points for past 7 days with non-consecutive dates \u2014 SUMIFS with date range relative to each row."
+  },
+  {
+    "id": "42902",
+    "category": "Group Transpose",
+    "difficulty": "Moderate",
+    "reasoning": "Reshape vertical data into rows of 3-column groups \u2014 INDEX with MOD/ROW arithmetic."
+  },
+  {
+    "id": "43213",
+    "category": "Expanding Average",
+    "difficulty": "Simple",
+    "reasoning": "Running average with expanding range from fixed start row \u2014 AVERAGE with mixed reference, 4 cells."
+  },
+  {
+    "id": "43657",
+    "category": "Conditional Color Count",
+    "difficulty": "Complex",
+    "reasoning": "Count green-highlighted cells matching a name \u2014 requires cell color detection which standard formulas can't do, needs workaround."
+  },
+  {
+    "id": "44017",
+    "category": "Phased Rate Calculation",
+    "difficulty": "Very Complex",
+    "reasoning": "Cumulative price increases phased by effective date, frequency, and 4 increase tiers across 12 months \u00d7 29 rows \u2014 highly compositional."
+  },
+  {
+    "id": "44913",
+    "category": "Conditional Max Display",
+    "difficulty": "Moderate",
+    "reasoning": "Show max turnover per ID only in the row where it occurs \u2014 IF/MAX combination per group."
+  },
+  {
+    "id": "45707",
+    "category": "Month-End Conditional Count",
+    "difficulty": "Moderate",
+    "reasoning": "Count value occurrences within a month, displayed only on month-end rows \u2014 date logic with COUNTIFS."
+  },
+  {
+    "id": "45937",
+    "category": "Range-Based Category Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Map a value to a percentage category using range boundaries from a legend table \u2014 nested IF or VLOOKUP approximate match."
+  },
+  {
+    "id": "46646",
+    "category": "Shift Percentage Calculation",
+    "difficulty": "Complex",
+    "reasoning": "Calculate night shift percentages per month accounting for leap years and variable days \u2014 date math with precise decimal formatting."
+  },
+  {
+    "id": "47827",
+    "category": "Digit Sorting Formula",
+    "difficulty": "Moderate",
+    "reasoning": "Arrange three digits smallest to largest into a 3-digit number \u2014 SMALL-based concatenation with formatting."
+  },
+  {
+    "id": "55260",
+    "category": "Custom Rounding",
+    "difficulty": "Simple",
+    "reasoning": "Round to nearest $5 with midpoint rounding down \u2014 FLOOR or MROUND variant, 2 cells."
+  },
+  {
+    "id": "55421",
+    "category": "Multi-Status Classification",
+    "difficulty": "Complex",
+    "reasoning": "Classify rows based on combinations of statuses across multiple rows sharing same ID \u2014 requires cross-row aggregation logic for 19 cells."
+  },
+  {
+    "id": "55468",
+    "category": "Four-Criteria Lookup",
+    "difficulty": "Complex",
+    "reasoning": "INDEX/MATCH with 4 matching criteria (2 vertical, 2 horizontal) \u2014 rare formula pattern requiring nested array logic."
+  },
+  {
+    "id": "55708",
+    "category": "Conditional Average",
+    "difficulty": "Moderate",
+    "reasoning": "AVERAGEIFS with multiple criteria (department, status, threshold) returning blank if no results \u2014 3 cells."
+  },
+  {
+    "id": "55976",
+    "category": "Survey Tally",
+    "difficulty": "Moderate",
+    "reasoning": "Count 'x' marks across specific question sets for 4 category columns \u2014 COUNTIF with defined row sets."
+  },
+  {
+    "id": "55977",
+    "category": "Weekday Calculation",
+    "difficulty": "Simple",
+    "reasoning": "Fix WEEKDAY function to use Monday=1 convention \u2014 simple function parameter adjustment, 15 cells."
+  },
+  {
+    "id": "56427",
+    "category": "Conditional Transpose",
+    "difficulty": "Complex",
+    "reasoning": "Transpose column G values filtered by column B=1, limited by runner count, preserving blanks across 12\u00d727 grid \u2014 large conditional reshape."
+  },
+  {
+    "id": "56563",
+    "category": "Error-Tolerant Sum",
+    "difficulty": "Simple",
+    "reasoning": "Sum a range containing #NUM errors \u2014 AGGREGATE or SUMPRODUCT with IFERROR, single cell."
+  },
+  {
+    "id": "56786",
+    "category": "Rolling Window Average",
+    "difficulty": "Moderate",
+    "reasoning": "365-day rolling average with non-daily data \u2014 AVERAGEIFS with date range, 197 output cells."
+  },
+  {
+    "id": "56915",
+    "category": "Multi-Criteria Matrix Lookup",
+    "difficulty": "Complex",
+    "reasoning": "Lookup across merged cells matching entity, row header, and column header with decimal formatting \u2014 24 cells with formatting rules."
+  },
+  {
+    "id": "56953",
+    "category": "Filtered Range Display",
+    "difficulty": "Moderate",
+    "reasoning": "Filter and display rows matching a power value from two predefined ranges \u2014 conditional extraction with headers."
+  },
+  {
+    "id": "57117",
+    "category": "Text Search Classification",
+    "difficulty": "Simple",
+    "reasoning": "Search for abbreviation in cell text and return matching label \u2014 basic SEARCH/IF, 4 cells."
+  },
+  {
+    "id": "57262",
+    "category": "Dynamic Price Calculation",
+    "difficulty": "Moderate",
+    "reasoning": "Sum products of quantity \u00d7 unit price across multiple columns where unit prices are in header row \u2014 SUMPRODUCT pattern."
+  },
+  {
+    "id": "57354",
+    "category": "Category-Based Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum columns matching a category label in header row \u2014 SUMPRODUCT or SUMIF across columns."
+  },
+  {
+    "id": "57558",
+    "category": "Date-Range Criteria Lookup",
+    "difficulty": "Complex",
+    "reasoning": "INDEX/MATCH with date falling within start/end range on another tab \u2014 compound criteria with range comparison."
+  },
+  {
+    "id": "57612",
+    "category": "Range-Based Classification",
+    "difficulty": "Simple",
+    "reasoning": "Nested IF mapping value ranges to fixed outputs \u2014 straightforward conditional, 12 cells."
+  },
+  {
+    "id": "57693",
+    "category": "Character Frequency Count",
+    "difficulty": "Moderate",
+    "reasoning": "Count each letter a-z in a text string \u2014 LEN-SUBSTITUTE pattern for 26 output cells."
+  },
+  {
+    "id": "57989",
+    "category": "Cross-Reference Pivot",
+    "difficulty": "Complex",
+    "reasoning": "Count non-empty cells per driver per weekday across a schedule with days in rows not columns \u2014 7\u00d719 matrix requiring day-matching logic."
+  },
+  {
+    "id": "58032",
+    "category": "Compound Lookup Formula",
+    "difficulty": "Complex",
+    "reasoning": "Search across two columns for name matching title+department code combination plus sheet recreation with formatting \u2014 34 output cells."
+  },
+  {
+    "id": "58109",
+    "category": "Workday-Aware Sum",
+    "difficulty": "Moderate",
+    "reasoning": "Sum values for previous 4 workdays excluding weekends \u2014 WORKDAY-based date calculation with SUMIFS."
+  },
+  {
+    "id": "58499",
+    "category": "Filtered List Extraction",
+    "difficulty": "Simple",
+    "reasoning": "List branches without a tick mark \u2014 inverse filter extraction, 2 output cells."
+  },
+  {
+    "id": "58687",
+    "category": "Index-To-Category Mapping",
+    "difficulty": "Moderate",
+    "reasoning": "Map sequential apple index numbers to months based on cumulative monthly totals \u2014 lookup against running sum, 92 cells."
+  },
+  {
+    "id": "58904",
+    "category": "Alphanumeric Aggregation",
+    "difficulty": "Complex",
+    "reasoning": "Parse letter+number pairs from a comparison matrix, sum numbers grouped by letter \u2014 requires string parsing across a 2D table."
+  },
+  {
+    "id": "58942",
+    "category": "Timeline Data Alignment",
+    "difficulty": "Moderate",
+    "reasoning": "Align non-sequential date-value pairs against a sequential timeline \u2014 IFERROR/MATCH date lookup, 10\u00d72 output."
+  },
+  {
+    "id": "59129",
+    "category": "Headcount Over Time",
+    "difficulty": "Moderate",
+    "reasoning": "SUMPRODUCT counting active employees per month considering hire and termination dates \u2014 fix date comparison logic, 12 cells."
+  },
+  {
+    "id": "59160",
+    "category": "Date-Filtered Count",
+    "difficulty": "Simple",
+    "reasoning": "COUNTIFS for Yes/No by specific date \u2014 basic multi-criteria count, 4 cells."
+  },
+  {
+    "id": "59224",
+    "category": "Cascading Conditional Label",
+    "difficulty": "Moderate",
+    "reasoning": "Display 'Select Period' for matching date range AND all rows above it \u2014 requires cumulative logic beyond simple IF."
+  },
+  {
+    "id": "59358",
+    "category": "First Match Lookup",
+    "difficulty": "Moderate",
+    "reasoning": "Find first occurrence where values in two ranges match and return adjacent cell \u2014 cross-range comparison with INDEX/MATCH."
+  },
+  {
+    "id": "59511",
+    "category": "Stepped Increment",
+    "difficulty": "Simple",
+    "reasoning": "Increment value by 1 per 1000 \u2014 INT division formula, 5 cells."
+  },
+  {
+    "id": "59639",
+    "category": "String Split To Cells",
+    "difficulty": "Simple",
+    "reasoning": "Split single-cell string into individual characters across columns \u2014 MID with column offset, small output."
+  },
+  {
+    "id": "59734",
+    "category": "Multi-Criteria Extraction",
+    "difficulty": "Complex",
+    "reasoning": "Match client code with multiple column conditions to extract program codes \u2014 compound array formula with 3 matching criteria, 15 cells."
+  },
+  {
+    "id": "59794",
+    "category": "Delimiter-Based Split",
+    "difficulty": "Complex",
+    "reasoning": "Split inconsistently delimited strings into columns handling variable segment counts and standalone dashes \u2014 robust parsing logic with dynamic column creation."
+  },
+  {
+    "id": "59884",
+    "category": "Group Transpose With Count",
+    "difficulty": "Moderate",
+    "reasoning": "Consolidate repeating values, count them, and transpose associated values \u2014 combination of unique extraction, counting, and reshape."
+  },
+  {
+    "id": "59902",
+    "category": "Sequential Lookup Difference",
+    "difficulty": "Complex",
+    "reasoning": "Calculate days since last sale per person with ascending dates \u2014 reverse MATCH for same-name previous occurrence across 24 rows."
+  }
+]
